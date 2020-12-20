@@ -4,7 +4,11 @@ import Page from '@components/page'
 import PostsList from '@components/posts-list'
 import getPosts from '@lib/get-posts'
 
-const Blog = ({ posts }) => {
+type BlogProps = {
+  posts: any
+}
+
+const Blog = ({ posts }: BlogProps) => {
   return (
     <Page title="Blog" description="Writing about design and code.">
       <article>

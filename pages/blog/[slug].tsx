@@ -2,7 +2,7 @@ import Post from '@components/post'
 import getPosts from '@lib/get-posts'
 import renderMarkdown from '@lib/render-markdown'
 
-const PostPage = props => {
+const PostPage = (props: any) => {
   return <Post {...props} />
 }
 
