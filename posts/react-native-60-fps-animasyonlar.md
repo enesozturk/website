@@ -1,7 +1,7 @@
 ---
 title: React Native ile 60 FPS Animasyonlar
 description: React Native Reanimated’e Giriş
-slug: react-native-60-fps-animasyonlar
+slug: react-native-ile-60-fps-animasyonlar
 date: Aug 20, 2020
 ---
 
@@ -151,9 +151,7 @@ Hazırladığımız animasyon basit olmasına rağmen bu kadar kod bloğuna sahi
 
 [**enesozturk/react-native-reanimated-workshop**](https://github.com/enesozturk/react-native-reanimated-workshop)
 
-Umarım Reanimated’e giriş için faydalı bir yazı olmuştur. Bundan sonraki yazılarda Reanimated 2'ye giriş yapmayı ve onun üzerinden örnekler ile devam etmeyi düşünüyorum. Beğendiyseniz bir kaç alkışınızı alırım. Herkese mutlu kodlamalar 🥳
-
-![](https://cdn-images-1.medium.com/max/2000/1*vMyFTOWtr9c252J4X1FW6g.gif)
+Umarım Reanimated’e giriş için faydalı bir yazı olmuştur. Bundan sonraki yazılarda Reanimated 2'ye giriş yapmayı ve onun üzerinden örnekler ile devam etmeyi düşünüyorum. Herkese mutlu kodlamalar 🥳
 
 Kaynaklar:
 

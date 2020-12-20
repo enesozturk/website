@@ -28,6 +28,7 @@ import headerStyles from '@components/header/header.module.css'
 import { useTheme } from 'next-themes'
 import tinykeys from '@lib/tinykeys'
 import postMeta from '@data/blog.json'
+import MenuItem from './MenuItem'
 
 const CommandData = React.createContext({})
 const useCommandData = () => React.useContext<any>(CommandData)
@@ -49,11 +50,11 @@ const CommandMenu = memo(() => {
   })
 
   // Can't do this inside of useCommand because it relies on useDelayedRender
-  useEffect(() => {
-    if (!mounted) {
-      setPages([DefaultItems])
-    }
-  }, [mounted, setPages])
+  // useEffect(() => {
+  //   if (!mounted) {
+  //     setPages([DefaultItems])
+  //   }
+  // }, [mounted, setPages])
 
   const Items = pages[pages.length - 1]
 
@@ -168,66 +169,51 @@ const CommandMenu = memo(() => {
                 <div className={styles.menuItems}>
                   <span className={styles.groupTitle}>Navigation</span>
                   <div className={styles.menuItemGroup}>
-                    <div className={styles.menuItem}>
-                      <div className={styles.icon}>
-                        <Home />
-                      </div>
-                      <span>Home</span>
-                    </div>
-                    <div className={styles.menuItem}>
-                      <div className={styles.icon}>
-                        <Edit />
-                      </div>
-                      <span>Blog</span>
-                    </div>
-                    <div className={styles.menuItem}>
-                      <div className={styles.icon}>
-                        <Identification />
-                      </div>
-                      <span>Contact</span>
-                    </div>
+                    <MenuItem route="/" icon={<Home />} title="Home" />
+                    <MenuItem route="/blog" icon={<Edit />} title="Blog" />
+                    <MenuItem
+                      route="/contact"
+                      icon={<Identification />}
+                      title="Contact"
+                    />
                   </div>
 
                   <span className={styles.groupTitle}>Social</span>
                   <div className={styles.menuItemGroup}>
-                    <div className={styles.menuItem}>
-                      <div className={styles.icon}>
-                        <Twitter />
-                      </div>
-                      <span>Twitter</span>
-                    </div>
-                    <div className={styles.menuItem}>
-                      <div className={styles.icon}>
-                        <Github />
-                      </div>
-                      <span>Github</span>
-                    </div>
-                    <div className={styles.menuItem}>
-                      <div className={styles.icon}>
-                        <Linkedin />
-                      </div>
-                      <span>Linkedin</span>
-                    </div>
+                    <MenuItem
+                      external
+                      route="https://twitter.com/enesozt_"
+                      icon={<Twitter />}
+                      title="Twitter"
+                    />
+                    <MenuItem
+                      external
+                      route="https://github.com/enesozturk"
+                      icon={<Github />}
+                      title="Github"
+                    />
+                    <MenuItem
+                      external
+                      route="https://linkedin.com/in/enes-ozturk"
+                      icon={<Linkedin />}
+                      title="Linkedin"
+                    />
                   </div>
                 </div>
 
                 <div className={styles.previewContainer}>
                   <span className={styles.groupTitle}>Last Activity</span>
                   <div className={styles.menuItemGroup}>
-                    <div className={styles.menuItem}>
-                      <div className={styles.icon}>
-                        <Edit />
-                      </div>
-                      <span>React Native ile 60 FPS Animasyonlar</span>
-                    </div>
-                    <div className={styles.menuItem}>
-                      <div className={styles.icon}>
-                        <Edit />
-                      </div>
-                      <span>
-                        React Native Uygulamamı Nasıl Optimize Ederim? [B1:K6]
-                      </span>
-                    </div>
+                    <MenuItem
+                      route="/blog/react-native-ile-60-fps-animasyonlar"
+                      icon={<Edit />}
+                      title="React Native ile 60 FPS Animasyonlar"
+                    />
+                    <MenuItem
+                      route="/blog/react-native-uygulamami-nasil-optimize-ederim"
+                      icon={<Edit />}
+                      title="React Native Uygulamamı Nasıl Optimize Ederim? [B1:K6]"
+                    />
                   </div>
                 </div>
               </div>
@@ -275,92 +261,6 @@ const BlogItems = () => {
       />
     )
   })
-}
-
-type LabelProps = {
-  title: any
-  values?: any
-  search?: any
-}
-
-const Label = ({ title, values, search }: LabelProps) => {
-  return (
-    <div className={styles.label} aria-hidden>
-      {title}
-    </div>
-  )
-}
-
-type GroupProps = {
-  children: any
-  title: any
-}
-
-const Group = ({ children, title }: GroupProps) => {
-  return (
-    <CommandGroup heading={<Label title={title} />} className={styles.group}>
-      {children}
-    </CommandGroup>
-  )
-}
-
-const DefaultItems = () => {
-  const router = useRouter()
-  const { setPages, pages } = useCommandData()
-
-  return (
-    <>
-      <Item value="Themes" keybind="t" closeOnCallback={false} />
-      <Group title="Blog">
-        <Item value="Blog" icon={<Edit />} keybind="g b" />
-        <Item
-          value="Search blog..."
-          icon={<Search />}
-          closeOnCallback={false}
-          callback={() => setPages([...pages, BlogItems])}
-        />
-      </Group>
-
-      <Group title="Collection">
-        <Item value="Projects" icon={<Document />} keybind="g p" />
-        {/* <Item value="Reading" icon={<Book />} keybind="g r" />
-        <Item value="Design" icon={<Design />} keybind="g d" />
-        <Item value="Keyboards" icon={<M6 />} keybind="g k" />
-        <Item value="Music" icon={<Music />} keybind="g m" />
-        <Item value="Quotes" icon={<Quote />} keybind="g q" />
-        <Item value="Words" icon={<Words />} keybind="g w" />
-        <Item value="Ideas" icon={<Lightbulb />} keybind="g i" /> */}
-      </Group>
-
-      <Group title="Navigation">
-        <Item value="Home" icon={<ArrowRight />} keybind="g h" />
-        <Item value="Contact" icon={<ArrowRight />} keybind="g c" />
-      </Group>
-
-      <Group title="Social">
-        <Item
-          value="GitHub"
-          icon={<Github />}
-          callback={() =>
-            window.open('https://github.com/enesozturk', '_blank')
-          }
-        />
-        <Item
-          value="Twitter"
-          icon={<Twitter />}
-          callback={() => window.open('https://twitter.com/enesozt_', '_blank')}
-          keybind="g t"
-        />
-        <Item
-          value="Linkedin"
-          callback={() =>
-            window.open('https://linkedin.com/in/enes-ozturk', '_blank')
-          }
-          keybind="g t"
-        />
-      </Group>
-    </>
-  )
 }
 
 type ItemProps = {
