@@ -8,3 +8,5 @@ dist/
 packages/
 yalc.lock
 .yalc
+
+.vercel
