@@ -1,0 +1,73 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint . && prettier --write '**/*.js' --loglevel warn",
+    "dev": "next -p 3003",
+    "build": "yarn rss && next build",
+    "rss": "node lib/rss",
+    "new": "node lib/db"
+  },
+  "pre-commit": "lint",
+  "license": "MIT",
+  "dependencies": {
+    "@reach/auto-id": "^0.8.6",
+    "@reach/dialog": "^0.10.5",
+    "classnames": "^2.2.6",
+    "cmdk": "^0.0.4",
+    "intersection-observer": "^0.7.0",
+    "lodash.debounce": "^4.0.8",
+    "match-sorter": "^4.0.2",
+    "next": "^10.0.0",
+    "next-themes": "^0.0.8",
+    "nprogress": "^0.2.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-intersection-observer": "^8.24.2",
+    "swr": "^0.2.0",
+    "use-delayed-render": "^0.0.7"
+  },
+  "devDependencies": {
+    "@types/body-scroll-lock": "^2.6.1",
+    "@types/classnames": "^2.2.10",
+    "@types/lodash.debounce": "^4.0.6",
+    "@types/match-sorter": "^4.0.0",
+    "@types/nprogress": "^0.2.0",
+    "@types/react": "^16.9.23",
+    "@types/react-transition-group": "^4.2.4",
+    "@typescript-eslint/eslint-plugin": "^2.22.0",
+    "@typescript-eslint/parser": "^2.22.0",
+    "babel-eslint": "^10.0.2",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "eslint": "^6.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^2.5.0",
+    "gray-matter": "^4.0.2",
+    "lowdb": "^1.0.0",
+    "marked": "^1.1.0",
+    "next-unused": "^0.0.3",
+    "open-graph-scraper": "^3.6.2",
+    "prettier": "^1.18.2",
+    "prism-react-renderer": "^1.1.1",
+    "prompts": "^2.2.1",
+    "rss": "^1.2.2",
+    "typescript": "^3.8.3"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "next-unused": {
+    "alias": {
+      "@components": "components/",
+      "@data": "data/",
+      "@lib": "lib/",
+      "@styles": "styles/"
+    },
+    "include": [
+      "components",
+      "lib"
+    ]
+  }
+}

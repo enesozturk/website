@@ -1,0 +1,7 @@
+export { default as Paraglider } from './Paraglider'
+export { default as Home } from './Home'
+export { default as Identification } from './Identification'
+export { default as Edit } from './Edit'
+export { default as Github } from './Github'
+export { default as Linkedin } from './Linkedin'
+export { default as Twitter } from './Twitter'

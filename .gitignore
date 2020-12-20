@@ -1,0 +1,10 @@
+.DS_Store
+node_modules
+.next
+out
+.now
+/public/feed.xml
+dist/
+packages/
+yalc.lock
+.yalc
