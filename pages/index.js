@@ -1,7 +1,7 @@
 import Page from '@components/page'
 import Link from '@components/link'
 
-const About = () => {
+const Home = () => {
   return (
     <Page description="Hi, I'm Enes. Full stack developer and paragliding enthusiast.">
       <article>
@@ -24,4 +24,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Home

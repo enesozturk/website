@@ -5,7 +5,7 @@ import styles from './header.module.css'
 import Command from '@components/navigation'
 
 type HeaderProps = {
-  title: string | null
+  title?: string | number | null
 }
 
 const Header = ({ title }: HeaderProps) => {

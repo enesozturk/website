@@ -5,9 +5,9 @@ import styles from './page.module.css'
 type PageProps = {
   header?: boolean
   footer?: boolean
-  title: string | number
-  description: string
-  image: string
+  title?: string | number
+  description?: string
+  image?: string
   showHeaderTitle?: boolean
   children: React.ReactNode | React.ReactNode[]
 }

@@ -4,12 +4,19 @@ import { useTheme } from 'next-themes'
 const defaultOgImage =
   'https://res.cloudinary.com/dsdlhtnpw/image/upload/v1572673557/og-image_budbm8.png'
 
+type HeadProps = {
+  title?: string
+  description?: string
+  image?: string
+  children?: React.ReactNode | React.ReactNode[]
+}
+
 const Head = ({
   title = 'Enes Ozturk',
   description = "Hi, I'm Enes. Software developer and paragliding pilot.",
   image = defaultOgImage,
   children
-}) => {
+}: HeadProps) => {
   const { systemTheme } = useTheme()
 
   return (
