@@ -67,6 +67,7 @@
   padding: var(--gap);
   border-right: 1px solid var(--lighter-gray);
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .menuItem {
@@ -236,7 +237,7 @@
   background: var(--lighter-gray);
 }
 
-.container {
+/* .container {
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   transition: height 0.1s ease;
@@ -250,7 +251,7 @@
 .container.empty {
   height: 0;
   border-top: none;
-}
+} */
 
 .group {
   display: flex;
@@ -299,9 +300,13 @@
     transform: scale(0.97) translateY(5%);
   }
 
-  .container {
-    height: 100% !important;
+  .previewContainer {
+    display: none;
+  }
+
+  .content {
+    height: calc(calc(100vh - var(--top)) - 60px) !important;
     /* Height of the iOS Safari Toolbar (:sadfari:) */
-    padding-bottom: 110px;
+    /* padding-bottom: 110px; */
   }
 }

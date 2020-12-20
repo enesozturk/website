@@ -35,7 +35,6 @@ const useCommandData = () => React.useContext<any>(CommandData)
 
 const CommandMenu = memo(() => {
   const { theme, setTheme } = useTheme()
-  console.log(theme)
 
   const listRef = useRef<HTMLElement>(null)
   const commandRef = useRef<any>(null)
@@ -157,12 +156,12 @@ const CommandMenu = memo(() => {
                 <CommandInput placeholder={'Type a command or search...'} />
               </div>
 
-              <div
+              {/* <div
                 ref={heightRef}
                 className={cn(styles.container, {
                   [styles.empty]: list.current.length === 0
                 })}
-              ></div>
+              ></div> */}
 
               <div className={styles.content}>
                 <div className={styles.menuItems}>
