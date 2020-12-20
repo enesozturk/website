@@ -1,6 +1,6 @@
 .reset {
   outline: none;
-  color: var(--fg);
+  color: var(--gray);
   text-decoration: none;
 }
 

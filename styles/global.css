@@ -27,6 +27,7 @@
 
   /* Dark Mode Colors */
   --bg: #131415;
+  --bg-nav: rgb(19 20 21 / 50%);
   --fg: #fafbfc;
   --gray: #666;
   --light-gray: #444;
@@ -47,6 +48,7 @@
 
 [data-theme='light'] {
   --bg: #fff;
+  --bg-nav: rgb(255 255 255 / 75%);
   --fg: #000;
   --gray: #888;
   --light-gray: #dedede;

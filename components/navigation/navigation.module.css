@@ -31,12 +31,13 @@
   z-index: 9999;
   border-radius: 10px;
   top: calc(30px + var(--big-gap) + (3 * var(--gap-double)));
-  background: var(--light-gray);
+  /* background: var(--light-gray); */
   box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.4), 0px 0px 60px rgba(0, 0, 0, 0.5),
     inset 0px 1px 0px rgba(0, 0, 0, 0.6);
   width: 700px;
   border-radius: var(--radius);
-  padding: var(--gap);
+  /* padding: var(--gap); */
+  backdrop-filter: blur(8px);
 
   opacity: 0;
   transform: scale(0.97);
@@ -47,7 +48,7 @@
 
 .wrapper {
   width: 100%;
-  background-color: var(--bg);
+  background-color: var(--bg-nav);
   border-radius: var(--radius);
 }
 
@@ -71,7 +72,7 @@
 .menuItem {
   color: var(--gray);
   padding: calc(var(--gap-half) * 1.5);
-  border-bottom: 2px solid var(--lightest-gray);
+  border-bottom: 2px solid var(--light-gray);
   background-color: var(--lighter-gray);
   cursor: pointer;
 
@@ -110,7 +111,7 @@
 
 .menuItem:hover {
   color: var(--fg);
-  background-color: var(--light-gray);
+  background-color: var(--lighter-gray);
   transition: background-color 0.2s;
 }
 
@@ -152,7 +153,7 @@
   height: 60px;
   width: 100%;
   border: 0;
-  background: 0;
+  background: transparent;
   font-size: 1rem;
   color: var(--fg);
 }

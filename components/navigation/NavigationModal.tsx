@@ -147,15 +147,7 @@ const CommandMenu = memo(() => {
           >
             <div className={styles.wrapper}>
               <div className={styles.top}>
-                <CommandInput
-                  placeholder={
-                    Items === ThemeItems
-                      ? 'Select a theme...'
-                      : Items === BlogItems
-                      ? 'Search for posts...'
-                      : 'Type a command or search...'
-                  }
-                />
+                <CommandInput placeholder={'Type a command or search...'} />
               </div>
 
               <div
@@ -198,6 +190,11 @@ const CommandMenu = memo(() => {
                       icon={<Linkedin />}
                       title="Linkedin"
                     />
+                  </div>
+
+                  <span className={styles.groupTitle}>Settings</span>
+                  <div className={styles.menuItemGroup}>
+                    <MenuItem icon={<Edit />} title="Toggle Theme" />
                   </div>
                 </div>
 
