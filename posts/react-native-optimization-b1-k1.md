@@ -13,7 +13,7 @@ React Native declarative bir kütüphanedir ve rendering işlemini kendisi çöz
 
 Ancak bu, React Native ile geliştirdiğiniz uygulamanızın aynı hız ve kullanıcı deneyimine sahip olacağı anlamına gelmez. iOS ve Android API çağrılarının performansı hakkında endişelenmemenize gerek olmasa da, bileşenlerinizi nasıl kullandığınız bir fark yaratır.
 
-## 1. UI Re-render'lara dikkat edin
+## 1. UI Re-renderlara dikkat edin
 
 > State işlemlerinin sayısını optimize edin, [Pure](https://www.google.com/search?client=opera&q=pure+components&sourceid=opera&ie=UTF-8&oe=UTF-8) ve [Memoized](https://www.google.com/search?client=opera&q=memoized+components&sourceid=opera&ie=UTF-8&oe=UTF-8) bileşenleri kullanarak uygulamanızı daha az kaynak ihtiyacı ile daha hızlı hale getirin.
 
