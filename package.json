@@ -5,6 +5,7 @@
     "lint": "eslint . && prettier --write '**/*.js' --loglevel warn",
     "dev": "next -p 3003",
     "build": "yarn rss && next build",
+    "export": "next export",
     "rss": "node lib/rss",
     "new": "node lib/db"
   },
