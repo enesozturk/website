@@ -34,6 +34,9 @@ const CommandData = React.createContext({})
 const useCommandData = () => React.useContext<any>(CommandData)
 
 const CommandMenu = memo(() => {
+  const { theme, setTheme } = useTheme()
+  console.log(theme)
+
   const listRef = useRef<HTMLElement>(null)
   const commandRef = useRef<any>(null)
   const router = useRouter()
@@ -48,6 +51,10 @@ const CommandMenu = memo(() => {
     enterDelay: -1,
     exitDelay: 200
   })
+
+  const toggleTheme = () => {
+    setTheme(theme == 'dark' ? 'light' : 'dark')
+  }
 
   // Can't do this inside of useCommand because it relies on useDelayedRender
   // useEffect(() => {
@@ -194,7 +201,11 @@ const CommandMenu = memo(() => {
 
                   <span className={styles.groupTitle}>Settings</span>
                   <div className={styles.menuItemGroup}>
-                    <MenuItem icon={<Edit />} title="Toggle Theme" />
+                    <MenuItem
+                      onClick={toggleTheme}
+                      icon={<Edit />}
+                      title="Toggle Theme"
+                    />
                   </div>
                 </div>
 
@@ -207,9 +218,14 @@ const CommandMenu = memo(() => {
                       title="React Native ile 60 FPS Animasyonlar"
                     />
                     <MenuItem
-                      route="/blog/react-native-uygulamami-nasil-optimize-ederim"
+                      route="/blog/react-native-uygulamami-nasil-optimize-ederim-b1-k6"
                       icon={<Edit />}
                       title="React Native Uygulamamı Nasıl Optimize Ederim? [B1:K6]"
+                    />
+                    <MenuItem
+                      route="/blog/react-native-uygulamami-nasil-optimize-ederim-b1-k5"
+                      icon={<Edit />}
+                      title="React Native Uygulamamı Nasıl Optimize Ederim? [B1:K5]"
                     />
                   </div>
                 </div>

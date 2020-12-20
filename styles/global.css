@@ -158,6 +158,10 @@ button {
   font-size: inherit;
 }
 
+button:focus {
+  outline: none;
+}
+
 p a,
 a.reset {
   outline: none;
