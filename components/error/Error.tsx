@@ -1,7 +1,6 @@
 import Head from 'next/head'
 
 import Page from '@components/page'
-import Link from '@components/link'
 import styles from './error.module.css'
 
 type ErrorProps = {
@@ -26,12 +25,7 @@ const Error = ({ status }: ErrorProps) => {
                 never existed.
               </p>
 
-              <footer>
-                — Aaron Swartz,{' '}
-                <Link external href="http://www.aaronsw.com/weblog/visitingmit">
-                  <cite>I Love the University</cite>
-                </Link>
-              </footer>
+              <footer>— Aaron Swartz</footer>
             </blockquote>
           </p>
         </>
