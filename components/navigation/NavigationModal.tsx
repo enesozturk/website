@@ -4,15 +4,7 @@ import { useRouter } from 'next/router'
 import useDelayedRender from 'use-delayed-render'
 import { DialogContent, DialogOverlay } from '@reach/dialog'
 
-import {
-  Command,
-  CommandInput,
-  CommandItem,
-  CommandList,
-  useCommand,
-  usePages,
-  CommandGroup
-} from 'cmdk'
+import { Command, CommandInput, CommandItem, useCommand, usePages } from 'cmdk'
 
 import {
   Paraglider,
@@ -27,7 +19,7 @@ import styles from './navigation.module.css'
 import headerStyles from '@components/header/header.module.css'
 import { useTheme } from 'next-themes'
 import tinykeys from '@lib/tinykeys'
-import postMeta from '@data/blog.json'
+// import postMeta from '@data/blog.json'
 import MenuItem from './MenuItem'
 
 const CommandData = React.createContext({})
@@ -44,7 +36,7 @@ const CommandMenu = memo(() => {
   })
   const [pages, setPages] = usePages(commandProps, ThemeItems)
   const [open, setOpen] = useState(false)
-  const { search, list } = commandProps
+  // const { search, list } = commandProps
 
   const { mounted, rendered } = useDelayedRender(open, {
     enterDelay: -1,
@@ -62,7 +54,7 @@ const CommandMenu = memo(() => {
   //   }
   // }, [mounted, setPages])
 
-  const Items = pages[pages.length - 1]
+  // const Items = pages[pages.length - 1]
 
   const keymap = useMemo(() => {
     return {
@@ -261,19 +253,19 @@ const ThemeItems = () => {
   })
 }
 
-const BlogItems = () => {
-  const router = useRouter()
+// const BlogItems = () => {
+//   const router = useRouter()
 
-  return postMeta.map((post, i) => {
-    return (
-      <Item
-        key={`blog-item-${post.title}-${i}`}
-        value={post.title}
-        callback={() => router.push('/blog/[slug]', `/blog/${post.slug}`)}
-      />
-    )
-  })
-}
+//   return postMeta.map((post, i) => {
+//     return (
+//       <Item
+//         key={`blog-item-${post.title}-${i}`}
+//         value={post.title}
+//         callback={() => router.push('/blog/[slug]', `/blog/${post.slug}`)}
+//       />
+//     )
+//   })
+// }
 
 type ItemProps = {
   value: any

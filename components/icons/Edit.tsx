@@ -1,4 +1,3 @@
-import withIcon from '@components/icon/withIcon'
 import * as React from 'react'
 
 function Edit() {

@@ -3,12 +3,18 @@ import { useState } from 'react'
 import TextEntry from '@components/entry/text'
 import styles from './posts-list.module.css'
 
-const Posts = ({ slug, posts, paginate }) => {
+type PostsProps = {
+  slug?: string
+  posts: PostsProps[]
+  paginate?: boolean
+}
+
+const Posts = ({ posts, paginate }: PostsProps) => {
   const [showMore, setShowMore] = useState(3)
 
   return (
     <div className={styles.container}>
-      {posts.slice(0, paginate ? showMore : undefined).map(post => {
+      {posts.slice(0, paginate ? showMore : undefined).map((post: any) => {
         const date = new Date(post.date).toLocaleDateString('default', {
           month: 'numeric',
           day: 'numeric'

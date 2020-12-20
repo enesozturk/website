@@ -1,15 +1,30 @@
 import { memo } from 'react'
 import NextLink from 'next/link'
 import cn from 'classnames'
+import { UrlObject } from 'url'
 
 import styles from './link.module.css'
 
-const canPrefetch = href => {
+const canPrefetch = (href: string) => {
   if (!href || !href.startsWith('/')) {
     return false
   }
 
   return true
+}
+
+type Url = string | UrlObject
+
+type LinkProps = {
+  href: Url
+  external?: boolean
+  as?: string
+  passHref?: boolean
+  children: React.ReactNode | React.ReactNode[]
+  className?: string
+  props?: HTMLElement
+  underline?: boolean
+  gray?: boolean
 }
 
 const Link = ({
@@ -24,13 +39,13 @@ const Link = ({
   underline,
   gray,
   ...props
-}) => {
+}: LinkProps) => {
   const c = cn(className, styles.reset, {
     [styles.gray]: gray,
     [styles.underline]: underline
   })
 
-  if (external) {
+  if (external && typeof href == 'string') {
     return (
       <a
         href={href}
@@ -49,7 +64,13 @@ const Link = ({
       <NextLink
         href={href}
         as={as}
-        prefetch={canPrefetch(href) ? undefined : false}
+        prefetch={
+          typeof href == 'string'
+            ? canPrefetch(href)
+              ? undefined
+              : false
+            : false
+        }
         passHref={passHref}
       >
         {passHref ? (

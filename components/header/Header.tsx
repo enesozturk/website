@@ -1,5 +1,4 @@
 import { memo } from 'react'
-import Link from 'next/link'
 
 import styles from './header.module.css'
 import Command from '@components/navigation'

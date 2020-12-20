@@ -4,7 +4,7 @@ import cn from 'classnames'
 import Link from '@components/link'
 import styles from './text.module.css'
 
-const TextEntry = ({ title, description, type, comment, href, as }) => {
+const TextEntry = ({ title, description, type, href, as }) => {
   return (
     <li className={styles.item}>
       <Link

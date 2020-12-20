@@ -1,10 +1,18 @@
 import React from 'react'
+import { NextPageContext } from 'next'
 
 import Error from '@components/error'
+interface EProps {
+  status: number
+}
 
-class E extends React.Component {
-  static getInitialProps({ res, err }) {
-    const status = res ? res.statusCode : err ? err.statusCode : null
+class E extends React.Component<EProps> {
+  static getInitialProps(ctx: NextPageContext) {
+    const status = ctx.res
+      ? ctx.res.statusCode
+      : ctx.err
+      ? ctx.err.statusCode
+      : null
     return { status }
   }
 

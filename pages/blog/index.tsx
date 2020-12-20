@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Page from '@components/page'
-import PostsList from '@components/posts-list'
+import PostsList from '@components/posts-list/PostList'
 import getPosts from '@lib/get-posts'
 
 type BlogProps = {

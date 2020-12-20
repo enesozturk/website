@@ -1,3 +1,5 @@
+import { NextPageContext } from 'next'
+
 import Post from '@components/post'
 import getPosts from '@lib/get-posts'
 import renderMarkdown from '@lib/render-markdown'
@@ -6,25 +8,36 @@ const PostPage = (props: any) => {
   return <Post {...props} />
 }
 
-export const getStaticProps = ({ params: { slug } }) => {
-  const posts = getPosts()
-  const postIndex = posts.findIndex(p => p.slug === slug)
+type PostProps = {
+  body: string
+} | null
+
+interface Context extends NextPageContext {
+  params: {
+    slug: string
+  }
+}
+
+export const getStaticProps = (ctx: Context) => {
+  const slug = ctx.params.slug
+  const posts: PostProps[] = getPosts()
+  const postIndex = posts.findIndex((p: any) => p.slug === slug)
   const post = posts[postIndex]
-  const { body, ...rest } = post
+  const { ...rest } = post
 
   return {
     props: {
       previous: posts[postIndex + 1] || null,
       next: posts[postIndex - 1] || null,
       ...rest,
-      html: renderMarkdown(body)
+      html: renderMarkdown(post ? post.body : null)
     }
   }
 }
 
 export const getStaticPaths = () => {
   return {
-    paths: getPosts().map(p => `/blog/${p.slug}`),
+    paths: getPosts().map((p: any) => `/blog/${p.slug}`),
     fallback: false
   }
 }
