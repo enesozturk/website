@@ -44,7 +44,10 @@ const CommandMenu = memo(() => {
   })
 
   const toggleTheme = () => {
-    setTheme(theme == 'dark' ? 'light' : 'dark')
+    // setOpen(false)
+    setTimeout(() => {
+      setTheme(theme == 'dark' ? 'light' : 'dark')
+    }, 10)
   }
 
   // Can't do this inside of useCommand because it relies on useDelayedRender
@@ -191,7 +194,9 @@ const CommandMenu = memo(() => {
                   </div>
 
                   <span className={styles.groupTitle}>Settings</span>
-                  <div className={styles.menuItemGroup}>
+                  <div
+                    className={`${styles.menuItemGroup} ${styles.toggleTheme}`}
+                  >
                     <MenuItem
                       onClick={toggleTheme}
                       icon={<Edit />}

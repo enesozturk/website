@@ -113,7 +113,11 @@
 .menuItem:hover {
   color: var(--fg);
   background-color: var(--lighter-gray);
-  transition: background-color 0.2s;
+  transition: color 0.2s;
+}
+
+.toggleTheme button:hover {
+  transition: none;
 }
 
 .previewContainer {

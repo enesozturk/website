@@ -29,7 +29,7 @@
   --bg: #131415;
   --bg-nav: rgb(19 20 21 / 50%);
   --fg: #fafbfc;
-  --gray: #666;
+  --gray: #6d6d6d;
   --light-gray: #444;
   --lighter-gray: #222;
   --lightest-gray: #1a1a1a;
@@ -48,9 +48,9 @@
 
 [data-theme='light'] {
   --bg: #fff;
-  --bg-nav: rgb(255 255 255 / 75%);
+  --bg-nav: rgb(255 255 255 / 60%);
   --fg: #000;
-  --gray: #888;
+  --gray: #6d6d6d;
   --light-gray: #dedede;
   --lighter-gray: #f5f5f5;
   --lightest-gray: #fafafa;
