@@ -26,14 +26,14 @@
   --transition-slow: 0.3s ease-in-out;
 
   /* Dark Mode Colors */
-  --bg: #131415;
+  --bg: #121212;
   --bg-nav: rgb(43 43 43 / 80%);
   --fg: #fafbfc;
   --gray: #6d6d6d;
   --light-gray: #444;
   --lighter-gray: #222;
   --lightest-gray: #1a1a1a;
-  --lightest-gray-hover: #151515;
+  --lightest-gray-hover: #121212;
   --article-color: #eaeaea;
   --header-bg: rgba(19, 20, 21, 0.45);
   --gray-alpha: rgba(255, 255, 255, 0.5);

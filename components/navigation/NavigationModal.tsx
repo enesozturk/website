@@ -7,6 +7,7 @@ import { DialogContent, DialogOverlay } from '@reach/dialog'
 import { Command, CommandInput, CommandItem, useCommand, usePages } from 'cmdk'
 
 import {
+  Command as CommandLogo,
   Paraglider,
   Twitter,
   Home,
@@ -125,7 +126,7 @@ const CommandMenu = memo(() => {
         title="Fly"
         onClick={() => setOpen(true)}
       >
-        <Paraglider />
+        <CommandLogo />
       </button>
 
       <DialogOverlay
