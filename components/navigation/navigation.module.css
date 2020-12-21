@@ -68,6 +68,11 @@
   border-right: 1px solid var(--lighter-gray);
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+  position: none;
+}
+
+.menuItems:hover {
+  pointer-events: all;
 }
 
 .menuItem {
@@ -113,7 +118,6 @@
 .menuItem:hover {
   color: var(--fg);
   background-color: var(--lightest-gray-hover);
-  transition: color 0.2s;
 }
 
 .toggleTheme button:hover {
