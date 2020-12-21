@@ -8,7 +8,6 @@ import { Command, CommandInput, CommandItem, useCommand, usePages } from 'cmdk'
 
 import {
   Command as CommandLogo,
-  Paraglider,
   Twitter,
   Home,
   Edit,
