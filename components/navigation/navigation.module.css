@@ -6,7 +6,7 @@
   right: 0;
   z-index: 999;
   --overlay: rgba(0, 0, 0, 0.6);
-  background: var(--overlay);
+  background: transparent;
   --padding: 0 20px;
   opacity: 0;
   transition: opacity 0.2s ease;
@@ -73,8 +73,8 @@
 .menuItem {
   color: var(--gray);
   padding: calc(var(--gap-half) * 1.5);
-  border-bottom: 2px solid var(--light-gray);
-  background-color: var(--lighter-gray);
+  border-bottom: 2px solid var(--lighter-gray);
+  background-color: var(--lightest-gray);
   cursor: pointer;
 
   display: flex;
@@ -112,7 +112,7 @@
 
 .menuItem:hover {
   color: var(--fg);
-  background-color: var(--lighter-gray);
+  background-color: var(--lightest-gray-hover);
   transition: color 0.2s;
 }
 

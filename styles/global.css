@@ -27,12 +27,13 @@
 
   /* Dark Mode Colors */
   --bg: #131415;
-  --bg-nav: rgb(19 20 21 / 50%);
+  --bg-nav: rgb(43 43 43 / 80%);
   --fg: #fafbfc;
   --gray: #6d6d6d;
   --light-gray: #444;
   --lighter-gray: #222;
   --lightest-gray: #1a1a1a;
+  --lightest-gray-hover: #151515;
   --article-color: #eaeaea;
   --header-bg: rgba(19, 20, 21, 0.45);
   --gray-alpha: rgba(255, 255, 255, 0.5);
@@ -48,13 +49,14 @@
 
 [data-theme='light'] {
   --bg: #fff;
-  --bg-nav: rgb(255 255 255 / 60%);
+  --bg-nav: rgb(212 212 212 / 80%);
   --fg: #000;
   --gray: #6d6d6d;
   --light-gray: #dedede;
   --lighter-gray: #f5f5f5;
   --lightest-gray: #fafafa;
   --article-color: #212121;
+  --lightest-gray-hover: #f3f3f3;
   --header-bg: rgba(255, 255, 255, 0.8);
   --gray-alpha: rgba(19, 20, 21, 0.5);
   --selection: rgba(0, 0, 0, 0.99);

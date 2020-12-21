@@ -9,15 +9,15 @@ const Home = () => {
 
         <p>
           Software developer and paragliding pilot. I'm writing code and sharing
-          my experiences. 👨🏻‍💻 Trying aerobatics in the air 🤘🏽
+          my experiences. 👨🏻‍💻 Trying aerobatics in the air. 🤘🏽
         </p>
 
-        <p>
+        <p style={{ textDecoration: '' }}>
           Working with{' '}
           <Link underline href="https://iyzico.com" external>
             İyzico
           </Link>{' '}
-          to make fintech better.
+          to create awesome payment systems.
         </p>
       </article>
     </Page>
