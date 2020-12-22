@@ -27,7 +27,7 @@
 
   /* Dark Mode Colors */
   --bg: #121212;
-  --bg-nav: rgb(43 43 43 / 80%);
+  --bg-nav: rgb(12 12 12 / 80%);
   --fg: #fafbfc;
   --gray: #6d6d6d;
   --light-gray: #444;
@@ -38,6 +38,7 @@
   --header-bg: rgba(19, 20, 21, 0.45);
   --gray-alpha: rgba(255, 255, 255, 0.5);
   --selection: rgba(255, 255, 255, 0.99);
+  --modal-overlay: rgba(0, 0, 0, 0.15);
 
   /* Syntax Highlighting */
   --token: #999;
@@ -49,7 +50,7 @@
 
 [data-theme='light'] {
   --bg: #fff;
-  --bg-nav: rgb(212 212 212 / 80%);
+  --bg-nav: rgb(220 220 220 / 80%);
   --fg: #000;
   --gray: #6d6d6d;
   --light-gray: #dedede;
@@ -60,6 +61,7 @@
   --header-bg: rgba(255, 255, 255, 0.8);
   --gray-alpha: rgba(19, 20, 21, 0.5);
   --selection: rgba(0, 0, 0, 0.99);
+  --modal-overlay: rgba(0, 0, 0, 0);
 
   --token: #666;
   --comment: #999;

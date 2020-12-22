@@ -5,8 +5,7 @@
   left: 0;
   right: 0;
   z-index: 999;
-  --overlay: rgba(0, 0, 0, 0.6);
-  background: transparent;
+  background: var(--modal-overlay);
   --padding: 0 20px;
   opacity: 0;
   transition: opacity 0.2s ease;
@@ -15,10 +14,6 @@
 
 .screen.show {
   opacity: 1;
-}
-
-:global(html[data-theme='light']) .screen {
-  --overlay: rgba(0, 0, 0, 0.3);
 }
 
 .dialog-content {
@@ -37,7 +32,7 @@
 
   opacity: 0;
   transform: scale(0.97);
-  transition: transform 0.2s ease, opacity 0.2s ease;
+  transition: transform var(--transition) ease, opacity var(--transition) ease;
 
   display: flex;
 }
@@ -63,7 +58,6 @@
   padding: var(--gap);
   border-right: 1px solid var(--lighter-gray);
   overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
   position: none;
 }
 
@@ -241,22 +235,6 @@
   font-size: 0.875rem;
   background: var(--lighter-gray);
 }
-
-/* .container {
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
-  transition: height 0.1s ease;
-  will-change: height;
-}
-
-.container {
-  border-top: 1px solid var(--lighter-gray);
-}
-
-.container.empty {
-  height: 0;
-  border-top: none;
-} */
 
 .group {
   display: flex;
