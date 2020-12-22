@@ -1,6 +1,6 @@
 import Page from '@components/page'
 
-const Paragliding = ({ html }) => {
+const Paragliding = () => {
   return (
     <Page title="Paragliding" description="Collection of my paragliding acro.">
       <article>
