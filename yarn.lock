@@ -1079,7 +1079,7 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@7.11.2", "@babel/runtime@^7.0.0", "@babel/runtime@^7.10.5", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+"@babel/runtime@7.11.2", "@babel/runtime@^7.0.0", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
   version "7.11.2"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
   integrity sha512-TeWkU52so0mPtDcaCTxNBI/IHiz0pZgr8VEFqXFtZWpYD08ZB6FaSwVAS8MKRQAP3bYKiVjwysOJgMFY28o6Tw==
@@ -1225,14 +1225,6 @@
   dependencies:
     mkdirp "^1.0.4"
 
-"@reach/auto-id@^0.11.2":
-  version "0.11.2"
-  resolved "https://registry.yarnpkg.com/@reach/auto-id/-/auto-id-0.11.2.tgz#c66a905c5401d1ac3da8d26165b8d27d6e778fa6"
-  integrity sha512-YZ21b0Kb88wJ0t7QjSznWOYskARQMnmXY9Y2XZ5RyYcZ2krT4s3+ghghpfaPs6BKcrZDonZCrU65OFDJPa1jAw==
-  dependencies:
-    "@reach/utils" "0.11.2"
-    tslib "^2.0.0"
-
 "@reach/auto-id@^0.8.6":
   version "0.8.6"
   resolved "https://registry.yarnpkg.com/@reach/auto-id/-/auto-id-0.8.6.tgz#34ecd120186960e3980dbc34cdace8e65405ea4e"
@@ -1265,15 +1257,6 @@
   version "0.10.5"
   resolved "https://registry.yarnpkg.com/@reach/utils/-/utils-0.10.5.tgz#fbac944d29565f6dd7abd0e1b13950e99b1e470b"
   integrity sha512-5E/xxQnUbmpI/LrufBAOXjunl96DnqX6B4zC2MO2KH/dRzLug5gM5VuOwV26egsp0jvsSPxojwciOhS43px3qw==
-  dependencies:
-    "@types/warning" "^3.0.0"
-    tslib "^2.0.0"
-    warning "^4.0.3"
-
-"@reach/utils@0.11.2":
-  version "0.11.2"
-  resolved "https://registry.yarnpkg.com/@reach/utils/-/utils-0.11.2.tgz#be1f03650db56fd67a16d3fc70e5262cdb139cec"
-  integrity sha512-fBTolYj+rKTROXmf0zHO0rCWSvw7J0ALmYj5QxW4DmITMOH5uyRuWDWOfqohIGFbOtF/sum50WTB3tvx76d+Aw==
   dependencies:
     "@types/warning" "^3.0.0"
     tslib "^2.0.0"
@@ -2392,22 +2375,6 @@ clone@^1.0.2:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/clone/-/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
   integrity sha1-2jCcwmPfFZlMaIypAheco8fNfH4=
-
-clsx@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.1.1.tgz#98b3134f9abbdf23b2663491ace13c5c03a73188"
-  integrity sha512-6/bPho624p3S2pMyvP5kKBPXnI3ufHLObBFCfgx+LkeR5lg2XYy2hqZqUf45ypD8COn2bhgGJSUE+l5dhNBieA==
-
-cmdk@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/cmdk/-/cmdk-0.0.4.tgz#b6820927794353171b7d1e05886bf8e8a629b7b8"
-  integrity sha512-mokxS/pXs8qvDrLTXS/cuZ3sXlHSM2ckPLYesN5N++FZ/1UtcG2gV2NGzP6lxt6d0aWAa/TGi8lDnQYkEWZwOA==
-  dependencies:
-    "@reach/auto-id" "^0.11.2"
-    clsx "^1.1.1"
-    match-sorter "^4.2.0"
-    react-merge-refs "^1.1.0"
-    use-descendants "^0.0.1"
 
 code-point-at@^1.0.0:
   version "1.1.0"
@@ -4789,14 +4756,6 @@ match-sorter@^4.0.2:
     "@babel/runtime" "^7.9.2"
     remove-accents "0.4.2"
 
-match-sorter@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/match-sorter/-/match-sorter-4.2.0.tgz#70c4e7443dacf5fa2503bc5afc189024092e9d27"
-  integrity sha512-oEvLn8R+a30YZ9l5XdCTkYQuLsOs8frxEqQTAuxoqkQx/qV5pQpx/NqAWvJ5xbYecqfXoF/ZevaIS1+NkbRymg==
-  dependencies:
-    "@babel/runtime" "^7.10.5"
-    remove-accents "0.4.2"
-
 md5.js@^1.3.4:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/md5.js/-/md5.js-1.3.5.tgz#b5d07b8e3216e3e27cd728d72f70d1e6a342005f"
@@ -6066,11 +6025,6 @@ react-is@16.13.1, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
-
-react-merge-refs@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/react-merge-refs/-/react-merge-refs-1.1.0.tgz#73d88b892c6c68cbb7a66e0800faa374f4c38b06"
-  integrity sha512-alTKsjEL0dKH/ru1Iyn7vliS2QRcBp9zZPGoWxUOvRGWPUYgjo+V01is7p04It6KhgrzhJGnIj9GgX8W4bZoCQ==
 
 react-refresh@0.8.3:
   version "0.8.3"
@@ -7479,11 +7433,6 @@ use-delayed-render@^0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/use-delayed-render/-/use-delayed-render-0.0.7.tgz#3d35ab7c26cadc1b31b8cb4ec58342c88c3b082e"
   integrity sha512-Lb4Sd4P50CYRQ5k2Y9SRjMDTBG3Ous7TmfCGOzabKZf3ibQwIuyF3M2q6iiGLH+BicXZJumXgJDeHRnAfZM7Gg==
-
-use-descendants@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/use-descendants/-/use-descendants-0.0.1.tgz#15cf9ff5aeee9199d9c148e6c3c2810805f2334f"
-  integrity sha512-K3D7MQb62g4wx5oYtKtqa4w76AhrtQYfLMgvyxU0A/7OdXS1x00bqJE0iEe1Ls6lvQEC78YAPOzx4kvlfqmOkw==
 
 use-sidecar@^1.0.1:
   version "1.0.2"

@@ -33,5 +33,5 @@
     }
   },
   "exclude": ["node_modules"],
-  "include": ["**/*.ts", "**/*.tsx", "**/*.js", "components/icons/ts"]
+  "include": ["**/*.ts", "**/*.tsx", "**/*.js"]
 }

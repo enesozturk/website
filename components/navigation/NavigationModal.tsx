@@ -1,28 +1,25 @@
 import React, { useEffect, useRef, useState, memo } from 'react'
-import cn from 'classnames'
 
+import cn from 'classnames'
+import { useTheme } from 'next-themes'
 import useDelayedRender from 'use-delayed-render'
 import { DialogContent, DialogOverlay } from '@reach/dialog'
 
-import { Command as CommandLogo, Edit, MenuIcon } from '@components/icons'
-import styles from './navigation.module.css'
-import headerStyles from '@components/header/header.module.css'
-import { useTheme } from 'next-themes'
+// Components
 import MenuItem from './MenuItem'
 import SearchInput from './SearchInput'
-import { MenuList, MenuItemProps } from './variables'
 
-const filteredList = (list: MenuItemProps[], search: string) => {
-  if (search === '') return list
-  else {
-    const regex = new RegExp(`.*${search.toLocaleLowerCase()}.*`, 'g')
-    return list.filter((item: MenuItemProps) => {
-      return regex.test(item.title.replace('\\s', '').toLocaleLowerCase())
-    })
-  }
-}
+// Icons
+import { Edit, MenuIcon } from '@components/icons'
 
-const CommandMenu = memo(() => {
+// Styles
+import styles from './navigation.module.css'
+import headerStyles from '@components/header/header.module.css'
+
+// Utils
+import { MenuList, FilteredList } from './variables'
+
+const NavigationModal = memo(() => {
   const { theme, setTheme } = useTheme()
 
   const listRef = useRef<HTMLElement>(null)
@@ -47,10 +44,10 @@ const CommandMenu = memo(() => {
     heightRef.current.style.height = height + 'px'
   })
 
-  const navigations = filteredList(MenuList.navigation, search)
-  const collections = filteredList(MenuList.collections, search)
-  const socials = filteredList(MenuList.social, search)
-  const lastActivities = filteredList(MenuList.lastActivity, search)
+  const navigations = FilteredList(MenuList.navigation, search)
+  const collections = FilteredList(MenuList.collections, search)
+  const socials = FilteredList(MenuList.social, search)
+  const lastActivities = FilteredList(MenuList.lastActivity, search)
 
   return (
     <>
@@ -182,5 +179,5 @@ const CommandMenu = memo(() => {
   )
 })
 
-CommandMenu.displayName = 'CommandMenu'
-export default CommandMenu
+NavigationModal.displayName = 'NavigationModal'
+export default NavigationModal

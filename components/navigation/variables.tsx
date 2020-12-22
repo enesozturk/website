@@ -69,3 +69,13 @@ export const MenuList: MenuListProps = {
     }
   ]
 }
+
+export const FilteredList = (list: MenuItemProps[], search: string) => {
+  if (search === '') return list
+  else {
+    const regex = new RegExp(`.*${search.toLocaleLowerCase()}.*`, 'g')
+    return list.filter((item: MenuItemProps) => {
+      return regex.test(item.title.replace('\\s', '').toLocaleLowerCase())
+    })
+  }
+}
