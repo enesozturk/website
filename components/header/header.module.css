@@ -8,6 +8,7 @@
   display: inline-flex;
   padding: 10px;
   border-radius: var(--radius);
+  background: var(--lighter-gray);
   color: var(--currentColor);
 }
 
@@ -19,12 +20,12 @@
 .logo:hover,
 .logo:focus-within {
   outline: none;
-  background: var(--lighter-gray);
+  background: var(--light-gray);
+  transition: background-color 0.3s;
 }
 
 .command {
   cursor: pointer;
-  background: none;
 }
 
 .logo {

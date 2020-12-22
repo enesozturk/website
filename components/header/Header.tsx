@@ -1,9 +1,7 @@
 import { memo } from 'react'
-import Link from 'next/link'
 
 import styles from './header.module.css'
 import Command from '@components/navigation'
-import { Logo } from '@components/icons'
 
 type HeaderProps = {
   title?: string | number | null
@@ -13,14 +11,7 @@ const Header = ({ title }: HeaderProps) => {
   return (
     <nav className={styles.nav}>
       <div className={styles.header}>
-        <Link href="/">
-          <a aria-label="Navigate Home" className={styles.logo}>
-            <Logo />
-          </a>
-        </Link>
-
         <Command />
-
         {title && <div className={styles.content}>{title}</div>}
       </div>
     </nav>

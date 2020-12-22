@@ -4,7 +4,7 @@ import cn from 'classnames'
 import useDelayedRender from 'use-delayed-render'
 import { DialogContent, DialogOverlay } from '@reach/dialog'
 
-import { Command as CommandLogo, Edit } from '@components/icons'
+import { Command as CommandLogo, Edit, MenuIcon } from '@components/icons'
 import styles from './navigation.module.css'
 import headerStyles from '@components/header/header.module.css'
 import { useTheme } from 'next-themes'
@@ -59,7 +59,7 @@ const CommandMenu = memo(() => {
         title="Fly"
         onClick={() => setOpen(true)}
       >
-        <CommandLogo />
+        <MenuIcon />
       </button>
 
       <DialogOverlay
