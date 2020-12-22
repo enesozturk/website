@@ -75,7 +75,7 @@
 
 .menuItem {
   color: var(--gray);
-  padding: calc(var(--gap-half) * 1.5);
+  padding: calc(0.5rem * 1.5);
   border-bottom: 2px solid var(--lighter-gray);
   background-color: var(--lightest-gray);
   cursor: pointer;
