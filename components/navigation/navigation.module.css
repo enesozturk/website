@@ -35,12 +35,19 @@
   transition: transform var(--transition) ease, opacity var(--transition) ease;
 
   display: flex;
+
+  overflow: hidden;
+  border: double 4px transparent;
+  border-radius: 12px;
+  background-image: var(--modalBorderBackground);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
 }
 
 .wrapper {
   width: 100%;
   background-color: var(--bg-nav);
-  border-radius: var(--radius);
+  /* border-radius: var(--radius); */
 }
 
 .content {
