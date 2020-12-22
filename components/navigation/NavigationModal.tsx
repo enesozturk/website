@@ -4,74 +4,13 @@ import cn from 'classnames'
 import useDelayedRender from 'use-delayed-render'
 import { DialogContent, DialogOverlay } from '@reach/dialog'
 
-import {
-  Command as CommandLogo,
-  Twitter,
-  Home,
-  Edit,
-  Identification,
-  Linkedin,
-  Github
-} from '@components/icons'
+import { Command as CommandLogo, Edit } from '@components/icons'
 import styles from './navigation.module.css'
 import headerStyles from '@components/header/header.module.css'
 import { useTheme } from 'next-themes'
 import MenuItem from './MenuItem'
 import SearchInput from './SearchInput'
-
-type MenuItemProps = {
-  route: string
-  icon: React.ReactNode
-  title: string
-}
-
-type MenuListProps = {
-  navigation: MenuItemProps[]
-  social: MenuItemProps[]
-  lastActivity: MenuItemProps[]
-}
-
-const MenuList: MenuListProps = {
-  navigation: [
-    { route: '/', icon: <Home />, title: 'Home' },
-    { route: '/blog', icon: <Edit />, title: 'Blog' },
-    { route: '/contact', icon: <Identification />, title: 'Contact' }
-  ],
-  social: [
-    {
-      route: 'https://twitter.com/enesozt_',
-      icon: <Twitter />,
-      title: 'Twitter'
-    },
-    {
-      route: 'https://github.com/enesozturk',
-      icon: <Github />,
-      title: 'Github'
-    },
-    {
-      route: 'https://linkedin.com/in/enes-ozturk',
-      icon: <Linkedin />,
-      title: 'Linkedin'
-    }
-  ],
-  lastActivity: [
-    {
-      route: '/blog/react-native-ile-60-fps-animasyonlar',
-      icon: <Edit />,
-      title: 'React Native ile 60 FPS Animasyonlar'
-    },
-    {
-      route: '/blog/react-native-uygulamami-nasil-optimize-ederim-b1-k6',
-      icon: <Edit />,
-      title: 'React Native Uygulamamı Nasıl Optimize Ederim? [B1:K6]'
-    },
-    {
-      route: '/blog/react-native-uygulamami-nasil-optimize-ederim-b1-k5',
-      icon: <Edit />,
-      title: 'React Native Uygulamamı Nasıl Optimize Ederim? [B1:K5]'
-    }
-  ]
-}
+import { MenuList, MenuItemProps } from './variables'
 
 const filteredList = (list: MenuItemProps[], search: string) => {
   if (search === '') return list
@@ -109,6 +48,7 @@ const CommandMenu = memo(() => {
   })
 
   const navigations = filteredList(MenuList.navigation, search)
+  const collections = filteredList(MenuList.collections, search)
   const socials = filteredList(MenuList.social, search)
   const lastActivities = filteredList(MenuList.lastActivity, search)
 
@@ -151,18 +91,34 @@ const CommandMenu = memo(() => {
                     <>
                       <span className={styles.groupTitle}>Navigation</span>
                       <div className={styles.menuItemGroup}>
-                        {filteredList(MenuList.navigation, search).map(
-                          (item, index) => {
-                            return (
-                              <MenuItem
-                                key={index}
-                                route={item.route}
-                                icon={item.icon}
-                                title={item.title}
-                              />
-                            )
-                          }
-                        )}
+                        {navigations.map((item, index) => {
+                          return (
+                            <MenuItem
+                              key={index}
+                              route={item.route}
+                              icon={item.icon}
+                              title={item.title}
+                            />
+                          )
+                        })}
+                      </div>
+                    </>
+                  )}
+
+                  {collections.length > 0 && (
+                    <>
+                      <span className={styles.groupTitle}>Collections</span>
+                      <div className={styles.menuItemGroup}>
+                        {collections.map((item, index) => {
+                          return (
+                            <MenuItem
+                              key={index}
+                              route={item.route}
+                              icon={item.icon}
+                              title={item.title}
+                            />
+                          )
+                        })}
                       </div>
                     </>
                   )}
@@ -171,19 +127,17 @@ const CommandMenu = memo(() => {
                     <>
                       <span className={styles.groupTitle}>Social</span>
                       <div className={styles.menuItemGroup}>
-                        {filteredList(MenuList.social, search).map(
-                          (item, index) => {
-                            return (
-                              <MenuItem
-                                key={index}
-                                external
-                                route={item.route}
-                                icon={item.icon}
-                                title={item.title}
-                              />
-                            )
-                          }
-                        )}
+                        {socials.map((item, index) => {
+                          return (
+                            <MenuItem
+                              key={index}
+                              external
+                              route={item.route}
+                              icon={item.icon}
+                              title={item.title}
+                            />
+                          )
+                        })}
                       </div>
                     </>
                   )}
@@ -205,18 +159,16 @@ const CommandMenu = memo(() => {
                     <>
                       <span className={styles.groupTitle}>Last Activity</span>
                       <div className={styles.menuItemGroup}>
-                        {filteredList(MenuList.lastActivity, search).map(
-                          (item, index) => {
-                            return (
-                              <MenuItem
-                                key={index}
-                                route={item.route}
-                                icon={item.icon}
-                                title={item.title}
-                              />
-                            )
-                          }
-                        )}
+                        {lastActivities.map((item, index) => {
+                          return (
+                            <MenuItem
+                              key={index}
+                              route={item.route}
+                              icon={item.icon}
+                              title={item.title}
+                            />
+                          )
+                        })}
                       </div>
                     </>
                   )}

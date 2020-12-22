@@ -21,11 +21,11 @@ const Error = ({ status }: ErrorProps) => {
           <p>
             <blockquote cite="http://www.aaronsw.com/weblog/visitingmit">
               <p>
-                It doesn’t exist, it never has. I’m nostalgic for a place that
-                never existed.
+                Just because there's nothing here doesn't mean there's nothing.
+                If nothing happened, definitely something happened.
               </p>
 
-              <footer>— Aaron Swartz</footer>
+              <footer>— Anonym</footer>
             </blockquote>
           </p>
         </>

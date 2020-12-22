@@ -240,7 +240,6 @@ const Group = ({ children, title }) => {
 }
 
 const DefaultItems = () => {
-  const router = useRouter()
   const { setPages, pages } = useCommandData()
 
   return (
@@ -263,13 +262,13 @@ const DefaultItems = () => {
 
       <Group title="Collection">
         <Item value="Projects" icon={<Document />} keybind="g p" />
-        {/* <Item value="Reading" icon={<Book />} keybind="g r" />
+        <Item value="Reading" icon={<Book />} keybind="g r" />
         <Item value="Design" icon={<Design />} keybind="g d" />
         <Item value="Keyboards" icon={<M6 />} keybind="g k" />
         <Item value="Music" icon={<Music />} keybind="g m" />
         <Item value="Quotes" icon={<Quote />} keybind="g q" />
         <Item value="Words" icon={<Words />} keybind="g w" />
-        <Item value="Ideas" icon={<Lightbulb />} keybind="g i" /> */}
+        <Item value="Ideas" icon={<Lightbulb />} keybind="g i" />
       </Group>
 
       <Group title="Navigation">
