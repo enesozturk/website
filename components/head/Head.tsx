@@ -1,8 +1,7 @@
 import NextHead from 'next/head'
 import { useTheme } from 'next-themes'
 
-const defaultOgImage =
-  'https://res.cloudinary.com/dsdlhtnpw/image/upload/v1572673557/og-image_budbm8.png'
+const defaultOgImage = 'https://ozturkenes.s3.eu-central-1.amazonaws.com/og.png'
 
 type HeadProps = {
   title?: string
