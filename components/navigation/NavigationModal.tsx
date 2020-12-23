@@ -19,7 +19,6 @@ import headerStyles from '@components/header/header.module.css'
 
 // Utils
 import { MenuList, FilteredList } from './variables'
-import { animated, useTransition } from 'react-spring'
 
 const NavigationModal = () => {
   const [showDialog, setShowDialog] = React.useState(false)
