@@ -57,6 +57,7 @@
   padding: var(--gap);
   border-right: 1px solid var(--lighter-gray);
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   position: none;
 }
 
@@ -118,6 +119,7 @@
   flex-direction: column;
   padding: var(--gap);
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .preview {
