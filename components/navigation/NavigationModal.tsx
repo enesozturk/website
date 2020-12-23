@@ -1,7 +1,9 @@
 import React, { useState, memo } from 'react'
+import cn from 'classnames'
 
 import { useTheme } from 'next-themes'
 import { DialogContent, DialogOverlay } from '@reach/dialog'
+import useDelayedRender from 'use-delayed-render'
 
 // Components
 import MenuItem from './MenuItem'
@@ -20,17 +22,10 @@ import { MenuList, FilteredList } from './variables'
 import { animated, useTransition } from 'react-spring'
 
 const NavigationModal = () => {
-  const AnimatedDialogOverlay = animated(DialogOverlay)
-  const AnimatedDialogContent = animated(DialogContent)
   const [showDialog, setShowDialog] = React.useState(false)
-  const transitions = useTransition(showDialog, {
-    from: { opacity: 0, transform: 'scale(0.97) translateY(10px)' },
-    enter: {
-      opacity: 1,
-      transform: 'scale(1) translateY(0)'
-    },
-    leave: { opacity: 0, transform: 'scale(0.97) translateY(10px)' },
-    config: { duration: 100 }
+  const { mounted, rendered } = useDelayedRender(showDialog, {
+    enterDelay: -1,
+    exitDelay: 200
   })
 
   const { theme, setTheme } = useTheme()
@@ -54,55 +49,52 @@ const NavigationModal = () => {
       >
         <MenuIcon />
       </button>
-      {transitions(
-        (style, item) =>
-          item && (
-            <AnimatedDialogOverlay
-              className={styles.screen}
-              style={{ opacity: style.opacity }}
-              isOpen={showDialog}
-              onDismiss={() => setShowDialog(false)}
-              dangerouslyBypassFocusLock
-            >
-              <AnimatedDialogContent
-                aria-label="Site Navigation"
-                className={styles.navigationModal}
-                style={{ transform: style.transform }}
-              >
-                <div className={styles.wrapper}>
-                  <SearchInput
-                    wrapperClassName={styles.top}
-                    value={search}
-                    setSearch={(value: string) => setSearch(value)}
+      <DialogOverlay
+        isOpen={mounted}
+        className={cn(styles.screen, {
+          [styles.show]: rendered
+        })}
+        onDismiss={() => setShowDialog(false)}
+        dangerouslyBypassFocusLock
+      >
+        <DialogContent
+          aria-label="Site Navigation"
+          className={cn(styles.navigationModal, {
+            [styles.show]: rendered
+          })}
+        >
+          <div className={styles.wrapper}>
+            <SearchInput
+              wrapperClassName={styles.top}
+              value={search}
+              setSearch={(value: string) => setSearch(value)}
+            />
+
+            <div className={styles.content}>
+              <div className={styles.menuItems}>
+                <MenuGroup list={navigations} title="Navigation" />
+                <MenuGroup list={collections} title="Collections" />
+                <MenuGroup list={socials} title="Social" />
+
+                <span className={styles.groupTitle}>Settings</span>
+                <div
+                  className={`${styles.menuItemGroup} ${styles.toggleTheme}`}
+                >
+                  <MenuItem
+                    onClick={toggleTheme}
+                    icon={<Edit />}
+                    title="Toggle Theme"
                   />
-
-                  <div className={styles.content}>
-                    <div className={styles.menuItems}>
-                      <MenuGroup list={navigations} title="Navigation" />
-                      <MenuGroup list={collections} title="Collections" />
-                      <MenuGroup list={socials} title="Social" />
-
-                      <span className={styles.groupTitle}>Settings</span>
-                      <div
-                        className={`${styles.menuItemGroup} ${styles.toggleTheme}`}
-                      >
-                        <MenuItem
-                          onClick={toggleTheme}
-                          icon={<Edit />}
-                          title="Toggle Theme"
-                        />
-                      </div>
-                    </div>
-
-                    <div className={styles.previewContainer}>
-                      <MenuGroup list={lastActivities} title="Last Activity" />
-                    </div>
-                  </div>
                 </div>
-              </AnimatedDialogContent>
-            </AnimatedDialogOverlay>
-          )
-      )}
+              </div>
+
+              <div className={styles.previewContainer}>
+                <MenuGroup list={lastActivities} title="Last Activity" />
+              </div>
+            </div>
+          </div>
+        </DialogContent>
+      </DialogOverlay>
     </>
   )
 }
