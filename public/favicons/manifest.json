@@ -52,5 +52,8 @@
   "display": "fullscreen",
   "backgroundColor": "#121212",
   "themeColor": "#fafbfc",
-  "start_url": "."
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "splash_pages": null
 }
