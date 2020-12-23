@@ -239,6 +239,12 @@
   .content {
     height: calc(calc(100vh - var(--top)) - 60px) !important;
     /* Height of the iOS Safari Toolbar (:sadfari:) */
-    /* padding-bottom: 110px; */
+    padding-bottom: 110px;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .menuItem:hover {
+    background-color: var(--lightest-gray);
   }
 }
