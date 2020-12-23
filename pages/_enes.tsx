@@ -2,14 +2,13 @@ import Page from '@components/page'
 
 const About = () => {
   return (
-    <Page description="Hi, I'm Paco. Frontend developer and designer, mechanical keyboard enthusiast, practicing minimalist, and trance lover in search of flow.">
+    <Page description="Hi, I'm Enes. Software developer and paragliding pilot. I'm writing code and sharing my experiences. 👨🏻‍💻 Trying aerobatics in the air. 🤘🏽">
       <article>
         <h1>Enes Ozturk</h1>
 
         <p>
-          Frontend developer and designer. I make beautiful, minimal websites
-          using modern technologies. I specialize in design systems and
-          component based UI libraries.
+          Software developer and paragliding pilot. I'm writing code and sharing
+          my experiences. 👨🏻‍💻 Trying aerobatics in the air. 🤘🏽
         </p>
       </article>
     </Page>

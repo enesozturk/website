@@ -1,6 +1,6 @@
 {
-  "name": "Paco",
-  "short_name": "Paco",
+  "name": "Enes",
+  "short_name": "Enes",
   "icons": [
     {
       "sizes": "114x114",
@@ -12,7 +12,7 @@
     },
     {
       "sizes": "144x144",
-    "src": "/favicons/favicon-144x144.png"
+      "src": "/favicons/favicon-144x144.png"
     },
     {
       "sizes": "152x152",

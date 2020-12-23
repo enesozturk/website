@@ -49,7 +49,7 @@ const Head = ({
       <meta httpEquiv="Content-Language" content="en" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@pacocoursey" />
-      <meta name="apple-mobile-web-app-title" content="Paco" />
+      <meta name="apple-mobile-web-app-title" content="Enes" />
       <meta name="author" content="Enes Ozturk" />
 
       {/* Favicons */}
