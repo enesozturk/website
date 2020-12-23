@@ -1,7 +1,7 @@
 import { memo } from 'react'
 
 import styles from './header.module.css'
-import Command from '@components/navigation'
+import Navigation from '@components/navigation'
 
 type HeaderProps = {
   title?: string | number | null
@@ -11,7 +11,7 @@ const Header = ({ title }: HeaderProps) => {
   return (
     <nav className={styles.nav}>
       <div className={styles.header}>
-        <Command />
+        <Navigation />
         {title && <div className={styles.content}>{title}</div>}
       </div>
     </nav>

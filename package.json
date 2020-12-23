@@ -24,6 +24,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-intersection-observer": "^8.24.2",
+    "react-spring": "^9.0.0-rc.3",
     "swr": "^0.2.0",
     "use-delayed-render": "^0.0.7"
   },
