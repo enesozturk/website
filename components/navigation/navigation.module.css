@@ -8,11 +8,13 @@
   background: var(--modal-overlay);
   backdrop-filter: blur(8px);
 
+  pointer-events: none;
   opacity: 0;
-  transition: opacity 0.2s ease;
+  transition: opacity 0.2s linear;
 }
 
 .screen.show {
+  pointer-events: auto;
   opacity: 1;
 }
 
@@ -36,8 +38,8 @@
   background-clip: content-box, border-box;
 
   opacity: 0;
-  transform: scale(0.97);
-  transition: transform 0.2s ease, opacity 0.2s ease;
+  transform: scale(0.95);
+  transition: transform 0.2s linear, opacity 0.2s linear;
 }
 
 .navigationModal.show {
@@ -228,11 +230,11 @@
     height: calc(100vh - var(--top));
     border-radius: 20px 20px 0 0;
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);
-    animation: slide 0.2s ease;
+    animation: slide 0.2s linear;
     width: 100%;
     max-height: calc(100vh - var(--top));
 
-    transform: scale(0.97) translateY(5%);
+    transform: scale(0.95) translateY(5%);
   }
 
   .previewContainer {
