@@ -24,9 +24,12 @@ const NavigationModal = () => {
   const AnimatedDialogContent = animated(DialogContent)
   const [showDialog, setShowDialog] = React.useState(false)
   const transitions = useTransition(showDialog, {
-    from: { opacity: 0, y: -10 },
-    enter: { opacity: 1, y: 0 },
-    leave: { opacity: 0, y: 10 },
+    from: { opacity: 0, transform: 'scale(0.97) translateY(10px)' },
+    enter: {
+      opacity: 1,
+      transform: 'scale(1) translateY(0)'
+    },
+    leave: { opacity: 0, transform: 'scale(0.97) translateY(10px)' },
     config: { duration: 100 }
   })
 
@@ -64,6 +67,7 @@ const NavigationModal = () => {
               <AnimatedDialogContent
                 aria-label="Site Navigation"
                 className={styles.navigationModal}
+                style={{ transform: style.transform }}
               >
                 <div className={styles.wrapper}>
                   <SearchInput
