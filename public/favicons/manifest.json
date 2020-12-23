@@ -48,5 +48,9 @@
       "type": "image/png",
       "sizes": "512x512"
     }
-  ]
+  ],
+  "display": "fullscreen",
+  "backgroundColor": "#121212",
+  "themeColor": "#fafbfc",
+  "start_url": "."
 }
