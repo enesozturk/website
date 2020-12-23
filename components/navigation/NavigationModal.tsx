@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState, memo } from 'react'
+import React, { useState, memo } from 'react'
 
 import { useTheme } from 'next-themes'
 import { DialogContent, DialogOverlay } from '@reach/dialog'
