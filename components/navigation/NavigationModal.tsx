@@ -5,6 +5,7 @@ import { DialogContent, DialogOverlay } from '@reach/dialog'
 
 // Components
 import MenuItem from './MenuItem'
+import MenuGroup from './MenuGroup'
 import SearchInput from './SearchInput'
 
 // Icons
@@ -30,22 +31,11 @@ const NavigationModal = () => {
   })
 
   const { theme, setTheme } = useTheme()
-
-  const listRef = useRef<HTMLElement>(null)
   const [search, setSearch] = useState('')
 
   const toggleTheme = () => {
     setTheme(theme == 'dark' ? 'light' : 'dark')
   }
-
-  const heightRef = useRef<any>(null)
-
-  useEffect(() => {
-    if (!listRef.current || !heightRef.current) return
-
-    const height = Math.min(listRef.current.offsetHeight + 1, 300)
-    heightRef.current.style.height = height + 'px'
-  })
 
   const navigations = FilteredList(MenuList.navigation, search)
   const collections = FilteredList(MenuList.collections, search)
@@ -69,8 +59,12 @@ const NavigationModal = () => {
               style={{ opacity: style.opacity }}
               isOpen={showDialog}
               onDismiss={() => setShowDialog(false)}
+              dangerouslyBypassFocusLock
             >
-              <AnimatedDialogContent className={styles.navigationModal}>
+              <AnimatedDialogContent
+                aria-label="Site Navigation"
+                className={styles.navigationModal}
+              >
                 <div className={styles.wrapper}>
                   <SearchInput
                     wrapperClassName={styles.top}
@@ -80,60 +74,9 @@ const NavigationModal = () => {
 
                   <div className={styles.content}>
                     <div className={styles.menuItems}>
-                      {navigations.length > 0 && (
-                        <>
-                          <span className={styles.groupTitle}>Navigation</span>
-                          <div className={styles.menuItemGroup}>
-                            {navigations.map((item, index) => {
-                              return (
-                                <MenuItem
-                                  key={index}
-                                  route={item.route}
-                                  icon={item.icon}
-                                  title={item.title}
-                                />
-                              )
-                            })}
-                          </div>
-                        </>
-                      )}
-
-                      {collections.length > 0 && (
-                        <>
-                          <span className={styles.groupTitle}>Collections</span>
-                          <div className={styles.menuItemGroup}>
-                            {collections.map((item, index) => {
-                              return (
-                                <MenuItem
-                                  key={index}
-                                  route={item.route}
-                                  icon={item.icon}
-                                  title={item.title}
-                                />
-                              )
-                            })}
-                          </div>
-                        </>
-                      )}
-
-                      {socials.length > 0 && (
-                        <>
-                          <span className={styles.groupTitle}>Social</span>
-                          <div className={styles.menuItemGroup}>
-                            {socials.map((item, index) => {
-                              return (
-                                <MenuItem
-                                  key={index}
-                                  external
-                                  route={item.route}
-                                  icon={item.icon}
-                                  title={item.title}
-                                />
-                              )
-                            })}
-                          </div>
-                        </>
-                      )}
+                      <MenuGroup list={navigations} title="Navigation" />
+                      <MenuGroup list={collections} title="Collections" />
+                      <MenuGroup list={socials} title="Social" />
 
                       <span className={styles.groupTitle}>Settings</span>
                       <div
@@ -148,25 +91,7 @@ const NavigationModal = () => {
                     </div>
 
                     <div className={styles.previewContainer}>
-                      {lastActivities.length > 0 && (
-                        <>
-                          <span className={styles.groupTitle}>
-                            Last Activity
-                          </span>
-                          <div className={styles.menuItemGroup}>
-                            {lastActivities.map((item, index) => {
-                              return (
-                                <MenuItem
-                                  key={index}
-                                  route={item.route}
-                                  icon={item.icon}
-                                  title={item.title}
-                                />
-                              )
-                            })}
-                          </div>
-                        </>
-                      )}
+                      <MenuGroup list={lastActivities} title="Last Activity" />
                     </div>
                   </div>
                 </div>

@@ -134,12 +134,6 @@
     0 100px 80px rgba(0, 0, 0, 0.12);
 } */
 
-.navigationModal [data-command-list] {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
 .navigationModal [data-command-input] {
   padding: 0 16px;
   outline: none;
@@ -153,12 +147,6 @@
 
 .navigationModal [data-command-input]::placeholder {
   color: var(--gray);
-}
-
-.navigationModal [data-command-list] {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
 }
 
 .navigationModal [data-command-item] {
