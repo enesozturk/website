@@ -48,13 +48,13 @@ const Head = ({
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Language" content="en" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@pacocoursey" />
+      <meta name="twitter:site" content="@enesozt_" />
       <meta name="apple-mobile-web-app-title" content="Enes" />
       <meta name="author" content="Enes Ozturk" />
 
       {/* Favicons */}
       <link rel="manifest" href="/favicons/manifest.json" />
-      <meta name="theme-color" content="#000000" />
+      <meta name="theme-color" content="#121212" />
       <link rel="mask-icon" href="/favicons/pinned.svg" color="#000000" />
       <link
         rel="apple-touch-icon"

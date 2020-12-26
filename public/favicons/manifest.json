@@ -50,8 +50,6 @@
     }
   ],
   "display": "fullscreen",
-  "backgroundColor": "#121212",
-  "themeColor": "#fafbfc",
   "orientation": "portrait",
   "scope": "/",
   "start_url": "/",
