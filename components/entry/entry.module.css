@@ -41,7 +41,7 @@
   margin-top: 0;
   outline: none;
   text-decoration: none;
-  border: 1px solid var(--lighter-gray);
+  border: 1px solid var(--light-gray);
   border-radius: var(--radius);
   margin-top: var(--gap);
   overflow: hidden;
@@ -76,12 +76,12 @@
 .link > svg {
   width: 32px;
   height: 32px;
-  color: var(--gray);
+  color: var(--light-gray);
   margin-right: var(--gap);
 }
 
 .link:hover > svg {
-  color: var(--fg);
+  color: var(--gray);
 }
 
 .title,
@@ -91,7 +91,6 @@
 }
 
 .title {
-  color: #fff;
   font-size: 1.125rem;
   font-weight: bold;
   margin-bottom: var(--gap-half);

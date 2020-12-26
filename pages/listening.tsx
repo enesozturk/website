@@ -38,7 +38,7 @@ const Projects = () => {
       <EntryGroupText title="My Playlists" emphasized />
       <EntryGroupText title="Here is my playlist that I create with my favorite songs" />
       <Entry
-        title="Rahatlatıcı"
+        title="Relaxing"
         description="Playlist - Enes Öztürk"
         href="https://open.spotify.com/playlist/16xiQIS7MKuTbuOheHnnSA"
         image="https://i.scdn.co/image/ab67706c0000bebb7f34f13ebab6652ce735dc4b"
@@ -52,9 +52,9 @@ const Projects = () => {
         icon={<Spotify />}
       />
       <Entry
-        title="Eskiler"
+        title="Oldies"
         description="Playlist - Enes Öztürk"
-        href="https://open.spotify.com/playlist/2aifbSMuIGllmWMptLmGL5"
+        href="https://open.spotify.com/playlist/7JtlpKCAtXURJfynbUODFz"
         image="https://i.scdn.co/image/ab67706c0000bebb137db8d5b8a74fc86d775500"
         icon={<Spotify />}
       />

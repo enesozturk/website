@@ -24,6 +24,7 @@ const MenuGroup = ({ list, title }: MenuGroupProps) => {
                   route={item.route}
                   icon={item.icon}
                   title={item.title}
+                  external={item.external ? true : false}
                 />
               )
             })}

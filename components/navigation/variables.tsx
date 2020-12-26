@@ -15,6 +15,7 @@ export type MenuItemProps = {
   route: string
   icon: React.ReactNode
   title: string
+  external?: boolean
 }
 
 export type MenuListProps = {
@@ -40,17 +41,20 @@ export const MenuList: MenuListProps = {
     {
       route: 'https://twitter.com/enesozt_',
       icon: <Twitter />,
-      title: 'Twitter'
+      title: 'Twitter',
+      external: true
     },
     {
       route: 'https://github.com/enesozturk',
       icon: <Github />,
-      title: 'Github'
+      title: 'Github',
+      external: true
     },
     {
       route: 'https://linkedin.com/in/enes-ozturk',
       icon: <Linkedin />,
-      title: 'Linkedin'
+      title: 'Linkedin',
+      external: true
     }
   ],
   lastActivity: [
