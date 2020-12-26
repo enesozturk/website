@@ -52,9 +52,16 @@ const Head = ({
       <meta name="apple-mobile-web-app-title" content="Enes" />
       <meta name="author" content="Enes Ozturk" />
 
+      {/* Dynamic Theme */}
+      <meta name="apple-apple-mobile-web-app-capable" content="yes" />
+      <meta
+        name="apple-mobile-web-app-status-bar-style"
+        content="black-translucent"
+      />
+      <meta name="theme-color" content="#121212" />
+
       {/* Favicons */}
       <link rel="manifest" href="/favicons/manifest.json" />
-      <meta name="theme-color" content="#121212" />
       <link rel="mask-icon" href="/favicons/pinned.svg" color="#000000" />
       <link
         rel="apple-touch-icon"
