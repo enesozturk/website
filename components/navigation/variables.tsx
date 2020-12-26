@@ -7,7 +7,8 @@ import {
   Letter,
   Cloud,
   LeftQuote,
-  Terminal
+  Terminal,
+  Spotify
 } from '@components/icons'
 
 export type MenuItemProps = {
@@ -32,7 +33,8 @@ export const MenuList: MenuListProps = {
   collections: [
     { route: '/projects', icon: <Terminal />, title: 'Projects' },
     { route: '/quotes', icon: <LeftQuote />, title: 'Qoutes' },
-    { route: '/paragliding', icon: <Cloud />, title: 'Paragliding' }
+    { route: '/paragliding', icon: <Cloud />, title: 'Paragliding' },
+    { route: '/listening', icon: <Spotify />, title: 'Listening' }
   ],
   social: [
     {

@@ -41,7 +41,7 @@
   opacity: 0;
   transform: scale(0.95);
   transition: transform 0.2s linear, opacity 0.2s linear;
-  will-change: trransform, opacity;
+  will-change: transform, opacity;
 }
 
 .navigationModal.show {
