@@ -1,6 +1,5 @@
 import Page from '@components/page'
-import Entry from '@components/entry'
-import TextEntry from '@components/entry/text'
+import { Entry, TextEntry } from '@components/entry'
 
 // Data
 import { data } from '@data/design.json'

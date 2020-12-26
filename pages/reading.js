@@ -1,5 +1,5 @@
 import Page from '@components/page'
-import Entry from '@components/entry/text'
+import { Entry } from '@components/entry'
 
 // Data
 import useData from '@lib/use-data'

@@ -1,5 +1,5 @@
 import Page from '@components/page'
-import Entry from '@components/entry'
+import { Entry } from '@components/entry'
 
 // Data
 import { data as items } from '@data/music.json'

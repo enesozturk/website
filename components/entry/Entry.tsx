@@ -13,7 +13,7 @@ type EntryProps = {
 }
 
 const Entry = ({ title, description, image, href, icon }: EntryProps) => {
-  const [ref, inView] = useInView({ triggerOnce: true })
+  const [ref] = useInView({ triggerOnce: true })
 
   return (
     <a

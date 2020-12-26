@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import TextEntry from '@components/entry/text'
+import { TextEntry } from '@components/entry'
 import styles from './posts-list.module.css'
 
 type PostsProps = {

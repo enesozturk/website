@@ -1,6 +1,6 @@
 import { Github } from '@components/icons'
 import Page from '@components/page'
-import { Entry, EntryGroup, EntryGroupText } from '../components/entry'
+import { Entry, EntryGroupText } from '../components/entry'
 
 const Projects = () => {
   return (

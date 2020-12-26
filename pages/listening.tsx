@@ -1,6 +1,6 @@
 import Page from '@components/page'
 import { Spotify } from '@components/icons'
-import { Entry, EntryGroup, EntryGroupText } from '../components/entry'
+import { Entry, EntryGroupText } from '../components/entry'
 
 const Projects = () => {
   return (
