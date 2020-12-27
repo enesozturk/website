@@ -11,14 +11,14 @@ Merhabalar, Microsoft yaz okulunun 2.haftasını bitirmiş bulunuyoruz. Bende si
 
 > 10 yıl sonra ne yapıyor olacaksınız?
 
-![cavityantac](../../../../../images/msyazokulu/cavityantac.jpg)
+![cavityantac](/blog/msyazokulu/cavityantac.jpg)
 
 İkinci haftanın ilk gününde Chief Evangelist olarak görev yapan [Cavit Yantaç]() bizimleydi. Cahit bey kendi öz geçmişini anlatırken orta okulda edebiyat öğretmeninin kendilerinden istediği _"10 yıl sonra ne yapıyor olacaksınız?"_ kompozisyonunun kariyerinde çok önemli bir rol oynadığını belirtti. Yazdığı kompozisyonun içindeki hedeflerin neredeyse hepsinin bir bir gerçekleştirdiğini söyledi. **_Uzun vadeli planlar_** yapmanın bizlere _hangi engelleri aşmak gerektiğini_ söyleyeceğini belirtti. Bizlere de bu tavsiyeyi verdi.
 
 İlk gün eğitimleri [Yiğit Özaksüt]() ile devam etti. Xamarin eğitimi ile başladık. [Mono Framework]()'e biraz değindi.
 Eğitimde görmüş olduğumuz faydalı linkleri yine [aşağıda](#faydalı-linkler) vereceğim.
 
-![sercanuslubas](../../../../../images/msyazokulu/sercanuslubas.jpg)
+![sercanuslubas](/blog/msyazokulu/sercanuslubas.jpg)
 
 Günün sonunda [Sercan Uslunbaş]() bizimleydi. Kendisi yaklaşık 6 yıl kadar Apple şirketinde Image Processing üzerine çalışmış. Daha sonra kendi şirketini kurmuş. Etkileyici bir kariyere sahip olan Sercan Bey daha sonra sorularımızı yanıtladı. Günü böyle tamamlamış olduk.
 
@@ -34,7 +34,7 @@ Günün sonunda [Sercan Uslunbaş]() bizimleydi. Kendisi yaklaşık 6 yıl kadar
 - Öğrenmeye aç ol.
 - Zamanını ve enerjini iyi yönet
 
-![ibrahim-kivanc](../../../../../images/msyazokulu/ibrahimkivanc.jpg)
+![ibrahim-kivanc](/blog/msyazokulu/ibrahimkivanc.jpg)
 
 Eğitimlerimiz İbrahim Kıvanç ile devam etti. Bizlere chatbotları anlattı ve örnekler ile pekiştirdi. Chatbotlar bana hem eğlenceli hemde kolay geldi. İbrahim hocanın eğitim içerisinde verdiği faydalı linkler yine [aşağıda](#faydalı-linkler).
 
@@ -44,7 +44,7 @@ Son olarak tekrar [Engin Polat]() bizimleydi. Kendisi ile yine eğlenceli bir e�
 
 ## 3.Gün
 
-![gamze-cuhadaroglu](../../../../../images/msyazokulu/gamzecuhadaroglu.jpg)
+![gamze-cuhadaroglu](/blog/msyazokulu/gamzecuhadaroglu.jpg)
 
 Danone Genel Müdürü [Gamze Çuhadaroğlu]() bizimleydi. İş dünyasında topluma, doğaya, bireye değer veren şirketleri seçmemiz konusunda tavsiyeler verdi.
 

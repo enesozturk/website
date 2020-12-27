@@ -9,9 +9,7 @@ Merhabalar, CSS'te benim biraz kafamı karıştıran konu olan _nth-child_ ve _n
 
 İki seçici bazı durumlarda aynı rakam ile aynı elementleri seçselerde aslında farklı şeyler olduğundan her zaman aynı sonucu vermezler.
 
-`nth-child` : Bu seçici ile **_aynı düzeydeki_ elementlerden index numarasına göre seçim yaparız.** (_0'dan başlamaz dikkat!_)
-Başına bir tag ismi koymaz isek `body` tagı içerisindeki tüm _parent_ elementler arasından seçim yapar.
-Tag ismi koyar isek o tag'ler arasından seçim yapar. Hemen bir örnek verelim.
+`nth-child` : Bu seçici ile **_aynı düzeydeki_ elementlerden index numarasına göre seçim yaparız.** (_0'dan başlamaz dikkat!_) Başına bir tag ismi koymaz isek `body` tagı içerisindeki tüm _parent_ elementler arasından seçim yapar. Tag ismi koyar isek o tag'ler arasından seçim yapar. Hemen bir örnek verelim.
 
 `:nth-of-type`: Bu seçici ise _türe_ göre seçim yapar. :nth-child'ın aksine başında tag bulundurmaz isek, **aynı düzeydeki _değil_, aynı türdeki tüm elementler arasında seçim yapar.**
 

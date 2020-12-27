@@ -19,7 +19,7 @@ Bir takım özelliklerinden bahsedelim:<br>
 
 Öncelikle kurulu işletim sisteminin `64-bit` olması ve `14393.0` veya üstü bir güncelleme sürümünde olması gerekmekte.<br>
 
-![UbuntuBash1](../../../../../images/ubuntubash1.jpg)
+![UbuntuBash1](/blog/ubuntubash1.jpg)
 
 Bash'ı Windows'ta çalıştırmak için:
 
@@ -31,13 +31,13 @@ Bash'ı Windows'ta çalıştırmak için:
 1.Ayarlar -> Güncelleme ve Güvenlik -> Geliştiriciler için<br>
 2.Geliştirici Mod butonunu seçin.<br>
 
-![UbuntuBash2](../../../../../images/ubuntubash1.jpg)
+![UbuntuBash2](/blog/ubuntubash2.jpg)
 
 ### Linux İçin Windows Altsistem Aç
 
 1.Başlat üzerinde `Windows özelliklerini aç veya kapat` diye aratıp açın.<br> 2.`Linux için Windows Altsistem`'i seçin ve Tamam'a tıklayın.<br>
 
-![UbuntuBash3](../../../../../images/ubuntubash1.jpg)
+![UbuntuBash3](/blog/ubuntubash3.jpg)
 
 Bu işlemi komut satırı üzerinden yapmak isterseniz:
 <br>1.Başlat üzerinden `PowerShell`'i yönetici modda açın.

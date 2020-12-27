@@ -16,12 +16,12 @@ Aslında bir şey farkedeceğinden değil ama ister istemez sınavların getirdi
 
 # Yamaçparaşütü
 
-![airgames-2018](../../../../../images/airgames-2018.png)
+![airgames-2018](/blog/airgames-2018.png)
 
 En büyük tutkularımdan biri olan yamaç paraşütüne bu yıl da istediğim şekilde ilerleme kaydettim diyebilirim. Bu spordaki 3. ve en yoğun yılımdı.
 Ağırlıklı olarak ileri seviye pilotluk eğitimlerine (P4 - P5) devam ettim. Bu eğitimler için yine farklı şehirlerdeydik. Ocak ayında Denizli Pamukkale'de bir başlangıç eğitmi ile yeni pilot arkadaşlar yetiştirdik. Travertenler ve hemen arkasındaki antik kentin üzerinde uçmak harikaydı. Bir haftalık bir kamptan sonra Sakarya'ya geri döndük ve burada yeni eğitimlere devam ettik. Temmuz ayında tekrar Pamukkale'ye gittik ve burada P4 eğitimi dahilinde bolca termik antrenmanı yaparak yüksek irtifalarda uçtuk.
 
-![pamukkale-yukaridan](../../../../../images/travetenler-antikkent.jpg)
+![pamukkale-yukaridan](/blog/travetenler-antikkent.jpg)
 
 Daha sonra Eylül ayında Kayseri'ye giderek burada P5 eğitimine devam ettim. Bu eğitimde amaç termik hava akımlarını kullanarak çıkılacak en yüksek irtifaya çıktıktan sonra rüzgarı arkanıza alarak gidilecek en uzak mesafeye gitmek. Hava şartları istediğimiz gibi değildi ama iyi antrenmanlar yaptık. Buradan Kahramanmaraş'a geçtik ve uçuşlara burada devam ettik. Kahramanmaraş'tan kalkıp Gaziantep'e, hatta Şanlıurfa'ya uzanan uçuşlar yapmak mümkün. Bende 60KM ve 30KM'lik uçuşlarla eğitimimi tamamladım.
 
@@ -33,7 +33,7 @@ Sevgiler..
 
 # Yazılım
 
-![sau-pembe-gokyuzu](../../../../../images/sau-pembe-gokyuzu.jpg)
+![sau-pembe-gokyuzu](/blog/sau-pembe-gokyuzu.jpg)
 
 Geçen yılın sonlarına doğru bir tweet atmıştım. Ne yazık ki şuan Tweeter profilimi dondurduğum için onu gösteremiyorum. Şöyleydi; React'ı yeni tanımaya başlamıştım ve denemeler yapıyordum. Daha sonra başka bir konu ile ilgili Stackoverflow'da bir hata araması yaparken sağ tarafta, yurt dışında, remote çalışabileceğim React, React Native geliştirici arayan şirketlerin reklamları vardı. Bende bunu üzerine "Aman he iyi ki bir react ile ilgili araştırma yaptım, hemen react developer olduk." diye resimli bir tweet atmıştım. Evet React developerım şuan :D Hayat ne garip, Ocak ayının 10'unda yine Sakarya Üniversitesi Teknokentte bulunan başka bir firmada tam zamanlı olarak çalışmaya başladım ve yaptığım iş React & React Native ile yazılım geliştirmekti.
 

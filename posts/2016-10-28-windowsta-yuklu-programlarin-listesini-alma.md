@@ -5,7 +5,7 @@ slug: windowsta-yuklu-programlarin-listesi
 date: Oct 28, 2016
 ---
 
-![powershell](../../../../../images/powershell.jpg)
+![powershell](/blog/powershell.jpg)
 
 Merhabalar, bugün bilgisayarımızda yüklü olan programların listesini herhangi bir program kullanmadan komut penceresi ile oluşturacağız.
 

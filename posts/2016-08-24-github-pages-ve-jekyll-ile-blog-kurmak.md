@@ -18,7 +18,7 @@ Github ile blog oluşturmak için yeni bir _depo_ oluşturun ve ismini **_`kulla
 olarak ayarlayın. Şimdilik deponuzun içine **`index.html`** dosyası ekleyip içine basitçe **`<h1>Merhaba Dünya!</h1>`**
 yazarak deneme için dosyamızı depomuza işleyelim(commit).
 
-![create-index](../../../../../images/createindex.jpg)
+![create-index](/blog/createindex.jpg)
 
 Sitemiz tamam. Adres çubuğuna
 **`kullanıcıisminiz.github.io`** yazarak sitenizi açın. Sayfada

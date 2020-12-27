@@ -18,7 +18,7 @@ Bazı grid sistemleri ek olarak _container_ içerebilir. Bkz. `Bootstrap`.
 
 Şimdi Başlayalım.
 
-## Box Model'i Resetlemek
+## Box Modeli Resetlemek
 
 Box model dediğimiz yapı grid sistemi için önemlidir. Web tarayıcılar, width ve height özelliği atanan elementler için padding ve border değerleri kendiliğinden içermezler. Bu da responsive bir tasarım için iyi bir şey değildir. Fakat bunu `box-sizing` özelliğinin `border-box`' seçeneği ile hem row hemde column için düzeltebiliriz.
 
@@ -30,7 +30,7 @@ Box model dediğimiz yapı grid sistemi için önemlidir. Web tarayıcılar, wid
 
 Şimdi sütunlarımızın genişlik yüzdelerini ayarlayabiliriz. Bu farklı ekran genişliklerinde sütunları otomatik olarak ölçeklendirmeye yarıyor.
 
-# Float'ları Temizlemek
+# Floatları Temizlemek
 
 Grid sistemi sütunları satırları içerisinde yatay olarak sıralayacak. Bu yüzden bizde olası bir kötü görüntüyü ve bozukluğu önlemek için satırlar üzerinde bir temizlik işlemi yapmamız gerekecek. Bu işleme `Clearfix` deniyor.
 
@@ -183,23 +183,20 @@ Artık burada [boşluklar](#bosluk) işimize yaramayacak. O yüzden onları `mar
 
 CSS ayarlarımızı yaptıktan sonra HTML yazarak grid sistemimizi kullanabiliriz.
 
-```
+```html
 <div class="row">
-    <div class="column column-4"></div>
-    <div class="column column-4"></div>
-    <div class="column column-4"></div>
+  <div class="column column-4"></div>
+  <div class="column column-4"></div>
+  <div class="column column-4"></div>
 </div>
 
 <div class="row">
-    <div class="column column-2"></div>
-    <div class="column column-4"></div>
-    <div class="column column-4"></div>
-    <div class="column column-2"></div>
+  <div class="column column-2"></div>
+  <div class="column column-4"></div>
+  <div class="column column-4"></div>
+  <div class="column column-2"></div>
 </div>
 ```
 
-Aşağıdan kodlarımızın çıktısını inceleyebilir, ekleme, düzenleme yapabilirsiniz.
+[Bu linkten](https://codepen.io/assets/embed/ei.js) kodlarımızın çıktısını inceleyebilir, ekleme, düzenleme yapabilirsiniz.
 Okuduğunuz için teşekkür ederim, paylaşıp destek olabilirsiniz.
-
-<pre class="codepen" data-height="470" data-type="css" data-href="QEZOOp" data-user="oztrkeness" data-safe="true"> <code> </code> </pre>
-<script src="https://codepen.io/assets/embed/ei.js"> </script>

@@ -17,7 +17,7 @@ En ideal çözüm de, tüm bileşenlerin diğerlerinden habersiz olması ve soyu
 Basit bir örnek vermek istiyorum. Diyelim ki elimizde _MyEmailSender_ adında e-mail gönderen bir bileşen var. Bunun için _IEmailSender_ adında içinde e-mail göndermek için public fonksiyonlar tanımlanmış bir `interface` tanımlarım.
 E-mail gönderme ihtiyacı duyan başka bir bileşen olsun. Ona da _PasswordResetHelper_ diyelim. Bu bileşen de interface'im içindeki fonksiyonlar sayesinde e-mail gönderme işlemi yapabilir. Resimde görüldüğü gibi iki bileşenim arasında direkt olarak bir bağlılık yok
 
-![interface](../../../../../images/interface1.jpg)
+![interface](/blog/interface1.jpg)
 
 _IEmailSender_ interface'ini oluşturarak iki bileşenim arasında bir bağlılık olmadığına emin olduk. Şimdi ben _MyEmailSender_ bileşenimi başka bir mail sağlayıcı ile değiştirebilirim.
 

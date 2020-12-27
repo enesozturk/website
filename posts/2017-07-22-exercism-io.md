@@ -5,7 +5,7 @@ slug: exercism-io
 date: Jul 22, 2017
 ---
 
-![Exercism](../../../../../images/exercism.png)
+![Exercism](/blog/exercism.png)
 
 Merhabalar, epeydir birşeyler yazmadığımı farkettim. Bende oturup arasıra göz atıp **Python** dili ile problemlerini çözmeye uğraştığım [Exercism](http://www.exercism.io)'den bahsedeyim dedim.
 

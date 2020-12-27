@@ -21,7 +21,7 @@ public class PasswordResetHelper
 
 Bu işlem bizim amacımızı olan _MyEmailSender sınıfını PasswordResetHelper'a dokunmadan değiştirmek_ için pek uygun gözükmüyor.PasswordResetHelper sınıfı _IEmailSender_ interface'i ile e-mailleri ayarlama ve gönderme işlemlerini yapıyor. Lakin bu interface'i kullanan bir obje oluşturmak için MyEmailSender'dan bir nesne oluşturması gerekecek. Aslında işleri biraz daha zorlaştırdık çünkü PasswordResetHelper bizim MyEmailSender sınıfımıza ve IEmailSender interface'imize bağlı oldu.
 
-![Dependency-Injection](../../../../../images/interface1.jpg)
+![Dependency-Injection](/blog/interface1.jpg)
 
 Bizim amacımız ise doğrudan obje yaratmadan interface'i kullanan objeler kullanmak. Bu problem çözümüne ise `Dependency Injection` deniyor. Ayrıca `Inversion of Control (IoC)` olarak ta bilinir.
 

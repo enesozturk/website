@@ -15,11 +15,11 @@ Merhaba 🙌🏽 Yine yoğun, dolu dolu geçen bir yılı geride bıraktık. Her
 
 Mayıs ayında Sakarya Üniversitesi Yamaç Paraşütü Topluluğu bünyesinde yamaç paraşütü başlangıç eğitim verdik. Şimdiye kadar gerek topluluk gerekse uçuş okulumuz Fenomen Air Sports'un eğitimlerinde yardımcı eğitmenlik yaparak bir çok öğrencinin yamaç paraşütü ile tanışmasına vesile olduk. Bu sefer farklı olarak teorik eğitimleri topluluk başkanımızla beraber anlattık. Güzel bir eğitim oldu.
 
-![Başlangıç eğitimi teorik dersi anlatırken](../../../../../images/teorik-anlatirken.jpeg)
+![Başlangıç eğitimi teorik dersi anlatırken](/blog/teorik-anlatirken.jpeg)
 
 Geçen yıl bu konuda belirlediğim hedeflerin hepsine ulaştığımı söyleyebilirim. Yine şehir şehir gezip uçtuğumu söyleyemem ama Sakarya'da sıklıkla uçmanın yanında bir kaç defa Ölüdeniz'e gidip uçuşlar gerçekleştirdim.
 
-![Ölüdeniz AirGames'ten bir uçuş :)](../../../../../images/paragliding-oludeniz.jpeg)
+![Ölüdeniz AirGames'ten bir uçuş :)](/blog/paragliding-oludeniz.jpeg)
 
 Yamaç paraşütü **akrobasi pilotu** olmak en büyük **hedefim.** 🎯 Bunun için gerekli ekipmanı tamamlayıp uçuşlarıma odaklanma fırsatı buldum. Yamaç paraşütünde akrobasi en masraflı dal desem yalan olmaz. Getirisi olmayıp aksine malzemeleri ve eğitimleri açısında masrafı diğer dallara göre daha fazladır. Bunların büyük bir kısmını 2019'da tamamladım. 2020 yılında bu konudaki hedefim uçuşlara odaklanmak, bol antrenman yapmak ve en az 5 akrobasi manevrasını iyi düzeyde yapacak seviyeye gelmek. Dilerim ki istediğim gibi ilerleyebilirim.
 
@@ -29,7 +29,7 @@ Yamaç paraşütü **akrobasi pilotu** olmak en büyük **hedefim.** 🎯 Bunun 
 
 Mesleki anlamda gerek okul gerek iş yerinden dolayı en yoğun yılımı geçirdim. Üniversitedeki son güz dönemine başladım. Okulumun bitmesine hem üzülüyor hem de seviniyorum. Öğrencilik güzel şey. Özellikle ilgili alanda çalışıp kendini geliştirme fırsatınız varsa hem donanımlı mezun olma fırsatını yakalayabiliyor, hemde bunların yanında öğrenci olmanın keyfini çıkartıyorsunuz. Ama kesinlikle çok yorucu oluyor. Beni okulun bitmesini istememe sebep olan şey tamamen bu yoğunluk ve bunun getirdiği yorgunluk.
 
-![Şirketteki çalışma masam](../../../../../images/casemice-calisma-masasi.jpg)
+![Şirketteki çalışma masam](/blog/casemice-calisma-masasi.jpg)
 
 [Casemice](https://casemice.com) firmasında 10 Ocak'ta 2. yılımı bitirdim 🥳 Bu yıl da çok güzel projeler çıkartma fırsatım oldu. Burada eğlenceli bir çalışma ortamına sahip olduğum için şanslı hissediyorum.
 
