@@ -8,15 +8,26 @@ type TextEntryProps = {
   title: string
   description: string
   type: string
+  date?: string | null
   href: string
   as?: string
 }
 
-const TextEntry = ({ title, description, type, href, as }: TextEntryProps) => {
+const TextEntry = ({
+  title,
+  description,
+  type,
+  date,
+  href,
+  as
+}: TextEntryProps) => {
   return (
     <li className={styles.item}>
       <Link href={href} as={as} external={!as} className={styles.link}>
-        <div className={styles.type}>{type}</div>
+        <div className={styles.type}>
+          <span>{type}</span>
+          {date && <span>{date}</span>}
+        </div>
         <div>
           <p className={cn(styles.title, 'clamp')}>{title}</p>
           {description && (

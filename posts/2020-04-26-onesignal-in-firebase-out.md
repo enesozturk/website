@@ -5,10 +5,6 @@ slug: onesignal-in-firebase-out
 date: Apr 26, 2020
 ---
 
-# OneSignal in, Firebase out.
-
-OneSignal in, Firebase out.
-
 > Öncelikle burada söyleyeceklerim Firebase’in kendisi ile ilgili değil, **react-native-firebase** (RNF) paketiyle ilgili. Dolayısı ile benim karşılaştığım hatalarla sizin de karşılaşacağınızın garantisi yok. Ya da var bence. Neyse.
 
 Merhaba, bir süredir React Native ile geliştirdiğim projede **Push Notifications** özelliği üzerinde çalışıyorum. Aslında bu konuyu çok önceden çözdüğümü sanmıştım. Her şey proje production’a çıktığında yaşadığım sıkıntılarla başladı. react-native-firebase paketini kullanarak geliştirdiğim projede bildirimlerin bazı cihazlarda çalışmaması, ön plan (foreground), arkaplan (background), kapalı (quit) durumlarında bildirim verisinin istenilen şekilde handle edilememesi çok ciddi bir problem oldu. Zira bildirim içerisinde gelen veriyi, bildirime tıkladıktan sonra uygulama açıldığında kullanamayacaksam (yönlendirme, modal açılması veya herhangi bir aksiyon) bildirim özelliğini kullanmamızın bir anlamı yok sanırım.

@@ -1,0 +1,9 @@
+---
+title: Kimsenin Bilemeyeceği Şeyler
+description: Kimsenin Bilemeyeceği Şeyler kitabı hakkında
+slug: kimsenin-bilemeyecegi-seyler
+date: Nov 23, 2016
+---
+
+<span style="background-color:yellow; color:black">Kimsenin bilemeyeceği şeyler.</span> Bu naçizane kitap ile kitapçının birinde sapsarı kapağının gözüme çarpması ile karşılaştım. Her zamanki gibi kapağını inceledikten sonra ilk yaptığım arka kapağını okumak oldu. Birkaç ilginç, cevabı pek bilinmeyen soru başlığı gördükten sonra açıp baktım içine. Azar azar okumuştum rastgele açtığım yerlerden. Fark ettim ki yazarın dili çok sade ve eğlenceli. Üstelik konularda ilgi çekici, almadan edemedim. Yazar [Sinan Canan]() adlı bir bilim insanı. Haliyle kitabında da bilimsel konulardan bahsediyor. Ülkesine ve Türkçe'mize düşkün biri. Kitabın başlarında bilimsel konulardan çok, toplumsal konulardan bahsediyor. Ülkemizin bilim konusunda neden diğer ülkelerden gerisinde olduğundan. Türkçe'deki yabancı kelimelerin fazlalığından vesaire.. Gerçektende yazar birtane bile yabancı kelime kullanmamış kitabında. Hatta bana yabancı gelen kelimeler eski türkçe kelimelerdi maalesef. Bu yönüyle de acaip ilgimi çekti sayın yazar. Bazı konu başlıklarından bahsedecek olursam; Evrim hakkında neden yanılıyoruz? Tam olarak kaç tane tabiat konunu var, Bilinç dışı eylemlerim, bilinçli eylemlerimden katbekat fazla ise ben, kendim miyim? Gibi... Evrim konusunda insanların neden ayrılığa düştüğü, tabiat kanunları, Kaos teorisi vs. Konular çoğu insanın içten içe merak ettiği fakat kimisinin üstüne fazla düşmediği, fazla düşeninde içinden çıkamadığı ilginç sorulardan oluşuyor genelde. Eğer sizinde bu tarz konulara az da olsa ilginiz varsa ve hem bilgilendirici, hem de hayata karşı sorgulatıcı şeyler okumak isterseniz okumanızı ve;
+yazarın [kişisel sayfasını](https://www.sinancanan.net/) takip etmenizi öneririm. Kalın sağlıcakla...

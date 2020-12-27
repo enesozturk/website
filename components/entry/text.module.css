@@ -23,6 +23,10 @@
   white-space: nowrap;
   margin-right: var(--gap);
   color: var(--gray);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .type + div {

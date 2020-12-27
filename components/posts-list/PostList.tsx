@@ -15,6 +15,8 @@ const Posts = ({ posts, paginate }: PostsProps) => {
   return (
     <div className={styles.container}>
       {posts.slice(0, paginate ? showMore : undefined).map((post: any) => {
+        const year = new Date().getFullYear()
+        const postYear = new Date(post.date).getFullYear()
         const date = new Date(post.date).toLocaleDateString('default', {
           month: 'numeric',
           day: 'numeric'
@@ -27,6 +29,7 @@ const Posts = ({ posts, paginate }: PostsProps) => {
             as={`/blog/${post.slug}`}
             title={post.title}
             type={date}
+            date={year === postYear ? null : postYear.toString()}
             description={post.description}
           />
         )
