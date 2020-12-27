@@ -4,7 +4,7 @@ import {
   Edit,
   Linkedin,
   Github,
-  Letter,
+  At,
   Cloud,
   LeftQuote,
   Terminal,
@@ -29,7 +29,7 @@ export const MenuList: MenuListProps = {
   navigation: [
     { route: '/', icon: <Home />, title: 'Home' },
     { route: '/blog', icon: <Edit />, title: 'Blog' },
-    { route: '/contact', icon: <Letter />, title: 'Contact' }
+    { route: '/contact', icon: <At />, title: 'Contact' }
   ],
   collections: [
     { route: '/projects', icon: <Terminal />, title: 'Projects' },
