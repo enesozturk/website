@@ -7,8 +7,6 @@ date: Dec 30, 2016
 
 ...~~2016~~
 
-# 2017...
-
 2017'ye günler kala geride bıraktığımız yıla dönüp kendi adıma biraz anlatmak istiyorum.
 
 ## Güzel başlangıçlar...
