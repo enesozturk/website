@@ -16,7 +16,7 @@ const Head = ({
   image = defaultOgImage,
   children
 }: HeadProps) => {
-  const { systemTheme } = useTheme()
+  const { systemTheme, theme } = useTheme()
 
   return (
     <NextHead>
@@ -58,7 +58,7 @@ const Head = ({
         name="apple-mobile-web-app-status-bar-style"
         content="black-translucent"
       />
-      <meta name="theme-color" content="#121212" />
+      <meta name="theme-color" content={theme == 'dark' ? '#FFF' : '#121212'} />
 
       {/* Favicons */}
       <link rel="manifest" href="/favicons/manifest.json" />

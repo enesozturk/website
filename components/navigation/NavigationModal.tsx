@@ -32,12 +32,6 @@ const NavigationModal = () => {
 
   const toggleTheme = () => {
     setTheme(theme == 'dark' ? 'light' : 'dark')
-
-    if (typeof document !== 'undefined') {
-      const meta = document.querySelector('meta[name="theme-color"]')
-      if (meta)
-        meta.setAttribute('content', theme == 'dark' ? '#FFF' : '#121212')
-    }
   }
 
   const navigations = FilteredList(MenuList.navigation, search)
