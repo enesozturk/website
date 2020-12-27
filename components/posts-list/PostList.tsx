@@ -10,7 +10,7 @@ type PostsProps = {
 }
 
 const Posts = ({ posts, paginate }: PostsProps) => {
-  const [showMore, setShowMore] = useState(3)
+  const [showMore, setShowMore] = useState(5)
 
   return (
     <div className={styles.container}>
@@ -37,7 +37,7 @@ const Posts = ({ posts, paginate }: PostsProps) => {
       {paginate && showMore < posts.length && (
         <button
           onClick={() => {
-            setShowMore(showMore + 3)
+            setShowMore(showMore + 5)
           }}
           className={styles.button}
         >

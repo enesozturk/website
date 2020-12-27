@@ -13,7 +13,7 @@ const Blog = ({ posts }: BlogProps) => {
     <Page title="Blog" description="Writing about design and code.">
       <article>
         <ul>
-          <PostsList posts={posts} />
+          <PostsList paginate posts={posts} />
         </ul>
       </article>
     </Page>

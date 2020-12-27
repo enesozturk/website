@@ -8,7 +8,7 @@
   display: inline-flex;
   padding: 10px;
   border-radius: var(--radius);
-  background: var(--lighter-gray);
+  background: var(--bg);
   color: var(--currentColor);
 }
 
@@ -20,7 +20,7 @@
 .logo:hover,
 .logo:focus-within {
   outline: none;
-  background: var(--light-gray);
+  background: var(--lighter-gray);
   transition: background-color 0.3s;
 }
 
