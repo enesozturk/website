@@ -1,7 +1,7 @@
 ---
 title: React Native Uygulamamı Nasıl Optimize Ederim? [B1:K2-3]
 description: Belli amaçlar için üretilmiş bileşenleri kullanın
-slug: react-native-uygulamami-nasil-optimize-ederim-b1-k2-3
+slug: react-native-optimization-b1-k2k3
 date: Jul 8, 2020
 ---
 

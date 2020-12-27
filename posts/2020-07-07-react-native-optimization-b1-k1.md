@@ -1,7 +1,7 @@
 ---
 title: React Native Uygulamamı Nasıl Optimize Ederim? [B1:K1]
 description: UI Re-render'lara dikkat edin
-slug: react-native-uygulamami-nasil-optimize-ederim-b1-k1
+slug: react-native-optimization-b1-k1
 date: Jul 7, 2020
 ---
 

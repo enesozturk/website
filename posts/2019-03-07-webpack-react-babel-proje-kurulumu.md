@@ -1,7 +1,7 @@
 ---
 title: React + Webpack 4 + Babel 7 proje kurulumu
 description: React single page app kurulumu
-slug: react-webpack4-babel7-kurulumu
+slug: webpack-react-babel-proje-kurulumu
 date: Mar 07, 2019
 ---
 

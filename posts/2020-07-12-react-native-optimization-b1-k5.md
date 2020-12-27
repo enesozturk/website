@@ -1,7 +1,7 @@
 ---
 title: React Native Uygulamamı Nasıl Optimize Ederim? [B1:K5]
 description: Native ile JavaScript arasındaki dengeyi sağlayın
-slug: react-native-uygulamami-nasil-optimize-ederim-b1-k5
+slug: react-native-optimization-b1-k5
 date: Jul 12, 2020
 ---
 

@@ -5,15 +5,15 @@ slug: ted-gibi-konus-kitabindan-notlar
 date: Oct 05, 2019
 ---
 
-    “Fikirler yirmi birinci yüz yılın geçer akçesidir”
+> “Fikirler yirmi birinci yüz yılın geçer akçesidir”
 
 # DUYGUSAL
 
-    "TED formatının ana kısmı, elimizde insanlarla doğrudan ve neredeyse savunmasız bir şekilde bağ kuran insanlar olmasıdır. Sahnede çıplaksınızdır, tabiri caizse. En etkili konuşmalar, insanların gerçekten o insanlığı hissedebildikleri konuşmalardır. Duygular, düşler, hayal gücü." - CHRIS ANDERSON, YÖNETİCİ, TED
+> "TED formatının ana kısmı, elimizde insanlarla doğrudan ve neredeyse savunmasız bir şekilde bağ kuran insanlar olmasıdır. Sahnede çıplaksınızdır, tabiri caizse. En etkili konuşmalar, insanların gerçekten o insanlığı hissedebildikleri konuşmalardır. Duygular, düşler, hayal gücü." - CHRIS ANDERSON, YÖNETİCİ, TED
 
 ## 1- İÇİNİZDEKİ USAYI ÇIKARIN
 
-     "Tutku, yeteneğinizin en coşkun dışavurumunu sağlayacak olan şeydir" -LARRY SMITH
+> "Tutku, yeteneğinizin en coşkun dışavurumunu sağlayacak olan şeydir" -LARRY SMITH
 
 Etkili hikayeler, slaytlar ve beden dili ikna edici bir sunumun önemli unsurlarıdır. Fakat eğer konuşmacı konuşması hakkında tutkulu değilse bunlar pek az şey ifade eder. Başkalarına ilham vermenin ilk adımı önce kendinizin ilham almış olduğununuzdan emin olmaktır. Gerçekten tutkulu olduğunuz şeyi belirlemenin en basit yolu, kendinize şu soruyu sormaktır:
 “Benim içimi ne şenlendirir?” Bir kez içinizi şenlendiren şeyi buldunuz mu, anlatacağını hikayeler, kullandığınız slaytlar ve içerinizi sunuş şekliniz canlanacaktır. Mümkün olduğunu düşündüğünüzden çok daha fazla kişiyle bağ kuracaksınız.
@@ -37,7 +37,7 @@ https://www.ted.com/talks/aimee_mullins_prosthetic_aesthetics?language=tr
 
 ## 2- HİKAYE ANLATMA SANATINDA USTALAŞIN
 
-    “Hikayeler sadece ruhu olan verilerdir"  - Brene Brown
+> “Hikayeler sadece ruhu olan verilerdir" - Brene Brown
 
 İnsanların yüreklerine ve akıllarına ulaşacak hikayeler anlatın. Ted tarihinde en uzun süre ayakta alkış alan konuşmacı Bryan Stevenson, sunumunun yüzde 65’ini hikaye anlatarak geçirdi. Beyin taramaları, hikayelerin insan beynini stümüle edip meşgul ettiğini, konuşmacının izleyiciyle bağ kurup izleyicinin konuşmacının görüşüne katılmasını çok daha olası kılacağını gösterir.
 
@@ -57,7 +57,7 @@ Bryan Steveson’ın “Adaletsizlik Hakkında Konuşmalıyız” adlı [TED kon
 
 ## 3- SOHBET EDİN
 
-    “Yapana kadar taklit etmeyin, ona dönüşene kadar taklit edin.” - Amy Cuddy, Profesör, Harvard İşletme Okulu
+> “Yapana kadar taklit etmeyin, ona dönüşene kadar taklit edin.” - Amy Cuddy, Profesör, Harvard İşletme Okulu
 
 Durmaksınız prova yapın ve içeriğinizi öyle içselleştirin ki sunumu yakın bir arkadaşınızla sohbet eder gibi rahatça yapabilin. Gerçek ikna, sadece dinleyenlerinizle duygusal bir ahenk yakaladıktan ve güvenlerini kazandıktan sonra olur. Eğer sesiniz, jestleriniz ve beden diliniz sözlerinizle uyumsuzsa dinleyiciniz mesajınıza güvenmeyecektir. Bu bir Ferrari’ye sahip olup kullanmayı bilmemenin eşdeğeridir.
 
@@ -109,7 +109,7 @@ Hikayenizi anlatmak için bedeninizi etkili olarak kullansanız da “güç” i
 
 # YENİ
 
-    "Yeniliği tanıma, bütün insanların paylaştığı, genetik temelli bir hayatta kalma aracıdır. Beyinlerimiz, akıllı ve yeni bir şey, dikkat çeken bir şey, leziz görünen bir şey aramak için eğitilmiştir." - DR. A.K. PRADEEP, YAZAR
+> "Yeniliği tanıma, bütün insanların paylaştığı, genetik temelli bir hayatta kalma aracıdır. Beyinlerimiz, akıllı ve yeni bir şey, dikkat çeken bir şey, leziz görünen bir şey aramak için eğitilmiştir." - DR. A.K. PRADEEP, YAZAR
 
 ## 4- BANA YENİ BİR ŞEY ÖĞRETİN
 
@@ -164,7 +164,7 @@ Beyin duygusal olarak canlı olayları hatırlayıp sıradan, olağan olayları 
 
 ## 6- NEŞELENİN
 
-    “Son yüzyılda mizah anlayışı çok değer gören bir kişilik özelliği olmuştur.” - ROD A. MARTIN, PSİKOLOG
+> “Son yüzyılda mizah anlayışı çok değer gören bir kişilik özelliği olmuştur.” - ROD A. MARTIN, PSİKOLOG
 
 Kendinizi (ya da konunuzu) çok ciddiye almayın. Beyin mizahı sever. İzleyicinize gülümseyecek bir şey verin. Mizah savunmaları azaltarak izleyicinizi mesajınıza daha açık hale getirir. Ayrıca sizin daha sevimli görünmenizi sağlar ve insanlar hoşlandıkları biriyle iş yapmaya ya da onu desteklemeye daha isteklidirler.
 
@@ -175,7 +175,7 @@ Komik olmaya çalışmayın. Ama mizahı nasıl kullandığınıza, diğerlerini
 
 # AKILDA KALICI
 
-    “İç güdülerini ve fikirlerini hakkında gerçekten cesur olmalısınız. Yoksa pes edersiniz ve akılda kalabilecek şeyler kaybolur.” - FRANCIS FORD CAPPOLA
+> “İç güdülerini ve fikirlerini hakkında gerçekten cesur olmalısınız. Yoksa pes edersiniz ve akılda kalabilecek şeyler kaybolur.” - FRANCIS FORD CAPPOLA
 
 ## 7- 18 DAKİKA KURALINA BAĞLI KALIN
 
@@ -190,7 +190,7 @@ Uzun, karmaşık ve dolambaçlı sunumlar sıkıcıdır; izleyicinizi kaybetmek 
 
 ## 8- ÇOKLU DUYUSAL DENEYİMLERLE ZİHİNSEL BİR RESİM BOYAYIN
 
-    “Bir açıklamayı, sözler ve resimlerle anlatmak, yalnızca sözlerle anlatmaktan iyidir.” - Dr. Richard Mayer
+> “Bir açıklamayı, sözler ve resimlerle anlatmak, yalnızca sözlerle anlatmaktan iyidir.” - Dr. Richard Mayer
 
 Birden fazla duyuya hitap eden unsurlarla sunum yapın; görüntü, ses, dokunuş, tat ve koku. Beyin sıkıcı şeylerle ilgilenmez. Karşınızda büyüleyici görüntüler, çekici videolar, ilginç sahne malzemeleri, güzel sözler ve hikayeyi hayata geçiren birden fazla ses varsa sıkılmak nerdeyse olanaksızdır.
 
@@ -198,7 +198,7 @@ Birden fazla duyuya hitap eden unsurlarla sunum yapın; görüntü, ses, dokunu�
 
 ## 9- ŞERİDİNİZDE KALIN
 
-    “İşi iş, oyunu oyun gibi görmem. Hepsi yaşamaktır” - SIR RICHARD BRANSON
+> “İşi iş, oyunu oyun gibi görmem. Hepsi yaşamaktır” - SIR RICHARD BRANSON
 
 Özgün, açık ve şeffaf olun. Eğer olmadığını bir şey ya da biri olmaya çalışırsanız izleyicinizin güvenini kazanamazsınız.
 

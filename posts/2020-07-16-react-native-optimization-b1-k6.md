@@ -1,7 +1,7 @@
 ---
 title: React Native Uygulamamı Nasıl Optimize Ederim? [B1:K6]
 description: Ne olursa olsun 60 FPS animasyonlar hazırlayın
-slug: react-native-uygulamami-nasil-optimize-ederim-b1-k6
+slug: react-native-optimization-b1-k6
 date: Jul 16, 2020
 ---
 

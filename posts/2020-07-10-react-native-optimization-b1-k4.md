@@ -1,7 +1,7 @@
 ---
 title: React Native Uygulamamı Nasıl Optimize Ederim? [B1:K4]
 description: Her zaman mobile platform için hazırlanmış kütüphaneleri kullanın
-slug: react-native-uygulamami-nasil-optimize-ederim-b1-k4
+slug: react-native-optimization-b1-k4
 date: Jul 10, 2020
 ---
 
