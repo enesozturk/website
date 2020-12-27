@@ -43,7 +43,7 @@ Mesela böyle bir yapımız var. Burada _parent_ elementimiz _.container_'dır
 
 En genelde _parent_ olarak sadece `.container` class'ına sahip div olduğu için ve biz de `2` indexi seçtiğimiz için onu(.container) atlar(çünkü divimiz 1. indextedir), **_body_ tagini bulur**, onu kırmızı yapar. Tüm ekran kırmızı olur.
 
-Bazı durumlarda bu yöntem kullanılabilir fakat. Çoğu kez hataya yol açar. Mesela şimdi parantez içindeki sayıyı bir bir arttırmayı deneyin. Bu sefer 3'ten sonra _<li>_ taglarına geçmeye başladı. Yani işler biraz karıştı.
+Bazı durumlarda bu yöntem kullanılabilir fakat. Çoğu kez hataya yol açar. Mesela şimdi parantez içindeki sayıyı bir bir arttırmayı deneyin. Bu sefer 3'ten sonra `li` taglarına geçmeye başladı. Yani işler biraz karıştı.
 
 ## :nth-of-type Kullanımı
 
@@ -53,10 +53,7 @@ Bazı durumlarda bu yöntem kullanılabilir fakat. Çoğu kez hataya yol açar. 
 }
 ```
 
-Bu sefer `:nth-of-type` kullandık. Yine tag kullanmadık. Çıktı olarak ise tüm elementlerin 2.sini ele aldı.(<p>,<li>,<ul>)
-
-<pre class="codepen" data-height="470" data-type="css" data-href="XKvVyW" data-user="oztrkeness" data-safe="true"> <code> </code> </pre>
-<script src="https://codepen.io/assets/embed/ei.js"> </script>
+Bu sefer `:nth-of-type` kullandık. Yine tag kullanmadık. Çıktı olarak ise tüm elementlerin 2.sini ele aldı.(`p, li, ul`)
 
 ## CSS Seçiciler Oyunu
 

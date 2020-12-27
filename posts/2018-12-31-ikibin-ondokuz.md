@@ -29,8 +29,6 @@ Hem [Fenomen Air Sports](http://www.fenomenairsports.com/) hem de [Saü Ypt](htt
 
 Bu sporu çok seviyorum. Kesinlikle de hayatımın devamında sürekli uğraşacağım asla bırakmayacağım uğraşlarımdan biri olmasını istiyorum. Sevdiğim şeylerde sınırları zorlamayı hep denemişimdir. Yamaç paraşütünde de her ne kadar hali hazırda adrenalinli bir spor olsa da bunu zirvede yaşamanın yolları var. Akrobasi. Yamaç paraşütü akrobasi pilotu olmak hedeflerimden bir tanesi ve bu yıl kendimi buna vermek istiyorum. Gerek eğitim süreci, gerekse de yeni malzeme alma ihtiyacından dolayı maddi olarak zor bir şey olacak. Özellikle öğrenciyseniz. Ama elimden geleni yapacağım tabiki. Umuyorum ki bu alanda hedefime ulaşırım.
 
-Sevgiler..
-
 # Yazılım
 
 ![sau-pembe-gokyuzu](/blog/sau-pembe-gokyuzu.jpg)
