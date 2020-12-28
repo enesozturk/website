@@ -1,4 +1,5 @@
 import React from 'react'
+import cn from 'classnames'
 import styles from './navigation.module.css'
 
 import Link from '@components/link'
@@ -9,11 +10,28 @@ type MenuItemProps = {
   route?: string
   onClick?: () => void
   external?: boolean
+  active?: boolean
 }
 
-const MenuItem = ({ icon, title, route, external, onClick }: MenuItemProps) => {
+const MenuItem = ({
+  icon,
+  title,
+  route,
+  external,
+  onClick,
+  active
+}: MenuItemProps) => {
   return route ? (
-    <Link href={route} external={external} className={styles.menuItem}>
+    <Link
+      href={route}
+      external={external}
+      className={cn([
+        styles.menuItem,
+        {
+          [styles.menuItemActive]: active
+        }
+      ])}
+    >
       <div className={styles.icon}>{icon}</div>
       <span>{title}</span>
     </Link>

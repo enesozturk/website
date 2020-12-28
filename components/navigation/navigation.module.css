@@ -93,6 +93,10 @@
   align-items: center;
 }
 
+.menuItemActive {
+  color: var(--fg);
+}
+
 .menuItem > .icon {
   margin-right: var(--gap);
 }

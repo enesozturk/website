@@ -1,4 +1,6 @@
 import React from 'react'
+import { useRouter } from 'next/router'
+
 import styles from './navigation.module.css'
 
 import MenuItem from './MenuItem'
@@ -11,6 +13,8 @@ type MenuGroupProps = {
 }
 
 const MenuGroup = ({ list, title }: MenuGroupProps) => {
+  const { pathname } = useRouter()
+
   return (
     <>
       {list.length > 0 ? (
@@ -25,6 +29,7 @@ const MenuGroup = ({ list, title }: MenuGroupProps) => {
                   icon={item.icon}
                   title={item.title}
                   external={item.external ? true : false}
+                  active={pathname == item.route}
                 />
               )
             })}

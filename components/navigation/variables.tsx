@@ -35,10 +35,10 @@ export const MenuList: MenuListProps = {
   ],
   collections: [
     { route: '/projects', icon: <Terminal />, title: 'Projects' },
-    { route: '/quotes', icon: <LeftQuote />, title: 'Qoutes' },
-    { route: '/paragliding', icon: <Cloud />, title: 'Paragliding' },
-    { route: '/listening', icon: <Spotify />, title: 'Listening' },
     { route: '/reading', icon: <Book />, title: 'Reading' },
+    { route: '/listening', icon: <Spotify />, title: 'Listening' },
+    { route: '/paragliding', icon: <Cloud />, title: 'Paragliding' },
+    { route: '/quotes', icon: <LeftQuote />, title: 'Qoutes' },
     { route: '/bookmarks', icon: <Bookmark />, title: 'Bookmarks' }
   ],
   social: [
