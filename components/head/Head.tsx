@@ -58,7 +58,7 @@ const Head = ({
         name="apple-mobile-web-app-status-bar-style"
         content="black-translucent"
       />
-      <meta name="theme-color" content={theme == 'dark' ? '#FFF' : '#121212'} />
+      <meta name="theme-color" content={theme == 'dark' ? '#121212' : '#FFF'} />
 
       {/* Favicons */}
       <link rel="manifest" href="/favicons/manifest.json" />

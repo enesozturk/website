@@ -65,11 +65,9 @@
 }
 
 .image {
-  position: absolute;
-  left: 0;
-  top: 50%;
+  height: 100%;
   width: 100%;
-  transform: translateY(-50%);
+  object-fit: cover;
   border-radius: 0;
 }
 
