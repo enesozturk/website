@@ -15,26 +15,36 @@ type EntryProps = {
 const Entry = ({ title, description, image, href, icon }: EntryProps) => {
   const [ref] = useInView({ triggerOnce: true })
 
-  return (
+  const EntryContent = () => {
+    return (
+      <>
+        {image && (
+          <div className={styles.imageWrapper}>
+            <img className={styles.image} src={image} />
+          </div>
+        )}
+        <section>
+          <p className={cn(styles.title, 'clamp')}>{title}</p>
+          <p className={cn(styles.description, 'clamp')}>{description}</p>
+        </section>
+        {icon}
+      </>
+    )
+  }
+
+  return href ? (
     <a
       href={href}
-      target="_blank"
+      target={href ? '_blank' : '_self'}
       rel="noopener noreferrer"
       ref={ref}
       className={styles.link}
       title={`${title} - ${description}`}
     >
-      {image && (
-        <div className={styles.imageWrapper}>
-          <img className={styles.image} src={image} />
-        </div>
-      )}
-      <section>
-        <p className={cn(styles.title, 'clamp')}>{title}</p>
-        <p className={cn(styles.description, 'clamp')}>{description}</p>
-      </section>
-      {icon}
+      {EntryContent()}
     </a>
+  ) : (
+    <div className={styles.link}>{EntryContent()}</div>
   )
 }
 
