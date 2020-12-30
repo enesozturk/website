@@ -1,7 +1,5 @@
 import NextHead from 'next/head'
 import { useTheme } from 'next-themes'
-import LightTags from './LightTags'
-import DarkTags from './DarkTags'
 
 const defaultOgImage = 'https://ozturkenes.s3.eu-central-1.amazonaws.com/og.png'
 
