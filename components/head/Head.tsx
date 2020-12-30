@@ -1,5 +1,7 @@
 import NextHead from 'next/head'
 import { useTheme } from 'next-themes'
+import LightTags from './LightTags'
+import DarkTags from './DarkTags'
 
 const defaultOgImage = 'https://ozturkenes.s3.eu-central-1.amazonaws.com/og.png'
 
@@ -45,18 +47,21 @@ const Head = ({
       <meta name="og:url" content="https://ozturkenes.com" />
 
       {/* General */}
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no"
+      />
       <meta httpEquiv="Content-Language" content="en" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@enesozt_" />
       <meta name="apple-mobile-web-app-title" content="Enes" />
       <meta name="author" content="Enes Ozturk" />
 
-      {/* Dynamic Theme */}
+      {/* Dynamic Status Bar Color [Not Working] */}
       <meta name="apple-apple-mobile-web-app-capable" content="yes" />
       <meta
         name="apple-mobile-web-app-status-bar-style"
-        content="black-translucent"
+        content={theme == 'dark' ? 'black-translucent' : 'white'}
       />
       <meta name="theme-color" content={theme == 'dark' ? '#121212' : '#FFF'} />
 

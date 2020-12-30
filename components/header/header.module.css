@@ -40,10 +40,14 @@
   top: 0;
   background-color: transparent;
   backdrop-filter: saturate(180%) blur(20px);
+
+  display: flex;
+  align-items: flex-end;
 }
 
 .header {
   height: 32px;
+  flex: 1;
   margin: 0 auto;
   padding: 0 var(--gap);
   max-width: var(--main-content);
@@ -73,5 +77,11 @@
 @media (max-width: 960px) {
   .nav {
     margin: var(--gap-double) 0;
+  }
+}
+
+@media (display-mode: fullscreen) {
+  .nav {
+    height: 100px !important;
   }
 }
