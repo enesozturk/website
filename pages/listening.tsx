@@ -15,6 +15,13 @@ const Projects = () => {
         icon={<Spotify />}
       />
       <Entry
+        title="Mutsuz Parti"
+        description="Büyük Ev Ablukada"
+        href="https://open.spotify.com/album/1UBVA82yVbyoaBkVnWKhB8?si=j2xjDx7xSZ2wacKNBceWOA"
+        image="https://i.scdn.co/image/ab67616d00001e02d85bc4f2cfba519163aa0d9f"
+        icon={<Spotify />}
+      />
+      <Entry
         title="Lafıma Gücenme"
         description="Ari Barokas"
         href="https://open.spotify.com/album/5NsIMUWwAn4BMDvwyArZz7"
@@ -22,17 +29,17 @@ const Projects = () => {
         icon={<Spotify />}
       />
       <Entry
+        title="Ludovico II"
+        description="Şanışer"
+        href="https://open.spotify.com/album/2bNlPIlKyhtYJIe7lHa6F6?si=W6d1MVBfQvCwgE5hUQtXVg"
+        image="https://i.scdn.co/image/ab67616d00001e02114c2ebb9903b8a121b41aa5"
+        icon={<Spotify />}
+      />
+      <Entry
         title="İyi Niyetli Bir Gün"
         description="Gece"
         href="https://open.spotify.com/album/03F98O6rqq2Eie8kZzcCFX"
         image="https://i.scdn.co/image/ab67616d00001e02a28c98aca6ca2fc8a05430df"
-        icon={<Spotify />}
-      />
-      <Entry
-        title="Hiza"
-        description="Gazapizm"
-        href="https://open.spotify.com/album/730v11m4FWgDUnl9Gte19s"
-        image="https://i.scdn.co/image/ab67616d00001e029bb3466efc5b946eb500137f"
         icon={<Spotify />}
       />
       <EntryGroupText title="My Playlists" emphasized />
