@@ -19,6 +19,24 @@ const Projects = () => {
           href=""
           icon={<Github />}
         />
+        <Entry
+          title="hyper-rename-tab"
+          description="Hyper plugin to rename your tabs"
+          href="https://github.com/enesozturk/hyper-rename-tab"
+          icon={<Github />}
+        />
+        <Entry
+          title="deploy-next-to-x"
+          description="Guides to deploy your Next JS apps 🚀"
+          href="https://github.com/enesozturk/deploy-next-to-x"
+          icon={<Github />}
+        />
+        <Entry
+          title="Chatectron"
+          description="Web socket implementation with Socket.io & Electron & React JS 💬 🖥"
+          href="https://github.com/enesozturk/chatectron"
+          icon={<Github />}
+        />
         <EntryGroupText title="with Casemice" emphasized />
         <Entry
           title="Keapad"
