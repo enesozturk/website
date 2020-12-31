@@ -72,3 +72,12 @@
     -webkit-line-clamp: 2;
   }
 }
+
+@media (hover: none) and (pointer: coarse) {
+  .link:hover .title,
+  .link:focus .title,
+  .link:hover .icon,
+  .link:focus .icon {
+    color: var(--fg);
+  }
+}

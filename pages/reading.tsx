@@ -44,7 +44,10 @@ const Paragliding = () => {
           href="https://www.goodreads.com/book/show/12609433-the-power-of-habit"
           icon={<Goodreads />}
         />
-        <SeeOthers href="https://www.goodreads.com/user/show/102775572-enes-zt-rk" />
+        <SeeOthers
+          title="See Others on Goodreads"
+          href="https://www.goodreads.com/user/show/102775572-enes-zt-rk"
+        />
       </article>
     </Page>
   )

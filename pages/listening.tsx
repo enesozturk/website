@@ -15,13 +15,6 @@ const Projects = () => {
         icon={<Spotify />}
       />
       <Entry
-        title="Hiza"
-        description="Gazapizm"
-        href="https://open.spotify.com/album/730v11m4FWgDUnl9Gte19s"
-        image="https://i.scdn.co/image/ab67616d00001e029bb3466efc5b946eb500137f"
-        icon={<Spotify />}
-      />
-      <Entry
         title="Lafıma Gücenme"
         description="Ari Barokas"
         href="https://open.spotify.com/album/5NsIMUWwAn4BMDvwyArZz7"
@@ -33,6 +26,13 @@ const Projects = () => {
         description="Gece"
         href="https://open.spotify.com/album/03F98O6rqq2Eie8kZzcCFX"
         image="https://i.scdn.co/image/ab67616d00001e02a28c98aca6ca2fc8a05430df"
+        icon={<Spotify />}
+      />
+      <Entry
+        title="Hiza"
+        description="Gazapizm"
+        href="https://open.spotify.com/album/730v11m4FWgDUnl9Gte19s"
+        image="https://i.scdn.co/image/ab67616d00001e029bb3466efc5b946eb500137f"
         icon={<Spotify />}
       />
       <EntryGroupText title="My Playlists" emphasized />

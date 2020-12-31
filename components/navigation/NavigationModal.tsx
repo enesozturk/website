@@ -11,7 +11,7 @@ import MenuGroup from './MenuGroup'
 import SearchInput from './SearchInput'
 
 // Icons
-import { Edit, MenuIcon } from '@components/icons'
+import { MenuIcon, Moon } from '@components/icons'
 
 // Styles
 import styles from './navigation.module.css'
@@ -81,7 +81,7 @@ const NavigationModal = () => {
                 >
                   <MenuItem
                     onClick={toggleTheme}
-                    icon={<Edit />}
+                    icon={<Moon />}
                     title="Toggle Theme"
                   />
                 </div>

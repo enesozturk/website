@@ -68,12 +68,12 @@ export const MenuList: MenuListProps = {
       title: 'React Native ile 60 FPS Animasyonlar'
     },
     {
-      route: '/blog/react-native-uygulamami-nasil-optimize-ederim-b1-k6',
+      route: '/blog/react-native-optimization-b1-k6',
       icon: <Edit />,
       title: 'React Native Uygulamamı Nasıl Optimize Ederim? [B1:K6]'
     },
     {
-      route: '/blog/react-native-uygulamami-nasil-optimize-ederim-b1-k5',
+      route: '/blog/react-native-optimization-b1-k5',
       icon: <Edit />,
       title: 'React Native Uygulamamı Nasıl Optimize Ederim? [B1:K5]'
     }
