@@ -14,10 +14,11 @@ const Home = () => {
 
         <p style={{ textDecoration: '' }}>
           Working with{' '}
-          <Link underline href="https://iyzico.com" external>
-            İyzico
+          <Link underline href="https://casemice.com" external>
+            Casemice
           </Link>{' '}
-          to create awesome payment systems.
+          to create awesome educational apps for physicians and pharma
+          companies. [Will be updated soon 👀 ]
         </p>
       </article>
     </Page>
