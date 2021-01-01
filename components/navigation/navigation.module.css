@@ -46,7 +46,7 @@
 
 .navigationModal.show {
   opacity: 1;
-  transform: none;
+  transform: scale(1);
 }
 
 .navigationModal:focus {
@@ -90,7 +90,7 @@
 }
 
 .menuItemActive {
-  color: var(--fg);
+  color: var(--fg) !important;
 }
 
 .menuItem > .icon {

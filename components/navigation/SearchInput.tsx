@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 
 type SearchInputProps = {
   value: string
@@ -14,7 +14,7 @@ const SearchInput = ({
   return (
     <div className={wrapperClassName}>
       <input
-        placeholder="Type a command or search..."
+        placeholder="Type a route to go..."
         type="text"
         aria-expanded="true"
         aria-autocomplete="list"
@@ -33,4 +33,4 @@ const SearchInput = ({
   )
 }
 
-export default SearchInput
+export default memo(SearchInput)

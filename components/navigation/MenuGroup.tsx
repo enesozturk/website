@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import { useRouter } from 'next/router'
 
 import styles from './navigation.module.css'
@@ -40,4 +40,4 @@ const MenuGroup = ({ list, title }: MenuGroupProps) => {
   )
 }
 
-export default MenuGroup
+export default memo(MenuGroup)

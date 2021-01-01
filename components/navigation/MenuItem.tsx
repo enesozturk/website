@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import cn from 'classnames'
 import styles from './navigation.module.css'
 
@@ -43,4 +43,4 @@ const MenuItem = ({
   )
 }
 
-export default MenuItem
+export default memo(MenuItem)
