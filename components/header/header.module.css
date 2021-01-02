@@ -85,3 +85,12 @@
     height: 100px !important;
   }
 }
+
+@media (hover: none) and (pointer: coarse) {
+  .command:hover,
+  .logo:hover,
+  .logo:focus-within {
+    background: var(--bg);
+    transition: none;
+  }
+}
