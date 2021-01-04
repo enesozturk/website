@@ -12,7 +12,7 @@ type HeadProps = {
 
 const Head = ({
   title = 'Enes Ozturk',
-  description = "Hi, I'm Enes. Software developer and paragliding pilot.",
+  description = 'Software developer and paragliding pilot',
   image = defaultOgImage,
   children
 }: HeadProps) => {

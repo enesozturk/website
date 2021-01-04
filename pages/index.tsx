@@ -3,7 +3,7 @@ import Link from '@components/link'
 
 const Home = () => {
   return (
-    <Page description="Hi, I'm Enes. Software developer and paragliding pilot.">
+    <Page description="Software developer and paragliding pilot">
       <article>
         <h1>Enes Öztürk</h1>
 
