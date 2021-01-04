@@ -10,7 +10,7 @@ type BlogProps = {
 
 const Blog = ({ posts }: BlogProps) => {
   return (
-    <Page title="Blog" description="Writing about design and code.">
+    <Page title="Blog" description="Writing about my experiences">
       <article>
         <ul>
           <PostsList paginate posts={posts} />

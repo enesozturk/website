@@ -58,4 +58,4 @@ Tüm bunların anlamı şudur ki, ben hangi sınıfın _IEmailSender_'i kullanac
 
 > PasswordResetHelper sınıfı bağımlılıklarını yapıcı metodu ile tanımlıyor. Buna constructor injection da denir. Ayrıca bağımlılıklarımı bir public özellik ile de tanımlayabilirim. Bu da setter injection'dur.
 
-Oluşturmuş olduğumuz bağımlılıklar sınıflarımıza runtime dediğimiz çalışma sırasında enjekte edilirler. Böylelikle uygulamayı çalıştırdığımızda hangi interface'i kullanacağımızı seçebiliriz. Farklı e-mail sağlayıcılarından istediğimi seçip yolumuza öyle devam edebiliriz. Böylelikle DI bize bir önceki [yazımda](http://www.ozturkenes.com/.net/2017/03/04/loosely-coupled-kavrami/) resimdeki gibi bir ilişkiye sahip olmamızı sağlaybilir.
+Oluşturmuş olduğumuz bağımlılıklar sınıflarımıza runtime dediğimiz çalışma sırasında enjekte edilirler. Böylelikle uygulamayı çalıştırdığımızda hangi interface'i kullanacağımızı seçebiliriz. Farklı e-mail sağlayıcılarından istediğimi seçip yolumuza öyle devam edebiliriz. Böylelikle DI bize bir önceki [yazımda](https://ozturkenes.com/blog/loosely-coupled-kavrami) resimdeki gibi bir ilişkiye sahip olmamızı sağlaybilir.

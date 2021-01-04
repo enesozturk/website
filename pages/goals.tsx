@@ -1,10 +1,17 @@
 import Page from '@components/page'
 import getMarkdown from '@lib/get-markdown'
-import Link from '@components/link' // eslint-disable-line
 
-const Goals = ({ html }) => {
+type GoalsProps = {
+  html: string
+}
+
+const Goals = ({ html }: GoalsProps) => {
   return (
-    <Page title="Goals in 2021" description="Goal to do in 2021">
+    <Page
+      title="Goals in 2021"
+      description="Goals that I want to achive in 2021"
+      image="https://ozturkenes.s3.eu-central-1.amazonaws.com/og-21.png"
+    >
       <article dangerouslySetInnerHTML={{ __html: html }} />
     </Page>
   )

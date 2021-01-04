@@ -4,7 +4,10 @@ import { Entry, EntryGroupText } from '../components/entry'
 
 const Projects = () => {
   return (
-    <Page title="Projects" description="Collection of past and present work.">
+    <Page
+      title="Projects"
+      description="Collection of my past and present work."
+    >
       <article>
         <EntryGroupText title="Open Source" emphasized />
         <Entry

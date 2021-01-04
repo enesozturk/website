@@ -4,9 +4,8 @@ import { Entry, EntryGroupText } from '../components/entry'
 
 const Projects = () => {
   return (
-    <Page title="Listening" description="Collection of play lists">
+    <Page title="Listening" description="Collection of my playlists">
       <EntryGroupText title="Favorite Albums" emphasized />
-      <EntryGroupText title="Here is my favorite albums that I listen mostly" />
       <Entry
         title="Simulation Theory"
         description="Muse"
@@ -43,7 +42,6 @@ const Projects = () => {
         icon={<Spotify />}
       />
       <EntryGroupText title="My Playlists" emphasized />
-      <EntryGroupText title="Here is my playlist that I create with my favorite songs" />
       <Entry
         title="Relaxing"
         description="Playlist - Enes Öztürk"

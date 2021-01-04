@@ -7,7 +7,7 @@ date: Jan 31, 2020
 
 <2019></2020>
 
-Merhaba 🙌🏽 Yine yoğun, dolu dolu geçen bir yılı geride bıraktık. Her yıl olduğu gibi bu yıl başında da yazımı eksik etmek istemedim. Artık bir gelenek haline geldi benim için. Aslında bakarsanız bir yandan da faydasını görüyorum diyebilirim. Hem bu ana kadar neler yaptığıma bir bakış atma şansım oluyor hem de kendime yeni hedefler koyup bunlar için yola koyulmak adına kendimi motive ediyorum. [2019](http://www.ozturkenes.com/yeniyil/2018/12/31/ikibinondokuz/)'da neler yaptığıma bir bakarak başlayayım;
+Merhaba 🙌🏽 Yine yoğun, dolu dolu geçen bir yılı geride bıraktık. Her yıl olduğu gibi bu yıl başında da yazımı eksik etmek istemedim. Artık bir gelenek haline geldi benim için. Aslında bakarsanız bir yandan da faydasını görüyorum diyebilirim. Hem bu ana kadar neler yaptığıma bir bakış atma şansım oluyor hem de kendime yeni hedefler koyup bunlar için yola koyulmak adına kendimi motive ediyorum. [2019](https://ozturkenes.com/blog/ikibin-ondokuz)'da neler yaptığıma bir bakarak başlayayım;
 
 # Yamaç paraşütü 🚀
 
