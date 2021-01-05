@@ -38,12 +38,11 @@
   --gray-alpha: rgba(255, 255, 255, 0.5);
   --selection: rgba(255, 255, 255, 0.99);
   --modal-overlay: rgba(0, 0, 0, 0.15);
-  --modal-border-background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    radial-gradient(
-      circle at top left,
-      rgb(142 142 142 / 30%),
-      rgb(0 0 0 / 0.2)
-    );
+  --modal-border-background: linear-gradient(
+    90deg,
+    rgba(12, 12, 12, 1) 0%,
+    rgba(12, 12, 12, 0.5) 100%
+  );
   --box-shadow: none;
 
   /* Syntax Highlighting */
@@ -68,12 +67,11 @@
   --gray-alpha: rgba(19, 20, 21, 0.5);
   --selection: rgba(0, 0, 0, 0.99);
   --modal-overlay: rgba(0, 0, 0, 0.05);
-  --modal-border-background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    radial-gradient(
-      circle at top left,
-      rgb(224 224 224 / 0.3),
-      rgb(0 0 0 / 0.25)
-    );
+  --modal-border-background: linear-gradient(
+    90deg,
+    rgba(217, 217, 217, 1) 0%,
+    rgba(237, 237, 237, 0.5) 100%
+  );
   --box-shadow: 29px 29px 59px #d9d9d9, -29px -29px 59px #ffffff;
 
   --token: #666;
