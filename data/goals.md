@@ -3,7 +3,7 @@ Goals that I want to achive in 2021 🎯
 ### Habits
 
 - [ ] Read 15 books at least
-- [ ] Walk 100k per mounth
+- [ ] Walk 100k per month
 
 ### Tech
 
