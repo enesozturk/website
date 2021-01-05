@@ -13,13 +13,15 @@ const Header = ({ title }: HeaderProps) => {
   return (
     <nav className={styles.nav}>
       <div className={styles.header}>
-        <Link href="/">
-          <a aria-label="Navigate Home" className={styles.logo}>
-            <Logo />
-          </a>
-        </Link>
+        <div className={styles.logoAndPageTitle}>
+          <Link href="/">
+            <a aria-label="Navigate Home" className={styles.logo}>
+              <Logo />
+            </a>
+          </Link>
+          {title && <div className={styles.content}>{title}</div>}
+        </div>
         <Navigation />
-        {title && <div className={styles.content}>{title}</div>}
       </div>
     </nav>
   )

@@ -53,13 +53,19 @@
   max-width: var(--main-content);
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.logoAndPageTitle {
+  display: flex;
+  align-items: center;
 }
 
 .content {
   overflow: auto;
   color: var(--gray-alpha);
   font-weight: 500;
-  margin-left: var(--gap-double);
+  margin-left: var(--gap);
 }
 
 .hint {

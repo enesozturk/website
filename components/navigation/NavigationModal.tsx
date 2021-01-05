@@ -11,7 +11,7 @@ import MenuGroup from './MenuGroup'
 import SearchInput from './SearchInput'
 
 // Icons
-import { MenuIcon, Moon } from '@components/icons'
+import { Moon, StrikeMenu } from '@components/icons'
 
 // Styles
 import styles from './navigation.module.css'
@@ -43,10 +43,10 @@ const NavigationModal = () => {
     <>
       <button
         className={headerStyles.command}
-        title="Fly"
+        title="Menu"
         onClick={() => setShowDialog(true)}
       >
-        <MenuIcon />
+        <StrikeMenu />
       </button>
       <DialogOverlay
         isOpen={mounted}
