@@ -23,5 +23,5 @@
 }
 
 .button:active {
-  background-color: var(--lightest-gray);
+  background-color: var(--light-gray);
 }
