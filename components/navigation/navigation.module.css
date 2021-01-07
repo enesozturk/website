@@ -5,22 +5,19 @@
   left: 0;
   right: 0;
   z-index: 999;
-  background: var(--modal-overlay);
-  backdrop-filter: blur(3.5px);
-
+  background-color: transparent;
   pointer-events: none;
+
+  /* Animation */
   opacity: 0;
-  will-change: opacity;
-  transition: 0.3s linear;
-  backface-visibility: hidden;
-  perspective: 1000;
-  -webkit-backface-visibility: hidden;
-  -webkit-perspective: 1000;
+  transition: opacity 0.2s ease;
+  will-change: opacity, background-color;
 }
 
 .screen.show {
-  pointer-events: auto;
   opacity: 1;
+  pointer-events: auto;
+  background-color: var(--overlay);
 }
 
 .navigationModal {
@@ -36,14 +33,15 @@
 
   display: flex;
   overflow: hidden;
-  border: double 1px var(--lighter-gray);
   border-radius: 12px;
-  background: var(--modal-border-background);
+  background: var(--bg);
 
+  /* Animation */
   opacity: 0;
-  transform: scale(0.95) translate3d(0, 0, 0);
-  transition: transform 0.2s linear, opacity 0.2s linear;
+  transform: scale(0.97);
+  transition: transform 0.2s ease, opacity 0.2s ease;
   will-change: transform, opacity;
+
   backface-visibility: hidden;
   perspective: 1000;
   -webkit-backface-visibility: hidden;
@@ -52,7 +50,7 @@
 
 .navigationModal.show {
   opacity: 1;
-  transform: scale(1);
+  transform: none;
 }
 
 .navigationModal:focus {
@@ -85,7 +83,7 @@
 .menuItem {
   color: var(--gray);
   padding: calc(0.5rem * 1.5);
-  background-color: var(--lightest-gray);
+  background-color: var(--lighter-gray);
   cursor: pointer;
   width: 100%;
 
@@ -145,7 +143,7 @@
 .preview {
   height: 100%;
   padding: var(--gap);
-  background-color: var(--lighter-gray);
+  background-color: var(--lightest-gray);
   border-radius: var(--radius);
 }
 
@@ -190,7 +188,7 @@
   padding: 0;
   font-weight: normal;
   font-size: 0.875rem;
-  background: var(--lighter-gray);
+  background: var(--lightest-gray);
   color: var(--gray);
   border-radius: 5px;
   display: flex;
@@ -249,18 +247,12 @@
 @media (hover: none) and (pointer: coarse) {
   .menuItem:hover {
     color: var(--gray);
-    background-color: var(--lightest-gray);
+    background-color: var(--lighter-gray);
   }
 }
 
 @media screen and (display-type: standalone) {
   .content {
     padding-bottom: 50px;
-  }
-}
-
-@-moz-document url-prefix() {
-  .screen {
-    background: var(--bg-nav);
   }
 }

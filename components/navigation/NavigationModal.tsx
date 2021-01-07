@@ -24,7 +24,7 @@ const NavigationModal = () => {
   const [showDialog, setShowDialog] = React.useState(false)
   const { mounted, rendered } = useDelayedRender(showDialog, {
     enterDelay: -1,
-    exitDelay: 300
+    exitDelay: 200
   })
 
   const { theme, setTheme } = useTheme()

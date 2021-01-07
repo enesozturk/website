@@ -20,7 +20,7 @@
 .logo:hover,
 .logo:focus-within {
   outline: none;
-  background: var(--lighter-gray);
+  background: var(--lightest-gray);
   transition: background-color 0.3s;
 }
 
