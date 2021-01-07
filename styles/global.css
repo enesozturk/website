@@ -85,8 +85,8 @@
 @-moz-document url-prefix() {
   [data-theme='light'] {
     --bg-nav: #ecececf2;
-    --box-shadow: 29px 29px 59px rgba(159, 159, 159, 0.25),
-      -29px -29px 59px rgba(147, 147, 147, 0.1);
+    --box-shadow: 29px 29px 59px rgba(159, 159, 159, 0.1),
+      -29px -29px 59px rgba(147, 147, 147, 0.05);
   }
 }
 

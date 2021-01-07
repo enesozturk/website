@@ -23,7 +23,7 @@ import { MenuList, FilteredList } from './variables'
 const NavigationModal = () => {
   const [showDialog, setShowDialog] = React.useState(false)
   const { mounted, rendered } = useDelayedRender(showDialog, {
-    enterDelay: 10,
+    enterDelay: -1,
     exitDelay: 300
   })
 

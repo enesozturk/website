@@ -6,17 +6,20 @@
   right: 0;
   z-index: 999;
   background: var(--modal-overlay);
-  backdrop-filter: blur(0px);
+  backdrop-filter: blur(3.5px);
 
   pointer-events: none;
   opacity: 0;
-  transition: opacity 0.2s linear;
-  will-change: opacity, backdrop-filter;
+  will-change: opacity;
+  transition: 0.3s linear;
+  backface-visibility: hidden;
+  perspective: 1000;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
 }
 
 .screen.show {
   pointer-events: auto;
-  backdrop-filter: blur(4px);
   opacity: 1;
 }
 
@@ -38,9 +41,13 @@
   background: var(--modal-border-background);
 
   opacity: 0;
-  transform: scale(0.95);
+  transform: scale(0.95) translate3d(0, 0, 0);
   transition: transform 0.2s linear, opacity 0.2s linear;
   will-change: transform, opacity;
+  backface-visibility: hidden;
+  perspective: 1000;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
 }
 
 .navigationModal.show {
