@@ -82,7 +82,12 @@ export const MenuList: MenuListProps = {
   ]
 }
 
-export const FilteredList = (list: MenuItemProps[], search: string) => {
+export const FilteredList = (
+  list: MenuItemProps[],
+  search: string,
+  x?: string
+) => {
+  if (x) console.log(x)
   if (search === '') return list
   else {
     const regex = new RegExp(`.*${search.toLocaleLowerCase()}.*`, 'g')

@@ -6,16 +6,17 @@
   right: 0;
   z-index: 999;
   background: var(--modal-overlay);
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(0px);
 
   pointer-events: none;
   opacity: 0;
   transition: opacity 0.2s linear;
-  will-change: opacity;
+  will-change: opacity, backdrop-filter;
 }
 
 .screen.show {
   pointer-events: auto;
+  backdrop-filter: blur(4px);
   opacity: 1;
 }
 

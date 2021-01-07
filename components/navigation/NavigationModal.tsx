@@ -23,7 +23,7 @@ import { MenuList, FilteredList } from './variables'
 const NavigationModal = () => {
   const [showDialog, setShowDialog] = React.useState(false)
   const { mounted, rendered } = useDelayedRender(showDialog, {
-    enterDelay: -1,
+    enterDelay: 10,
     exitDelay: 300
   })
 
@@ -34,10 +34,21 @@ const NavigationModal = () => {
     setTheme(theme == 'dark' ? 'light' : 'dark')
   }
 
-  const navigations = FilteredList(MenuList.navigation, search)
-  const collections = FilteredList(MenuList.collections, search)
-  const socials = FilteredList(MenuList.social, search)
-  const lastActivities = FilteredList(MenuList.lastActivity, search)
+  const navigations = React.useMemo(
+    () => FilteredList(MenuList.navigation, search),
+    [search]
+  )
+  const collections = React.useMemo(
+    () => FilteredList(MenuList.collections, search),
+    [search]
+  )
+  const socials = React.useMemo(() => FilteredList(MenuList.social, search), [
+    search
+  ])
+  const lastActivities = React.useMemo(
+    () => FilteredList(MenuList.lastActivity, search),
+    [search]
+  )
 
   return (
     <>
