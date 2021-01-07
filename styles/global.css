@@ -25,7 +25,7 @@
   --transition-slow: 0.3s ease-in-out;
 
   /* Dark Mode Colors */
-  --bg: rgb(12 12 12);
+  --bg: rgb(19 20 21);
   --overlay: rgba(0 0 0 / 60%);
   --fg: #fafbfc;
   --gray: rgb(120 120 120);
