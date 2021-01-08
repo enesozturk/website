@@ -4,6 +4,7 @@ Goals that I want to achive in 2021 🎯
 
 - [ ] Read 15 books at least
 - [ ] Walk 100k per month
+- [ ] Take self-criticize regularly (every month)
 
 ### Tech
 
@@ -12,11 +13,11 @@ Goals that I want to achive in 2021 🎯
 - [ ] Publish React Native Hold Menu
 - [ ] Improve design skills
 
-### Paragliding Acro 😛
+### Paragliding Acro 🪂
 
 - [ ] [Helico to SAT](https://www.youtube.com/watch?v=omZDLf9ckxE)
 - [ ] [SAT to Helico](https://www.youtube.com/watch?v=Ybk41qEh0x8)
 - [ ] [Twister](https://www.youtube.com/watch?v=sfE1FR8-cHc)
 - [ ] [MacTwist](https://www.youtube.com/watch?v=sJjJA5RwKsY)
-- [ ] [Rhytmic SAT](https://www.youtube.com/watch?v=xwhOmyksXXs) [Would be Aweeeeesome!]
+- [ ] ⭐️ [Rhytmic SAT](https://www.youtube.com/watch?v=xwhOmyksXXs) [Would be aweeeeesome!]
 - [x] Backfly, [Helico](https://www.youtube.com/watch?v=wU4O8-FkSHA), [Misty](https://www.youtube.com/watch?v=80KguolDEyg), [Dynamic Full Stall](https://www.youtube.com/watch?v=Gsbo73AIhzA) done in 2020 🤘🏽

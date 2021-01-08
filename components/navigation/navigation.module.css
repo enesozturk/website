@@ -5,19 +5,18 @@
   left: 0;
   right: 0;
   z-index: 999;
-  background-color: transparent;
   pointer-events: none;
 
   /* Animation */
   opacity: 0;
-  transition: opacity 0.2s ease;
-  will-change: opacity, background-color;
+  transition: opacity 0.2s linear;
+  background-color: var(--overlay);
+  will-change: opacity;
 }
 
 .screen.show {
   opacity: 1;
   pointer-events: auto;
-  background-color: var(--overlay);
 }
 
 .navigationModal {
@@ -73,7 +72,8 @@
   flex: 2;
   display: flex;
   flex-direction: column;
-  padding: var(--gap);
+  padding: 0 var(--gap);
+  padding-top: var(--gap);
   border-right: 1px solid var(--lighter-gray);
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
@@ -100,7 +100,7 @@
 }
 
 .menuItemGroup {
-  margin-bottom: var(--gap);
+  padding-bottom: var(--gap);
 }
 
 .groupTitle {
