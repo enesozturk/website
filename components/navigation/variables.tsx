@@ -65,6 +65,11 @@ export const MenuList: MenuListProps = {
   ],
   lastActivity: [
     {
+      route: '/blog/ikibin-yirmibir',
+      icon: <Edit />,
+      title: '2021'
+    },
+    {
       route: '/blog/react-native-ile-60-fps-animasyonlar',
       icon: <Edit />,
       title: 'React Native ile 60 FPS Animasyonlar'
@@ -73,12 +78,12 @@ export const MenuList: MenuListProps = {
       route: '/blog/react-native-optimization-b1-k6',
       icon: <Edit />,
       title: 'React Native Uygulamamı Nasıl Optimize Ederim? [B1:K6]'
-    },
-    {
-      route: '/blog/react-native-optimization-b1-k5',
-      icon: <Edit />,
-      title: 'React Native Uygulamamı Nasıl Optimize Ederim? [B1:K5]'
     }
+    // {
+    //   route: '/blog/react-native-optimization-b1-k5',
+    //   icon: <Edit />,
+    //   title: 'React Native Uygulamamı Nasıl Optimize Ederim? [B1:K5]'
+    // }
   ]
 }
 

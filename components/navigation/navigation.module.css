@@ -136,6 +136,7 @@
   display: flex;
   flex-direction: column;
   padding: var(--gap);
+  padding-bottom: 0;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
@@ -235,6 +236,10 @@
 
   .previewContainer {
     display: none;
+  }
+
+  .menuItems {
+    border-right: none;
   }
 
   .content {
