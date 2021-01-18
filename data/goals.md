@@ -5,6 +5,7 @@ Goals that I want to achieve in 2021 🎯
 - [ ] Read 15 books at least
 - [ ] Walk 100k per month
 - [ ] Take self-criticize regularly
+- [ ] Get better at finance and invest regularly
 
 ### Tech
 
