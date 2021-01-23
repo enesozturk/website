@@ -99,7 +99,7 @@
 .menuItemGroup {
   box-shadow: var(--box-shadow);
   margin-bottom: var(--gap);
-  border-radius: var(--big-radius);
+  border-radius: var(--radius);
   transition: box-shadow 0.3s;
 }
 
