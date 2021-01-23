@@ -26,7 +26,6 @@
   top: calc(30px + var(--big-gap) + (3 * var(--gap-double)));
   width: 700px;
   backdrop-filter: blur(24px);
-  box-shadow: var(--box-shadow);
 
   display: flex;
   overflow: hidden;
