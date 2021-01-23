@@ -139,7 +139,14 @@
 
 @media (hover: none) and (pointer: coarse) {
   .link:hover {
+    background: transparent;
     color: var(--fg);
+  }
+
+  .seeOthersButton:hover,
+  .seeOthersButton:active {
+    background: var(--darker-gray);
+    color: var(--lighter-gray);
   }
 
   .link:hover > svg {

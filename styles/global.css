@@ -116,11 +116,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  height: -webkit-fill-available;
+}
+
 body {
   min-height: 100vh;
   font-family: var(--font-sans);
   display: flex;
   flex-direction: column;
+
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
 }
 
 p,

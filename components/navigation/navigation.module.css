@@ -222,14 +222,18 @@
 }
 
 @media (max-width: 600px) {
+  .screen {
+    display: flex;
+    align-items: flex-end;
+  }
+
   .navigationModal {
-    top: var(--top);
-    height: calc(100vh - var(--top));
+    top: unset;
+    height: 80vh;
     border-radius: 20px 20px 0 0;
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);
     animation: slide 0.2s linear;
     width: 100%;
-    max-height: calc(100vh - var(--top));
 
     transform: scale(0.95) translateY(5%);
   }
@@ -243,21 +247,21 @@
   }
 
   .content {
-    height: calc(calc(100vh - var(--top)) - 60px) !important;
+    height: calc(100%) !important;
     /* Height of the iOS Safari Toolbar (:sadfari:) */
-    padding-bottom: 90px;
+    padding-bottom: 70px;
   }
 }
 
 @media (hover: none) and (pointer: coarse) {
   .menuItem:hover {
-    color: var(--lightest-gray) !important;
-    background-color: var(--item-bg);
+    color: var(--lighter-gray) !important;
+    background-color: var(--darker-gray);
   }
 }
 
 @media screen and (display-type: standalone) {
   .content {
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
   }
 }

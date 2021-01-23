@@ -8,7 +8,7 @@
   display: inline-flex;
   padding: 10px;
   border-radius: var(--radius);
-  background: var(--bg);
+  background: transparent;
   color: var(--currentColor);
 }
 
@@ -96,7 +96,6 @@
   .command:hover,
   .logo:hover,
   .logo:focus-within {
-    background: var(--bg);
     transition: none;
   }
 }
