@@ -120,7 +120,7 @@
   border-radius: var(--radius);
   color: var(--lighter-gray);
   font-weight: 500;
-  background: var(--dark-gray);
+  background: var(--darker-gray);
   border: none;
   padding: var(--gap-half) var(--gap);
   transition: color var(--transition);
@@ -128,14 +128,13 @@
   justify-content: center;
 }
 
-.seeOthersButton:hover,
 .seeOthersButton:focus {
-  background: var(--dark-gray);
-  color: var(--lightest-gray);
+  background: var(--darker-gray);
+  color: var(--lighter-gray);
 }
 
 .seeOthersButton:active {
-  background-color: var(--darker-gray);
+  background-color: var(--dark-gray);
 }
 
 @media (hover: none) and (pointer: coarse) {

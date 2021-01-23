@@ -8,6 +8,7 @@ const Paragliding = () => {
       <article>
         <EntryGroupText title="Currently Reading" emphasized />
         <Entry
+          target="blank"
           title="Saatleri Ayarlama Enstitüsü"
           description="Ahmet Hamdi Tampınar"
           href="https://www.goodreads.com/book/show/2040424.Saatleri_Ayarlama_Enstit_s_"
@@ -15,30 +16,35 @@ const Paragliding = () => {
         />
         <EntryGroupText title="Favorite Books I Read" emphasized />
         <Entry
+          target="blank"
           title="21. Yüzyıl İçin 21 Ders"
           description="Yuval Noah Harari"
           href="https://www.goodreads.com/book/show/41034731-21-y-zy-l-i-in-21-ders"
           icon={<Goodreads />}
         />
         <Entry
+          target="blank"
           title="Serenad"
           description="Zulfu Livaneli"
           href="https://www.goodreads.com/book/show/41034731-21-y-zy-l-i-in-21-ders"
           icon={<Goodreads />}
         />
         <Entry
+          target="blank"
           title="Cehenneme Övgü"
           description="Gündüz Vassaf"
           href="https://www.goodreads.com/book/show/6902351-cehenneme-vg"
           icon={<Goodreads />}
         />
         <Entry
+          target="blank"
           title="Emotional Intelligence"
           description="Harvard Business Review"
           href="https://www.goodreads.com/book/show/23258980-on-emotional-intelligence"
           icon={<Goodreads />}
         />
         <Entry
+          target="blank"
           title="The Power of Habit"
           description="Charles Duhigg"
           href="https://www.goodreads.com/book/show/12609433-the-power-of-habit"

@@ -7,6 +7,7 @@ const Projects = () => {
     <Page title="Listening" description="Collection of my playlists">
       <EntryGroupText title="Favorite Albums" emphasized />
       <Entry
+        target="blank"
         title="Simulation Theory"
         description="Muse"
         href="https://open.spotify.com/album/5OZgDtx180ZZPMpm36J2zC"
@@ -14,6 +15,7 @@ const Projects = () => {
         icon={<Spotify />}
       />
       <Entry
+        target="blank"
         title="Mutsuz Parti"
         description="Büyük Ev Ablukada"
         href="https://open.spotify.com/album/1UBVA82yVbyoaBkVnWKhB8?si=j2xjDx7xSZ2wacKNBceWOA"
@@ -21,6 +23,7 @@ const Projects = () => {
         icon={<Spotify />}
       />
       <Entry
+        target="blank"
         title="Lafıma Gücenme"
         description="Ari Barokas"
         href="https://open.spotify.com/album/5NsIMUWwAn4BMDvwyArZz7"
@@ -28,6 +31,7 @@ const Projects = () => {
         icon={<Spotify />}
       />
       <Entry
+        target="blank"
         title="Ludovico II"
         description="Şanışer"
         href="https://open.spotify.com/album/2bNlPIlKyhtYJIe7lHa6F6?si=W6d1MVBfQvCwgE5hUQtXVg"
@@ -35,6 +39,7 @@ const Projects = () => {
         icon={<Spotify />}
       />
       <Entry
+        target="blank"
         title="İyi Niyetli Bir Gün"
         description="Gece"
         href="https://open.spotify.com/album/03F98O6rqq2Eie8kZzcCFX"
@@ -43,6 +48,7 @@ const Projects = () => {
       />
       <EntryGroupText title="My Playlists" emphasized />
       <Entry
+        target="blank"
         title="Relaxing"
         description="Playlist - Enes Öztürk"
         href="https://open.spotify.com/playlist/16xiQIS7MKuTbuOheHnnSA"
@@ -50,6 +56,7 @@ const Projects = () => {
         icon={<Spotify />}
       />
       <Entry
+        target="blank"
         title="Instrumental - Piano"
         description="Playlist - Enes Öztürk"
         href="https://open.spotify.com/playlist/2aifbSMuIGllmWMptLmGL5"
@@ -57,6 +64,7 @@ const Projects = () => {
         icon={<Spotify />}
       />
       <Entry
+        target="blank"
         title="Oldies"
         description="Playlist - Enes Öztürk"
         href="https://open.spotify.com/playlist/7JtlpKCAtXURJfynbUODFz"
@@ -64,6 +72,7 @@ const Projects = () => {
         icon={<Spotify />}
       />
       <Entry
+        target="blank"
         title="Evening Rest"
         description="Playlist - Enes Öztürk"
         href="https://open.spotify.com/playlist/0rLLhxlZyqucYXVkTKbQal"
