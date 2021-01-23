@@ -9,12 +9,19 @@ const Paragliding = () => {
         <EntryGroupText title="Currently Reading" emphasized />
         <Entry
           target="blank"
-          title="Saatleri Ayarlama Enstitüsü"
-          description="Ahmet Hamdi Tampınar"
-          href="https://www.goodreads.com/book/show/2040424.Saatleri_Ayarlama_Enstit_s_"
+          title="1984"
+          description="George Orwell"
+          href="https://www.goodreads.com/book/show/40961427-1984"
           icon={<Goodreads />}
         />
         <EntryGroupText title="Favorite Books I Read" emphasized />
+        <Entry
+          target="blank"
+          title="Mutlu Beyin"
+          description="Loretta Graziano Breuning"
+          href="https://www.goodreads.com/review/show/2999368252?book_show_action=false&from_review_page=1"
+          icon={<Goodreads />}
+        />
         <Entry
           target="blank"
           title="21. Yüzyıl İçin 21 Ders"
