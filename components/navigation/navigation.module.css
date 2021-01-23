@@ -256,7 +256,7 @@
 @media (hover: none) and (pointer: coarse) {
   .menuItem:hover {
     color: var(--lighter-gray) !important;
-    background-color: var(--darker-gray);
+    background-color: var(--item-bg);
   }
 }
 
