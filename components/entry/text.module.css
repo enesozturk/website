@@ -1,5 +1,17 @@
 .item {
   list-style-type: none;
+  border: 1px solid var(--dark-gray);
+  border-radius: var(--radius);
+  margin-bottom: var(--gap);
+  transition: background-color 0.3s;
+}
+
+.item:hover {
+  background: var(--dark-gray);
+}
+
+.item:active {
+  background: var(--darker-gray);
 }
 
 .link {
@@ -10,9 +22,9 @@
   display: flex;
   align-items: center;
   padding-top: var(--gap);
+  padding-bottom: var(--gap);
   display: flex;
   align-items: flex-start;
-  padding-bottom: 3rem;
 }
 
 .type {
@@ -32,13 +44,6 @@
   flex: 1;
 }
 
-.link:hover .title,
-.link:focus .title,
-.link:hover .icon,
-.link:focus .icon {
-  color: var(--gray);
-}
-
 .title,
 .description {
   word-break: break-word;
@@ -47,14 +52,15 @@
 }
 
 .title {
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   font-weight: bold;
+  margin-bottom: var(--gap-half);
   transition: color var(--transition);
 }
 
 .description {
-  color: var(--gray);
-  margin-top: var(--gap-half);
+  color: var(--lightest-gray);
+  font-weight: 500;
 }
 
 .dot {
@@ -73,10 +79,8 @@
 }
 
 @media (hover: none) and (pointer: coarse) {
-  .link:hover .title,
-  .link:focus .title,
-  .link:hover .icon,
-  .link:focus .icon {
-    color: var(--fg);
+  .item:hover,
+  .item:focus {
+    background: transparent;
   }
 }

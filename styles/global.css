@@ -11,6 +11,7 @@
   --small-gap: 4rem;
   --big-gap: 4rem;
   --main-content: 45rem;
+  --big-radius: 16px;
   --radius: 8px;
   --inline-radius: 5px;
 
@@ -25,13 +26,15 @@
   --transition-slow: 0.3s ease-in-out;
 
   /* Dark Mode Colors */
-  --bg: rgb(19 20 21);
-  --overlay: rgba(0 0 0 / 60%);
+  --bg: rgb(23 23 23);
+  --overlay: rgba(0 0 0 / 30%);
   --fg: #fafbfc;
-  --gray: rgb(120 120 120);
-  --light-gray: rgb(68 68 68);
-  --lighter-gray: rgb(34 34 34);
-  --lightest-gray: rgb(30 30 30);
+  --gray: rgb(86 86 86);
+  --dark-gray: rgb(46 46 46);
+  --darker-gray: rgb(36 36 36);
+  --light-gray: rgb(106 106 106);
+  --lighter-gray: rgb(126 126 126);
+  --lightest-gray: rgb(146 146 146);
   --lightest-gray-hover: rgb(28 28 28);
   --article-color: #eaeaea;
   --header-bg: rgba(19, 20, 21, 0.45);
@@ -43,8 +46,7 @@
     rgb(49 49 49 / 85%),
     rgb(0 0 0 / 50%)
   );
-  --box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4), 0 0 60px rgba(0, 0, 0, 0.5),
-    inset 0 1px 0 rgba(0, 0, 0, 0.6);
+  --box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
 
   /* Syntax Highlighting */
   --token: #999;

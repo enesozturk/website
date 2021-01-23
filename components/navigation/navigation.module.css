@@ -11,7 +11,7 @@
   opacity: 0;
   transition: opacity 0.2s linear;
   background-color: var(--overlay);
-  will-change: opacity;
+  will-change: auto;
 }
 
 .screen.show {
@@ -23,17 +23,15 @@
   position: relative;
   margin: 0 auto;
   z-index: 9999;
-  border-radius: 10px;
   top: calc(30px + var(--big-gap) + (3 * var(--gap-double)));
   width: 700px;
-  border-radius: var(--radius);
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(24px);
   box-shadow: var(--box-shadow);
 
   display: flex;
   overflow: hidden;
-  border-radius: 12px;
-  background: var(--bg);
+  border-radius: var(--big-radius);
+  background: rgba(35, 35, 35, 0.5);
 
   /* Animation */
   opacity: 0;
@@ -63,7 +61,7 @@
 .content {
   display: flex;
   flex-direction: row;
-  border-top: 1px solid var(--lighter-gray);
+  border-top: 1px solid var(--dark-gray);
   height: 300px;
   overflow-y: hidden;
 }
@@ -74,21 +72,23 @@
   flex-direction: column;
   padding: 0 var(--gap);
   padding-top: var(--gap);
-  border-right: 1px solid var(--lighter-gray);
+  border-right: 1px solid var(--dark-gray);
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   position: none;
 }
 
 .menuItem {
-  color: var(--gray);
+  color: var(--lightest-gray) !important;
   padding: calc(0.5rem * 1.5);
-  background-color: var(--lighter-gray);
+  background-color: var(--dark-gray);
   cursor: pointer;
   width: 100%;
 
   display: flex;
   align-items: center;
+
+  transition: background-color 0.2s;
 }
 
 .menuItemActive {
@@ -100,11 +100,14 @@
 }
 
 .menuItemGroup {
-  padding-bottom: var(--gap);
+  box-shadow: var(--box-shadow);
+  margin-bottom: var(--gap);
+  border-radius: var(--big-radius);
+  transition: box-shadow 0.3s;
 }
 
 .groupTitle {
-  color: var(--gray);
+  color: var(--lightest-gray);
   font-size: 0.875rem;
   margin-bottom: var(--gap-half);
 }
@@ -124,7 +127,7 @@
 
 .menuItem:hover {
   color: var(--fg);
-  background-color: var(--lightest-gray-hover);
+  background-color: var(--darker-gray);
 }
 
 .toggleTheme button:hover {
@@ -160,7 +163,7 @@
 }
 
 .navigationModal [data-command-input]::placeholder {
-  color: var(--gray);
+  color: var(--lightest-gray);
 }
 
 .navigationModal [data-command-item] {
@@ -251,8 +254,8 @@
 
 @media (hover: none) and (pointer: coarse) {
   .menuItem:hover {
-    color: var(--gray);
-    background-color: var(--lighter-gray);
+    color: var(--lightest-gray) !important;
+    background-color: var(--dark-gray);
   }
 }
 

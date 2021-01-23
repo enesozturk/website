@@ -41,11 +41,12 @@
   margin-top: 0;
   outline: none;
   text-decoration: none;
-  border: 1px solid var(--light-gray);
+  border: 1px solid var(--dark-gray);
   border-radius: var(--radius);
   margin-top: var(--gap);
   overflow: hidden;
   position: relative;
+  transition: background-color 0.3s;
 }
 
 .link > section {
@@ -84,8 +85,16 @@
   margin-right: var(--gap);
 }
 
+.link:hover {
+  background-color: var(--dark-gray);
+}
+
+.link:active {
+  background-color: var(--darker-gray);
+}
+
 .link:hover > svg {
-  color: var(--gray);
+  color: var(--lighter-gray);
 }
 
 .title,
@@ -101,17 +110,17 @@
 }
 
 .description {
+  color: var(--lightest-gray);
   font-weight: 500;
 }
 
 .seeOthersButton {
   width: 100%;
-  margin-top: var(--gap);
   cursor: pointer;
   border-radius: var(--radius);
-  color: var(--gray);
+  color: var(--lighter-gray);
   font-weight: 500;
-  background: var(--lighter-gray);
+  background: var(--dark-gray);
   border: none;
   padding: var(--gap-half) var(--gap);
   transition: background-color var(--transition), color var(--transition);
@@ -121,11 +130,11 @@
 
 .seeOthersButton:hover,
 .seeOthersButton:focus {
-  color: var(--fg);
+  color: var(--lightest-gray);
 }
 
 .seeOthersButton:active {
-  background-color: var(--light-gray);
+  background-color: var(--darker-gray);
 }
 
 @media (hover: none) and (pointer: coarse) {

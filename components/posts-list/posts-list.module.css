@@ -4,13 +4,12 @@
 }
 
 .button {
-  margin-top: var(--gap);
   width: 100%;
   cursor: pointer;
   border-radius: var(--radius);
-  color: var(--gray);
+  color: var(--lighter-gray);
   font-weight: 500;
-  background: var(--lighter-gray);
+  background: var(--dark-gray);
   border: none;
   padding: var(--gap-half) var(--gap);
   transition: background-color var(--transition), color var(--transition);
@@ -19,9 +18,9 @@
 
 .button:hover,
 .button:focus {
-  color: var(--fg);
+  color: var(--lightest-gray);
 }
 
 .button:active {
-  background-color: var(--light-gray);
+  background-color: var(--darker-gray);
 }

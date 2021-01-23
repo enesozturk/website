@@ -20,7 +20,7 @@
 .logo:hover,
 .logo:focus-within {
   outline: none;
-  background: var(--lightest-gray);
+  background: var(--dark-gray);
   transition: background-color 0.3s;
 }
 
@@ -39,7 +39,7 @@
   padding: var(--gap) 0;
   top: 0;
   background-color: transparent;
-  backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: blur(20px);
 
   display: flex;
   align-items: flex-end;
