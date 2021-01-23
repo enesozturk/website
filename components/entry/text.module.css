@@ -7,11 +7,11 @@
 }
 
 .item:hover {
-  background: var(--dark-gray);
+  background: var(--darker-gray);
 }
 
 .item:active {
-  background: var(--darker-gray);
+  background: var(--dark-gray);
 }
 
 .link {

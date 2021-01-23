@@ -31,7 +31,7 @@
   display: flex;
   overflow: hidden;
   border-radius: var(--big-radius);
-  background: rgba(35, 35, 35, 0.5);
+  background: var(--modal-bg);
 
   /* Animation */
   opacity: 0;
@@ -79,16 +79,14 @@
 }
 
 .menuItem {
-  color: var(--lightest-gray) !important;
+  color: var(--lighter-gray) !important;
   padding: calc(0.5rem * 1.5);
-  background-color: var(--dark-gray);
+  background-color: var(--darker-gray);
   cursor: pointer;
   width: 100%;
 
   display: flex;
   align-items: center;
-
-  transition: background-color 0.2s;
 }
 
 .menuItemActive {
@@ -127,7 +125,7 @@
 
 .menuItem:hover {
   color: var(--fg);
-  background-color: var(--darker-gray);
+  background-color: var(--item-bg-hover);
 }
 
 .toggleTheme button:hover {
@@ -255,7 +253,7 @@
 @media (hover: none) and (pointer: coarse) {
   .menuItem:hover {
     color: var(--lightest-gray) !important;
-    background-color: var(--dark-gray);
+    background-color: var(--item-bg);
   }
 }
 

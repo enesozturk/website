@@ -86,11 +86,11 @@
 }
 
 .link:hover {
-  background-color: var(--dark-gray);
+  background-color: var(--darker-gray);
 }
 
 .link:active {
-  background-color: var(--darker-gray);
+  background-color: var(--dark-gray);
 }
 
 .link:hover > svg {
@@ -123,13 +123,14 @@
   background: var(--dark-gray);
   border: none;
   padding: var(--gap-half) var(--gap);
-  transition: background-color var(--transition), color var(--transition);
+  transition: color var(--transition);
   outline: none;
   justify-content: center;
 }
 
 .seeOthersButton:hover,
 .seeOthersButton:focus {
+  background: var(--dark-gray);
   color: var(--lightest-gray);
 }
 
