@@ -78,6 +78,7 @@
   height: 32px;
   color: var(--gray);
   margin-right: var(--gap);
+  margin-left: var(--gap);
   transition: color 0.3s;
 }
 
@@ -135,8 +136,14 @@
 }
 
 @media (hover: none) and (pointer: coarse) {
+  .entryGroupText {
+    padding-left: var(--gap-half);
+  }
+
   .link {
     margin-top: var(--gap-half);
+    padding-left: var(--gap-half);
+    padding-right: var(--gap-half);
   }
 
   .link:hover {
