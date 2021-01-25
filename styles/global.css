@@ -44,6 +44,7 @@
   --gray-alpha: rgba(255, 255, 255, 0.5);
   --selection: rgba(255, 255, 255, 0.99);
   --box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  --box-shadow-light: 0 1px 4px rgba(0, 0, 0, 0.25);
 
   /* Modal */
   --modal-bg: rgba(35, 35, 35, 0.5);

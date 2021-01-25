@@ -53,7 +53,11 @@ article ul li.reset {
 article ul li.reset .check {
   display: flex;
   align-items: center;
-  margin-right: 0.51rem;
+  margin-right: 0.5rem;
+}
+
+article ul li.reset > span.check {
+  margin-left: 0.5rem;
 }
 
 /* Checkbox */
