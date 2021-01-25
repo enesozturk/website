@@ -1,0 +1,60 @@
+{
+  "albums": [
+    {
+      "title": "Simulation Theory",
+      "link": "https://open.spotify.com/album/5OZgDtx180ZZPMpm36J2zC",
+      "author": "Muse",
+      "image": "https://i.scdn.co/image/ab67616d00001e024cb163c1d111f77307c842b6"
+    },
+    {
+      "title": "Mutsuz Parti",
+      "link": "https://open.spotify.com/album/1UBVA82yVbyoaBkVnWKhB8?si=j2xjDx7xSZ2wacKNBceWOA",
+      "author": "Büyük Ev Ablukada",
+      "image": "https://i.scdn.co/image/ab67616d00001e02d85bc4f2cfba519163aa0d9f"
+    },
+    {
+      "title": "Lafıma Gücenme",
+      "link": "https://open.spotify.com/album/5NsIMUWwAn4BMDvwyArZz7",
+      "author": "Ari Barokas",
+      "image": "https://i.scdn.co/image/ab67616d00001e021d26b3e7ea803059a6e4ffea"
+    },
+    {
+      "title": "Ludovico II",
+      "link": "https://open.spotify.com/album/2bNlPIlKyhtYJIe7lHa6F6?si=W6d1MVBfQvCwgE5hUQtXVg",
+      "author": "Şanışer",
+      "image": "https://i.scdn.co/image/ab67616d00001e02114c2ebb9903b8a121b41aa5"
+    },
+    {
+      "title": "İyi Niyetli Bir Gün",
+      "link": "https://open.spotify.com/album/03F98O6rqq2Eie8kZzcCFX",
+      "author": "Gece",
+      "image": "https://i.scdn.co/image/ab67616d00001e02a28c98aca6ca2fc8a05430df"
+    }
+  ],
+  "playlists": [
+    {
+      "title": "Relaxing",
+      "link": "https://open.spotify.com/playlist/16xiQIS7MKuTbuOheHnnSA",
+      "author": "Playlist - Enes Öztürk",
+      "image": "https://i.scdn.co/image/ab67706c0000bebb7f34f13ebab6652ce735dc4b"
+    },
+    {
+      "title": "Instrumental - Piano",
+      "link": "https://open.spotify.com/playlist/2aifbSMuIGllmWMptLmGL5",
+      "author": "Playlist - Enes Öztürk",
+      "image": "https://i.scdn.co/image/ab67706c0000bebb4230239b939282d2799bba92"
+    },
+    {
+      "title": "Oldies",
+      "link": "https://open.spotify.com/playlist/7JtlpKCAtXURJfynbUODFz",
+      "author": "Playlist - Enes Öztürk",
+      "image": "https://i.scdn.co/image/ab67706c0000bebb137db8d5b8a74fc86d775500"
+    },
+    {
+      "title": "Evening Rest",
+      "link": "https://open.spotify.com/playlist/0rLLhxlZyqucYXVkTKbQal",
+      "author": "Playlist - Enes Öztürk",
+      "image": "https://i.scdn.co/image/ab67706c0000bebbb72ebc5b4bb6ce933976e157"
+    }
+  ]
+}
