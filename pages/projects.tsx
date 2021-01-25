@@ -9,7 +9,7 @@ const Projects = () => {
       description="Collection of my past and present work."
     >
       <article>
-        <EntryGroupText title="Open Source" emphasized />
+        <EntryGroupText title="Open Source" />
         <Entry
           target="blank"
           title="React Native Swipeable Panel"
@@ -45,7 +45,7 @@ const Projects = () => {
           href="https://github.com/enesozturk/chatectron"
           icon={<Github />}
         />
-        <EntryGroupText title="with Casemice" emphasized />
+        <EntryGroupText title="with Casemice" />
         <Entry
           target="blank"
           title="Keapad"

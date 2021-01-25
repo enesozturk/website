@@ -6,7 +6,7 @@ const Paragliding = () => {
   return (
     <Page title="Reading" description="Collection of books that I read">
       <article>
-        <EntryGroupText title="Currently Reading" emphasized />
+        <EntryGroupText title="Currently Reading" />
         <Entry
           target="blank"
           title="1984"
@@ -14,7 +14,7 @@ const Paragliding = () => {
           href="https://www.goodreads.com/book/show/40961427-1984"
           icon={<Goodreads />}
         />
-        <EntryGroupText title="Favorite Books I Read" emphasized />
+        <EntryGroupText title="Favorite Books I Read" />
         <Entry
           target="blank"
           title="Mutlu Beyin"
