@@ -1,0 +1,61 @@
+{
+  "opensource": [
+    {
+      "title": "React Native Swipeable Panel",
+      "description": "Zero dependency swipeable bottom panel for React Native",
+      "link": "https://github.com/enesozturk/rn-swipeable-panel"
+    },
+    {
+      "title": "React Native Hold Menu [Soon]",
+      "description": "Hold to open context menu for React Native powered by Reanimated 2",
+      "link": ""
+    },
+    {
+      "title": "hyper-rename-tab",
+      "description": "Hyper plugin to rename your tabs",
+      "link": "https://github.com/enesozturk/hyper-rename-tab"
+    },
+    {
+      "title": "deploy-next-to-x",
+      "description": "Guides to deploy your Next JS apps 🚀",
+      "link": "https://github.com/enesozturk/deploy-next-to-x"
+    },
+    {
+      "title": "Chatectron",
+      "description": "Web socket implementation with Socket.io & Electron & React JS 💬 🖥",
+      "link": "https://github.com/enesozturk/chatectron"
+    }
+  ],
+  "casemice": [
+    {
+      "title": "Keapad",
+      "description": "Interactive presentation tool for pharma",
+      "link": "https://casemice.com/newave_portfolio/keapad/"
+    },
+    {
+      "title": "Casequest",
+      "description": "Casequest is a case discussion and presentation application for Pharma companies to communicate with doctors",
+      "link": "https://casemice.com/newave_portfolio/casestory/"
+    },
+    {
+      "title": "Graphy Online",
+      "description": "Visual training tool for pharma",
+      "link": "https://casemice.com/newave_portfolio/graphyonline/"
+    },
+    {
+      "title": "Casemobile",
+      "description": "Case based doctor training and communication tool",
+      "link": "https://casemice.com/newave_portfolio/casemobile/"
+    },
+    {
+      "title": "Compass",
+      "description": "Self-detailing tool that transforms guideline recommendation into a decision tree for better patient management",
+      "link": "https://casemice.com/newave_portfolio/compass/"
+    },
+    {
+      "title": "Docmaze",
+      "description": "Case based doctor training and communication tool",
+      "link": "https://casemice.com/newave_portfolio/docmaze/"
+    }
+  ]
+}

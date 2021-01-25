@@ -33,7 +33,7 @@
   padding: var(--gap);
   overflow: hidden;
   position: relative;
-  transition: 0.3s linear;
+  transition: background-color 0.2s linear, box-shadow 0.2s linear;
 }
 
 .link.smallGap {
