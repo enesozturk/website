@@ -1,32 +1,19 @@
 /*
-  Entry Group
-*/
-.entryGroup {
-  border: 1px solid var(--lighter-gray);
-  border-radius: var(--radius);
-  margin-top: var(--gap);
-}
-
-.entryGroup > .link {
-  border-bottom: 1px solid var(--lighter-gray);
-}
-
-.entryGroup > .link:hover {
-  border-bottom: none;
-}
-
-/*
   Entry Group Text
 */
 .entryGroupText {
   margin: 0;
+  margin-top: var(--gap-double);
   margin-bottom: var(--gap-half);
-  color: var(--fg);
+  padding-left: var(--gap);
+  text-transform: uppercase;
+  color: var(--gray);
+  font-weight: bold;
+  font-size: 1em;
 }
 
-.emphasized {
-  font-weight: bold;
-  margin-top: var(--gap-double);
+.entryGroupText.smallGap {
+  padding: var(--gap-half);
 }
 
 /*
@@ -34,35 +21,43 @@
 */
 .link {
   display: flex;
-  align-items: stretch;
+  align-items: center;
   width: 100%;
 
   color: var(--fg);
   margin-top: 0;
   outline: none;
   text-decoration: none;
-  border: 1px solid var(--dark-gray);
   border-radius: var(--radius);
   margin-top: var(--gap);
+  padding: var(--gap);
   overflow: hidden;
   position: relative;
-  transition: background-color 0.3s;
+  transition: 0.3s linear;
+}
+
+.link.smallGap {
+  padding: var(--gap-half);
 }
 
 .link > section {
   position: relative;
   object-fit: cover;
-  padding: var(--gap);
   overflow: hidden;
   flex: 1;
+  display: flex;
+  align-items: center;
 }
 
 .imageWrapper {
-  width: 82px;
+  width: 72px;
+  height: 72px;
+  margin: 0px;
+  margin-right: var(--gap);
+  border-radius: var(--radius);
   overflow: hidden;
   position: relative;
   background: var(--light-gray);
-  margin: 0px;
 }
 
 .image {
@@ -81,12 +76,14 @@
   align-self: center;
   width: 32px;
   height: 32px;
-  color: var(--light-gray);
+  color: var(--gray);
   margin-right: var(--gap);
+  transition: color 0.3s;
 }
 
 .link:hover {
   background-color: var(--darker-gray);
+  box-shadow: var(--box-shadow-light);
 }
 
 .link:active {
@@ -104,13 +101,13 @@
 }
 
 .title {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   font-weight: bold;
   margin-bottom: var(--gap-half);
 }
 
 .description {
-  color: var(--lightest-gray);
+  color: var(--gray);
   font-weight: 500;
 }
 
@@ -138,18 +135,23 @@
 }
 
 @media (hover: none) and (pointer: coarse) {
+  .link {
+    margin-top: var(--gap-half);
+  }
+
   .link:hover {
     background: transparent;
     color: var(--fg);
+    box-shadow: none;
+  }
+
+  .link:hover > svg {
+    color: var(--gray);
   }
 
   .seeOthersButton:hover,
   .seeOthersButton:active {
     background: var(--darker-gray);
     color: var(--lighter-gray);
-  }
-
-  .link:hover > svg {
-    color: var(--light-gray);
   }
 }

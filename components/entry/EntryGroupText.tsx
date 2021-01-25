@@ -3,17 +3,17 @@ import styles from './entry.module.css'
 
 const EntryGroupText = ({
   title,
-  emphasized
+  smallGap
 }: {
   title: string
-  emphasized?: boolean
+  smallGap?: boolean
 }) => {
   return (
     <p
       className={cn([
         styles.entryGroupText,
         {
-          [styles.emphasized]: emphasized
+          [styles.smallGap]: smallGap
         }
       ])}
     >
