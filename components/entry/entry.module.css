@@ -131,6 +131,10 @@
   color: var(--lighter-gray);
 }
 
+.seeOthersButton:hover {
+  box-shadow: none;
+}
+
 .seeOthersButton:active {
   background-color: var(--dark-gray);
 }

@@ -1,10 +1,17 @@
 .wrapper {
-  height: 100%;
-  padding-bottom: var(--small-gap);
+  width: 100%;
 }
 
 .main {
   max-width: var(--main-content);
   margin: 0 auto;
   padding: 0 var(--gap);
+  padding-bottom: var(--small-gap);
+}
+
+@media (display-mode: fullscreen) {
+  .wrapper {
+    height: 100vh;
+    min-height: -webkit-fill-available;
+  }
 }
