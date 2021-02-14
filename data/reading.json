@@ -1,17 +1,22 @@
 {
   "currently": [
     {
+      "title": "Denemeler",
+      "author": "Michel de Montaigne",
+      "link": "https://www.goodreads.com/book/show/15853509-denemeler"
+    },
+    {
+      "title": "Yöneticinin El Kitabı",
+      "author": "Harvard Business Review",
+      "link": "https://www.goodreads.com/book/show/42601164-y-neticinin-el-kitabi"
+    }
+  ],
+  "read": [
+    {
       "title": "1984",
       "author": "George Orwell",
       "link": "https://www.goodreads.com/book/show/40961427-1984"
     },
-    {
-      "title": "Scrum",
-      "author": "Jeff Sutherland",
-      "link": "https://www.goodreads.com/book/show/19288230-scrum"
-    }
-  ],
-  "read": [
     {
       "title": "Mutlu Beyin",
       "author": "Loretta Graziano Breuning",

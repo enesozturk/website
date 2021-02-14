@@ -57,7 +57,6 @@
   border-radius: var(--radius);
   overflow: hidden;
   position: relative;
-  background: var(--light-gray);
 }
 
 .image {
