@@ -239,6 +239,8 @@ const Head = ({
           />
         </>
       )}
+      <script async src="https://cdn.splitbee.io/sb.js"></script>
+
       {children}
     </NextHead>
   )
