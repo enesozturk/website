@@ -11,7 +11,7 @@
 
   /* Animation */
   opacity: 0;
-  transition: opacity 0.2s linear;
+  transition: opacity 0.1s linear;
   background-color: var(--overlay);
   will-change: auto;
 }
@@ -35,9 +35,8 @@
   background: var(--modal-bg);
 
   /* Animation */
-  opacity: 0;
-  transform: scale(0.97);
-  transition: transform 0.2s ease, opacity 0.2s ease;
+  transform: scale(0.97) translateY(4px);
+  transition: transform 0.1s linear, opacity 0.1s linear;
   will-change: transform, opacity;
 
   backface-visibility: hidden;
@@ -47,8 +46,7 @@
 }
 
 .navigationModal.show {
-  opacity: 1;
-  transform: none;
+  transform: scale(1) translateY(0);
 }
 
 .navigationModal:focus {
