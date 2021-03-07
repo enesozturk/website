@@ -40,6 +40,7 @@ const Head = ({
       {/* Image */}
       <meta name="twitter:image" content={image} />
       <meta name="og:image" content={image} />
+      <meta name="image" property="og:image" content={image} />
 
       {/* URL */}
       <meta name="og:url" content="https://ozturkenes.com" />
