@@ -11,7 +11,8 @@ import {
   Spotify,
   Book,
   Bookmark,
-  TwentyOne
+  TwentyOne,
+  Superpeer
 } from '@components/icons'
 
 export type MenuItemProps = {
@@ -44,6 +45,12 @@ export const MenuList: MenuListProps = {
     { route: '/bookmarks', icon: <Bookmark />, title: 'Bookmarks' }
   ],
   social: [
+    {
+      route: 'https://superpeer.com/enesozturk',
+      icon: <Superpeer />,
+      title: 'Superpeer',
+      external: true
+    },
     {
       route: 'https://twitter.com/enesozt_',
       icon: <Twitter />,
