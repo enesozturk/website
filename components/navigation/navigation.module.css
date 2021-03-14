@@ -8,12 +8,11 @@
   pointer-events: none;
   min-height: 100vh;
   min-height: -webkit-fill-available;
+  background-color: var(--overlay);
 
   /* Animation */
   opacity: 0;
-  transition: opacity 0.1s linear;
-  background-color: var(--overlay);
-  will-change: auto;
+  transition: opacity 0.2s ease;
 }
 
 .screen.show {
@@ -27,7 +26,6 @@
   z-index: 9999;
   top: calc(30px + var(--big-gap) + (3 * var(--gap-double)));
   width: 700px;
-  backdrop-filter: blur(24px);
 
   display: flex;
   overflow: hidden;
@@ -35,9 +33,8 @@
   background: var(--modal-bg);
 
   /* Animation */
-  transform: scale(0.97) translateY(4px);
-  transition: transform 0.1s linear, opacity 0.1s linear;
-  will-change: transform, opacity;
+  transform: scale(0.97);
+  transition: transform 0.2s ease, opacity 0.2s ease;
 
   backface-visibility: hidden;
   perspective: 1000;
@@ -46,7 +43,7 @@
 }
 
 .navigationModal.show {
-  transform: scale(1) translateY(0);
+  transform: scale(1);
 }
 
 .navigationModal:focus {
