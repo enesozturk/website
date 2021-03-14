@@ -2,14 +2,19 @@ import Page from '@components/page'
 import { Goodreads } from '@components/icons'
 import { Entry, EntryGroupText, SeeOthers } from '../components/entry'
 
-import data from '../data/reading.json'
+import { getTable } from 'utils/airtable'
 
-const Paragliding = () => {
+type ReadingProps = {
+  data: any
+}
+
+const Reading = (props: ReadingProps) => {
+  const { currently, read } = props
   return (
     <Page title="Reading" description="Collection of books that I read">
       <article>
         <EntryGroupText title="Currently Reading" />
-        {data.currently.map((item, index) => {
+        {currently.map((item, index) => {
           return (
             <Entry
               key={index}
@@ -23,7 +28,7 @@ const Paragliding = () => {
         })}
 
         <EntryGroupText title="Favorite Books I Read" />
-        {data.read.map((item, index) => {
+        {read.map((item, index) => {
           return (
             <Entry
               key={index}
@@ -44,4 +49,19 @@ const Paragliding = () => {
   )
 }
 
-export default Paragliding
+export async function getStaticProps() {
+  const data = await getTable('Reading')
+
+  const currently = data.filter(p => p.status == 'currently')
+  const read = data.filter(p => p.status == 'read')
+
+  return {
+    props: {
+      currently,
+      read
+    },
+    revalidate: 100
+  }
+}
+
+export default Reading

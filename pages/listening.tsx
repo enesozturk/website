@@ -2,13 +2,19 @@ import Page from '@components/page'
 import { Spotify } from '@components/icons'
 import { Entry, EntryGroupText } from '../components/entry'
 
-import data from '../data/listening.json'
+import { getTable } from 'utils/airtable'
 
-const Projects = () => {
+type ListeningProps = {
+  data: any
+}
+
+const Projects = (props: ListeningProps) => {
+  const { album, playlist } = props
+
   return (
     <Page title="Listening" description="Collection of my playlists">
       <EntryGroupText title="Favorite Albums" smallGap />
-      {data.albums.map((item, index) => {
+      {album.map((item, index) => {
         return (
           <Entry
             key={index}
@@ -23,7 +29,7 @@ const Projects = () => {
         )
       })}
       <EntryGroupText title="My Playlists" smallGap />
-      {data.playlists.map((item, index) => {
+      {playlist.map((item, index) => {
         return (
           <Entry
             key={index}
@@ -39,6 +45,21 @@ const Projects = () => {
       })}
     </Page>
   )
+}
+
+export async function getStaticProps() {
+  const data = await getTable('Listening')
+
+  const album = data.filter(p => p.type == 'album')
+  const playlist = data.filter(p => p.type == 'playlist')
+
+  return {
+    props: {
+      album,
+      playlist
+    },
+    revalidate: 100
+  }
 }
 
 export default Projects
