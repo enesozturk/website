@@ -3,10 +3,17 @@ import Page from '@components/page'
 import { getTable } from 'utils/airtable'
 import { Entry, EntryGroupText } from '../components/entry'
 
-type ProjectsProps = {
-  data: any
+type ProjectDataItem = {
+  title: string
+  description: string
+  link: string
+  organization: 'opensource' | 'casemice'
 }
 
+type ProjectsProps = {
+  opensource: ProjectDataItem[]
+  casemice: ProjectDataItem[]
+}
 const Projects = (props: ProjectsProps) => {
   const { opensource, casemice } = props
 
@@ -30,10 +37,6 @@ const Projects = (props: ProjectsProps) => {
               />
             )
           })}
-        {/* <SeeOthers
-          title="See Others on Github"
-          href="https://www.github.com/enesozturk"
-        /> */}
 
         <EntryGroupText title="with Casemice" />
         {casemice &&
@@ -56,8 +59,12 @@ const Projects = (props: ProjectsProps) => {
 export async function getStaticProps() {
   const data = await getTable('Projects')
 
-  const opensource = data.filter(p => p.organization == 'opensource')
-  const casemice = data.filter(p => p.organization == 'casemice')
+  const opensource = data.filter(
+    (p: ProjectDataItem) => p.organization == 'opensource'
+  )
+  const casemice = data.filter(
+    (p: ProjectDataItem) => p.organization == 'casemice'
+  )
 
   return {
     props: {

@@ -4,8 +4,17 @@ import { Entry, EntryGroupText } from '../components/entry'
 
 import { getTable } from 'utils/airtable'
 
+type ListeningDataItem = {
+  title: string
+  author: string
+  link: string
+  image: string
+  type: 'album' | 'playlist'
+}
+
 type ListeningProps = {
-  data: any
+  album: ListeningDataItem[]
+  playlist: ListeningDataItem[]
 }
 
 const Projects = (props: ListeningProps) => {
@@ -14,7 +23,7 @@ const Projects = (props: ListeningProps) => {
   return (
     <Page title="Listening" description="Collection of my playlists">
       <EntryGroupText title="Favorite Albums" smallGap />
-      {album.map((item, index) => {
+      {album.map((item: ListeningDataItem, index: number) => {
         return (
           <Entry
             key={index}
@@ -29,7 +38,7 @@ const Projects = (props: ListeningProps) => {
         )
       })}
       <EntryGroupText title="My Playlists" smallGap />
-      {playlist.map((item, index) => {
+      {playlist.map((item: ListeningDataItem, index: number) => {
         return (
           <Entry
             key={index}
@@ -50,8 +59,8 @@ const Projects = (props: ListeningProps) => {
 export async function getStaticProps() {
   const data = await getTable('Listening')
 
-  const album = data.filter(p => p.type == 'album')
-  const playlist = data.filter(p => p.type == 'playlist')
+  const album = data.filter((p: ListeningDataItem) => p.type == 'album')
+  const playlist = data.filter((p: ListeningDataItem) => p.type == 'playlist')
 
   return {
     props: {

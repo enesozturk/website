@@ -4,8 +4,16 @@ import { Entry, EntryGroupText, SeeOthers } from '../components/entry'
 
 import { getTable } from 'utils/airtable'
 
+type ReadingDataItem = {
+  title: string
+  author: string
+  link: string
+  status: 'currently' | 'read'
+}
+
 type ReadingProps = {
-  data: any
+  currently: ReadingDataItem[]
+  read: ReadingDataItem[]
 }
 
 const Reading = (props: ReadingProps) => {
@@ -52,8 +60,8 @@ const Reading = (props: ReadingProps) => {
 export async function getStaticProps() {
   const data = await getTable('Reading')
 
-  const currently = data.filter(p => p.status == 'currently')
-  const read = data.filter(p => p.status == 'read')
+  const currently = data.filter((p: ReadingDataItem) => p.status == 'currently')
+  const read = data.filter((p: ReadingDataItem) => p.status == 'read')
 
   return {
     props: {
