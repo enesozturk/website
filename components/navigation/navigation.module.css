@@ -78,10 +78,22 @@
   position: none;
 }
 
+.menuItemGroup {
+  padding: 0.5rem;
+  box-shadow: var(--box-shadow);
+  margin-bottom: var(--gap);
+  border-radius: var(--radius);
+  background-color: var(--item-bg);
+  border: 1px solid var(--darkest-gray);
+  transition: box-shadow 0.3s;
+}
+
 .menuItem {
   color: var(--lighter-gray) !important;
-  padding: calc(0.5rem * 1.5);
+  padding: 0.5rem calc(0.5rem * 1.5);
+  margin-bottom: var(--gap-quarter);
   background-color: var(--item-bg);
+  border-radius: 8px;
   cursor: pointer;
   width: 100%;
 
@@ -97,13 +109,6 @@
   margin-right: var(--gap);
 }
 
-.menuItemGroup {
-  box-shadow: var(--box-shadow);
-  margin-bottom: var(--gap);
-  border-radius: var(--radius);
-  transition: box-shadow 0.3s;
-}
-
 .groupTitle {
   color: var(--lightest-gray);
   font-size: 0.875rem;
@@ -111,7 +116,6 @@
 }
 
 .menuItem:first-child {
-  margin-bottom: 0px;
   border-top-left-radius: var(--radius);
   border-top-right-radius: var(--radius);
 }
@@ -126,6 +130,11 @@
 .menuItem:hover {
   color: var(--fg);
   background-color: var(--item-bg-hover);
+}
+
+.superpeer:hover {
+  color: var(--bg) !important;
+  background-color: var(--superpeer-bg);
 }
 
 .toggleTheme button:hover {

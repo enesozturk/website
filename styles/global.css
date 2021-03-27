@@ -37,8 +37,10 @@
     0 4px 6.7px -10px rgba(0, 0, 0, 0.023),
     0 7.5px 7.1px -10px rgba(0, 0, 0, 0.029),
     0 18px 14px -10px rgba(0, 0, 0, 0.03);
+  --superpeer-bg: rgb(244 188 51);
 
   /* Gray */
+  --darkest-gray: rgb(30, 30, 30);
   --darker-gray: rgb(50 50 50);
   --dark-gray: rgb(80 80 80);
   --gray: rgb(130 130 130);
@@ -74,6 +76,7 @@
   --fg: #000;
 
   /* Gray */
+  --darkest-gray: rgb(255, 250, 250);
   --darker-gray: rgb(238 238 238);
   --dark-gray: rgb(218 218 218);
   --gray: rgb(130 130 130);

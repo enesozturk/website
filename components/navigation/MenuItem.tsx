@@ -21,6 +21,8 @@ const MenuItem = ({
   onClick,
   active
 }: MenuItemProps) => {
+  const isSuperpeer = title === 'Superpeer'
+
   return route ? (
     <Link
       href={route}
@@ -28,7 +30,8 @@ const MenuItem = ({
       className={cn([
         styles.menuItem,
         {
-          [styles.menuItemActive]: active
+          [styles.menuItemActive]: active,
+          [styles.superpeer]: isSuperpeer
         }
       ])}
     >
