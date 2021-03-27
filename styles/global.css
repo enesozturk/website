@@ -1,6 +1,7 @@
 @import './syntax.css';
 @import './markdown.css';
 @import './nprogress.css';
+@import '/fonts/Inter/inter.css';
 
 :root {
   /* Spacing */
@@ -18,6 +19,7 @@
   /* Typography */
   --font-sans: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  --font-inter: 'Inter', sans-serif;
   --font-mono: 'SFMono-Regular', 'Consolas', 'Liberation Mono', 'Menlo',
     monospace;
 
@@ -127,7 +129,7 @@ html {
 }
 
 body {
-  font-family: var(--font-sans);
+  font-family: var(--font-inter);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -148,7 +150,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-sans);
+  font-family: var(--font-inter);
   font-weight: 600;
   line-height: 1.75;
 }
@@ -238,7 +240,7 @@ code {
 }
 
 kbd {
-  font-family: var(--font-sans);
+  font-family: var(--font-inter);
   font-size: 1rem;
   padding: 2px 7px;
   font-weight: 600;

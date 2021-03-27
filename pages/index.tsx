@@ -17,7 +17,7 @@ const Home = () => {
           <Link underline href="https://iyzico.com" external>
             iyzico
           </Link>{' '}
-          to create awesome payment systems
+          to create awesome payment systems.
         </p>
       </article>
     </Page>

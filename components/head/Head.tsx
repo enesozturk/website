@@ -68,6 +68,20 @@ const Head = ({
       <link rel="manifest" href="/favicons/manifest.json" />
       <link rel="mask-icon" href="/favicons/pinned.svg" color="#000000" />
 
+      {/* Fonts */}
+      <link
+        rel="preload"
+        href="/fonts/Inter/Inter-Regular.ttf"
+        as="font"
+        crossOrigin=""
+      />
+      <link
+        rel="preload"
+        href="/fonts/Inter/Inter-Medium.ttf"
+        as="font"
+        crossOrigin=""
+      />
+
       {/* PWA Assets */}
       <link
         rel="apple-touch-icon"
