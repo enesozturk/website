@@ -29,8 +29,14 @@
 
   /* Background */
   --bg: rgb(23 23 23);
-  --overlay: rgba(0 0 0 / 30%);
+  --overlay: rgba(12 12 12 / 64%);
   --fg: #fafbfc;
+  --modal-shadow: 0 0.5px 4.6px -10px rgba(0, 0, 0, -0.002),
+    0 1.2px 6.3px -10px rgba(0, 0, 0, 0.002),
+    0 2.3px 6.7px -10px rgba(0, 0, 0, 0.012),
+    0 4px 6.7px -10px rgba(0, 0, 0, 0.023),
+    0 7.5px 7.1px -10px rgba(0, 0, 0, 0.029),
+    0 18px 14px -10px rgba(0, 0, 0, 0.03);
 
   /* Gray */
   --darker-gray: rgb(50 50 50);
@@ -44,7 +50,7 @@
   --header-bg: rgba(19, 20, 21, 0.45);
   --gray-alpha: rgba(255, 255, 255, 0.5);
   --selection: rgba(255, 255, 255, 0.99);
-  --box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  --box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
   --box-shadow-light: 0 1px 4px rgba(0, 0, 0, 0.25);
 
   /* Modal */
@@ -90,6 +96,12 @@
   --item-bg: rgb(246 246 246);
   --item-bg-hover: rgb(228 228 228);
   --modal-border: rgb(218 218 218);
+  --modal-shadow: 0 1.1px 4.1px -10px rgba(0, 0, 0, -0.002),
+    0 2.7px 7.2px -10px rgba(0, 0, 0, 0.002),
+    0 5px 9.4px -10px rgba(0, 0, 0, 0.012),
+    0 8.9px 10.8px -10px rgba(0, 0, 0, 0.023),
+    0 16.7px 12.4px -10px rgba(0, 0, 0, 0.029),
+    0 40px 37px -10px rgba(0, 0, 0, 0.03);
 
   --token: #666;
   --comment: #999;

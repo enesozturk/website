@@ -31,6 +31,7 @@
   overflow: hidden;
   border-radius: var(--big-radius);
   background: var(--modal-bg);
+  box-shadow: var(--modal-shadow);
 
   /* Animation */
   transform: scale(0.97);
@@ -160,7 +161,7 @@
 }
 
 .navigationModal [data-command-input]::placeholder {
-  color: var(--lightest-gray);
+  color: var(--lighter-gray);
 }
 
 .navigationModal [data-command-item] {

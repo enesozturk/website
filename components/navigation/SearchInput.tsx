@@ -14,6 +14,7 @@ const SearchInput = ({
   return (
     <div className={wrapperClassName}>
       <input
+        className="searchInput"
         placeholder="Type a route to go..."
         type="text"
         aria-expanded="true"
