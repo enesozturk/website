@@ -110,21 +110,15 @@
 }
 
 .groupTitle {
-  color: var(--lightest-gray);
+  color: var(--light-gray);
   font-size: 0.875rem;
+  font-weight: 600;
   margin-bottom: var(--gap-half);
-}
-
-.menuItem:first-child {
-  border-top-left-radius: var(--radius);
-  border-top-right-radius: var(--radius);
 }
 
 .menuItem:last-child {
   margin-bottom: 0px;
   border-bottom: none;
-  border-bottom-left-radius: var(--radius);
-  border-bottom-right-radius: var(--radius);
 }
 
 .menuItem:hover {
@@ -211,6 +205,11 @@
 .icon {
   margin-right: var(--gap);
   display: flex;
+}
+
+.menuItem span {
+  flex: 1;
+  text-align: left;
 }
 
 .navigationModal [data-command-item][aria-selected] {
