@@ -1,11 +1,9 @@
 ---
-title: Harnessler ve Kaportaları
+title: Harnessler ve Kaportaları; Performans Kazancı
 description: Yamaç paraşütünde harnessler ve kaportalarının önemi hakkında
 slug: harnessler-ve-kaportalari
 date: Jun 11, 2018
 ---
-
-HARNESSLER VE KAPORTALARI: PERFORMANS KAZANCI
 
 Yamaç paraşütleri performans olarak tümüyle incelendiğinde şimdiye kadar harnesler hafife alınıyordu. Bu yazı, içinde Oxford Üniversitesi Aerodinamik Profesörü Adrian Thomas, Gin markasının danışmanı, Ozone’un tasarım şefi, ve Skywalk’un ar-ge müdürü Manfred Kistler’in de dahil olduğu birkaç uzmanın görüşlerini içermektedir.
 

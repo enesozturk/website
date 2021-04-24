@@ -5,8 +5,6 @@ slug: webpack-react-babel-proje-kurulumu
 date: Mar 07, 2019
 ---
 
-REACT, Webpack, Babel PROJECT SETUP
-
 Merhaba sevgili JS sevenler 😜 Bugün React ile geliştirme yapabilmek için bir front-end proje kurulumu yapacağız. Projemizde amacımız front-end geliştirme araçlarını kullanarak tüm konfigürasyonun elimizde olduğu bir yapı oluşturmak. Başlamadan önce neleri öğreneceğimize bir değinelim:
 
 - Basit bir Node JS projesi oluşturma

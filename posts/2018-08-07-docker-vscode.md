@@ -5,9 +5,7 @@ slug: docker-vscode
 date: Aug 07, 2018
 ---
 
-Docker ve Visual Studio Code
-
-Merhabalar.. Bugün VS Code kullananlar için Docker eklentisi ile Docker’ı nasıl etkili ve hızlı kullanırız onu göreceğiz. Örnek proje olarak bir Node JS projesi kuracağız.
+Merhabalar, bugün VS Code kullananlar için Docker eklentisi ile Docker’ı nasıl etkili ve hızlı kullanırız onu göreceğiz. Örnek proje olarak bir Node JS projesi kuracağız.
 
 ## Kurulum
 
