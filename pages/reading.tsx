@@ -68,7 +68,7 @@ export async function getStaticProps() {
       currently,
       read
     },
-    revalidate: 100
+    revalidate: 10800
   }
 }
 

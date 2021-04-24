@@ -67,7 +67,7 @@ export async function getStaticProps() {
       album,
       playlist
     },
-    revalidate: 100
+    revalidate: 10800
   }
 }
 

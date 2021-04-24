@@ -71,7 +71,7 @@ export async function getStaticProps() {
       opensource,
       casemice
     },
-    revalidate: 100
+    revalidate: 10800
   }
 }
 
