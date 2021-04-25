@@ -107,13 +107,9 @@ article *:not(pre) > code {
   font-family: var(--font-inter);
   font-size: 1rem;
   padding: 0 3px;
-}
-
-article *:not(pre) > code::before,
-article *:not(pre) > code::after {
-  content: '\`';
-  color: var(--gray);
-  user-select: none;
+  background-color: var(--darker-gray);
+  padding: 4px;
+  border-radius: 4px;
 }
 
 article pre {
