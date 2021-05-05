@@ -72,6 +72,17 @@ export const MenuList: MenuListProps = {
   ],
   lastActivity: [
     {
+      route: '/blog/next-js-ile-onemli-jamstack-kavramlari',
+      icon: <Edit />,
+      title: 'Next.js ile Jamstack Kavramları'
+    },
+    {
+      route: 'https://github.com/enesozturk/react-native-hold-menu',
+      icon: <Terminal />,
+      title: 'React Native Hold Menu Published',
+      external: true
+    },
+    {
       route: '/blog/ikibin-yirmibir',
       icon: <Edit />,
       title: '2021'
@@ -80,17 +91,7 @@ export const MenuList: MenuListProps = {
       route: '/blog/react-native-ile-60-fps-animasyonlar',
       icon: <Edit />,
       title: 'React Native ile 60 FPS Animasyonlar'
-    },
-    {
-      route: '/blog/react-native-optimization-b1-k6',
-      icon: <Edit />,
-      title: 'React Native Uygulamamı Nasıl Optimize Ederim? [B1:K6]'
     }
-    // {
-    //   route: '/blog/react-native-optimization-b1-k5',
-    //   icon: <Edit />,
-    //   title: 'React Native Uygulamamı Nasıl Optimize Ederim? [B1:K5]'
-    // }
   ]
 }
 
