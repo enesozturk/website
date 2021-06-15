@@ -56,10 +56,12 @@
   --box-shadow-light: 0 1px 4px rgba(0, 0, 0, 0.25);
 
   /* Modal */
-  --modal-bg: linear-gradient(315deg, rgb(15 15 15 / 1) 0%, rgb(29 29 29) 100%);
-  --item-bg: rgb(24 24 24);
-  --item-bg-hover: rgb(30 30 30);
-  --modal-border: rgb(50 50 50);
+  --modal-bg: rgb(23, 23, 23);
+  --search-bar-background: rgb(33, 33, 33);
+  --item-border: rgb(37 37 37);
+  --item-bg: rgb(29, 29, 29);
+  --item-bg-hover: rgb(37 37 37);
+  --modal-border: rgb(39, 39, 39);
 
   /* Syntax Highlighting */
   --token: #999;
@@ -91,14 +93,12 @@
   --box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 
   /* Modal */
-  --modal-bg: linear-gradient(
-    315deg,
-    rgb(217 217 217) 0%,
-    rgb(255 255 255) 100%
-  );
+  --modal-bg: rgb(230 230 230);
+  --search-bar-background: rgb(220 220 220);
+  --item-border: rgb(218 218 218);
   --item-bg: rgb(246 246 246);
-  --item-bg-hover: rgb(228 228 228);
-  --modal-border: rgb(218 218 218);
+  --item-bg-hover: rgb(255 255 255);
+  --modal-border: rgb(197 197 197);
   --modal-shadow: 0 1.1px 4.1px -10px rgba(0, 0, 0, -0.002),
     0 2.7px 7.2px -10px rgba(0, 0, 0, 0.002),
     0 5px 9.4px -10px rgba(0, 0, 0, 0.012),

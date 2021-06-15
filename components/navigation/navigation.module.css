@@ -5,12 +5,12 @@
   left: 0;
   right: 0;
   z-index: 999;
+
   pointer-events: none;
   min-height: 100vh;
   min-height: -webkit-fill-available;
   background-color: var(--overlay);
 
-  /* Animation */
   opacity: 0;
   transition: opacity 0.2s ease;
 }
@@ -61,7 +61,7 @@
 .content {
   display: flex;
   flex-direction: row;
-  border-top: 1px solid var(--modal-border);
+  border-top: 1px solid var(--item-border);
   height: 300px;
   overflow-y: hidden;
 }
@@ -72,41 +72,17 @@
   flex-direction: column;
   padding: 0 var(--gap);
   padding-top: var(--gap);
-  border-right: 1px solid var(--modal-border);
+  border-right: 1px solid var(--item-border);
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   position: none;
 }
 
 .menuItemGroup {
-  padding: 0.5rem;
-  box-shadow: var(--box-shadow);
   margin-bottom: var(--gap);
   border-radius: var(--radius);
   background-color: var(--item-bg);
-  border: 1px solid var(--darkest-gray);
   transition: box-shadow 0.3s;
-}
-
-.menuItem {
-  color: var(--lighter-gray) !important;
-  padding: 0.5rem calc(0.5rem * 1.5);
-  margin-bottom: var(--gap-quarter);
-  background-color: var(--item-bg);
-  border-radius: 8px;
-  cursor: pointer;
-  width: 100%;
-
-  display: flex;
-  align-items: center;
-}
-
-.menuItemActive {
-  color: var(--fg) !important;
-}
-
-.menuItem > .icon {
-  margin-right: var(--gap);
 }
 
 .groupTitle {
@@ -114,21 +90,6 @@
   font-size: 0.875rem;
   font-weight: 600;
   margin-bottom: var(--gap-half);
-}
-
-.menuItem:last-child {
-  margin-bottom: 0px;
-  border-bottom: none;
-}
-
-.menuItem:hover {
-  color: var(--fg);
-  background-color: var(--item-bg-hover);
-}
-
-.superpeer:hover {
-  color: var(--bg) !important;
-  background-color: var(--superpeer-bg);
 }
 
 .toggleTheme button:hover {
@@ -155,7 +116,7 @@
 .navigationModal [data-command-input] {
   padding: 0 16px;
   outline: none;
-  height: 60px;
+  height: 40px;
   width: 100%;
   border: 0;
   background: transparent;
@@ -207,11 +168,6 @@
   display: flex;
 }
 
-.menuItem span {
-  flex: 1;
-  text-align: left;
-}
-
 .navigationModal [data-command-item][aria-selected] {
   background: var(--lightest-gray);
   color: var(--fg);
@@ -220,7 +176,13 @@
 .top {
   display: flex;
   align-items: center;
-  padding: var(--padding);
+  padding: 16px;
+}
+
+.searchInputWrapper {
+  background: var(--search-bar-background);
+  border-radius: 8px;
+  width: 100%;
 }
 
 @media (max-width: 960px) {
@@ -262,12 +224,5 @@
   .content {
     flex: 1;
     padding-bottom: var(--gap);
-  }
-}
-
-@media (hover: none) and (pointer: coarse) {
-  .menuItem:hover {
-    color: var(--lighter-gray) !important;
-    background-color: var(--item-bg);
   }
 }

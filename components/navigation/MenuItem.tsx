@@ -1,6 +1,6 @@
 import React, { memo } from 'react'
 import cn from 'classnames'
-import styles from './navigation.module.css'
+import styles from './menuItem.module.css'
 
 import Link from '@components/link'
 
@@ -36,12 +36,16 @@ const MenuItem = ({
       ])}
     >
       <div className={styles.icon}>{icon}</div>
-      <span>{title}</span>
+      <div className={styles.menuItemTitleWrapper}>
+        <span>{title}</span>
+      </div>
     </Link>
   ) : (
     <button onClick={onClick} className={styles.menuItem}>
       <div className={styles.icon}>{icon}</div>
-      <span>{title}</span>
+      <div className={styles.menuItemTitleWrapper}>
+        <span>{title}</span>
+      </div>
     </button>
   )
 }
