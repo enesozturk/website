@@ -14,10 +14,10 @@ const Home = () => {
 
         <p style={{ textDecoration: '' }}>
           Working with{' '}
-          <Link underline href="https://iyzico.com" external>
-            iyzico
+          <Link underline href="https://qooper.io" external>
+            Qooper
           </Link>{' '}
-          to create awesome payment systems.
+          to create awesome mentoring apps.
         </p>
       </article>
     </Page>
