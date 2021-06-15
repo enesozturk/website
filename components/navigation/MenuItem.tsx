@@ -2,7 +2,7 @@ import React, { memo } from 'react'
 import cn from 'classnames'
 import styles from './menuItem.module.css'
 
-import Link from '@components/link'
+import { Link } from '@components'
 
 type MenuItemProps = {
   icon: React.ReactNode

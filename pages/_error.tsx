@@ -1,7 +1,7 @@
 import React from 'react'
 import { NextPageContext } from 'next'
 
-import Error from '@components/error'
+import { Error } from '@comps'
 interface EProps {
   status: number
 }

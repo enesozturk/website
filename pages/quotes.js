@@ -1,6 +1,6 @@
-import Page from '@components/page'
+import { Page } from '@components'
 import getMarkdown from '@lib/get-markdown'
-import Link from '@components/link' // eslint-disable-line
+import { Link } from '@components'
 
 const Quotes = ({ html }) => {
   return (

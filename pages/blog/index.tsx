@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Page from '@components/page'
+import { Page } from '@components'
 import { Entry, SeeOthers } from '../../components/entry'
 import getPosts from '@lib/get-posts'
 
@@ -8,7 +8,7 @@ type BlogProps = {
   posts: any
 }
 
-const paginate = true;
+const paginate = true
 
 const Blog = ({ posts }: BlogProps) => {
   const [showMore, setShowMore] = React.useState(10)

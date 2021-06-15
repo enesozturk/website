@@ -1,5 +1,4 @@
-import Head from '@components/head'
-import Header from '@components/header/Header'
+import { Head, Header } from '@components'
 import styles from './page.module.css'
 
 type PageProps = {

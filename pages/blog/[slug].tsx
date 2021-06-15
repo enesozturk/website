@@ -1,6 +1,6 @@
 import { NextPageContext } from 'next'
 
-import Post from '@components/post'
+import { Post } from '@components'
 import getPosts from '@lib/get-posts'
 import renderMarkdown from '@lib/render-markdown'
 

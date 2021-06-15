@@ -13,7 +13,7 @@ import {
   Bookmark,
   TwentyOne,
   Superpeer
-} from '@components/icons'
+} from '@components'
 
 export type MenuItemProps = {
   route: string

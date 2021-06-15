@@ -1,5 +1,4 @@
-import Page from '@components/page'
-import Link from '@components/link'
+import { Page, Link } from '@components'
 
 const Home = () => {
   return (

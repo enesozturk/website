@@ -1,4 +1,4 @@
-import Page from '@components/page'
+import { Page } from '@components'
 import getMarkdown from '@lib/get-markdown'
 
 type GoalsProps = {

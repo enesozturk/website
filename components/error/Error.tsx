@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-import Page from '@components/page'
+import { Page } from '@components'
 import styles from './error.module.css'
 
 type ErrorProps = {
@@ -16,18 +16,7 @@ const Error = ({ status }: ErrorProps) => {
 
       {status === 404 ? (
         <>
-          <h1>This page cannot be found.</h1>
-
-          <p>
-            <blockquote cite="http://www.aaronsw.com/weblog/visitingmit">
-              <p>
-                Just because there's nothing here doesn't mean there's nothing.
-                If nothing happened, definitely something happened.
-              </p>
-
-              <footer>— Anonym</footer>
-            </blockquote>
-          </p>
+          <h3>This page cannot be found.</h3>
         </>
       ) : (
         <section className={styles.section}>

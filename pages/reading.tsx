@@ -1,5 +1,4 @@
-import Page from '@components/page'
-import { Goodreads } from '@components/icons'
+import { Page, Goodreads } from '@components'
 import { Entry, EntryGroupText, SeeOthers } from '../components/entry'
 
 import { getTable } from 'utils/airtable'

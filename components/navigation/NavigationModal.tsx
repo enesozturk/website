@@ -1,23 +1,17 @@
 import React, { useState, memo } from 'react'
-import cn from 'classnames'
 
+import cn from 'classnames'
 import { useTheme } from 'next-themes'
 import { DialogContent, DialogOverlay } from '@reach/dialog'
 import useDelayedRender from 'use-delayed-render'
 
-// Components
 import MenuItem from './MenuItem'
 import MenuGroup from './MenuGroup'
 import SearchInput from './SearchInput'
 
-// Icons
-import { Moon, StrikeMenu } from '@components/icons'
+import { headerStyles, Moon, StrikeMenu } from '@components'
 
-// Styles
 import styles from './navigation.module.css'
-import headerStyles from '@components/header/header.module.css'
-
-// Utils
 import { MenuList, FilteredList } from './variables'
 
 const NavigationModal = () => {

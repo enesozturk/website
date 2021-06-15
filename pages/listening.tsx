@@ -1,5 +1,4 @@
-import Page from '@components/page'
-import { Spotify } from '@components/icons'
+import { Page, Spotify } from '@components'
 import { Entry, EntryGroupText } from '../components/entry'
 
 import { getTable } from 'utils/airtable'

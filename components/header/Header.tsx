@@ -1,9 +1,9 @@
 import { memo } from 'react'
 import Link from 'next/link'
 
+import { NavigationModal, Logo } from '@components'
+
 import styles from './header.module.css'
-import Navigation from '@components/navigation'
-import { Logo } from '@components/icons'
 
 type HeaderProps = {
   title?: string | number | null
@@ -21,7 +21,7 @@ const Header = ({ title }: HeaderProps) => {
           </Link>
           {title && <div className={styles.content}>{title}</div>}
         </div>
-        <Navigation />
+        <NavigationModal />
       </div>
     </nav>
   )

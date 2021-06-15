@@ -1,5 +1,4 @@
-import { Github } from '@components/icons'
-import Page from '@components/page'
+import { Page, Github } from '@components'
 import { getTable } from 'utils/airtable'
 import { Entry, EntryGroupText } from '../components/entry'
 
