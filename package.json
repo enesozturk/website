@@ -6,9 +6,7 @@
     "dev": "next -p 3003",
     "build": "next build",
     "start": "next start",
-    "export": "next export",
-    "rss": "node lib/rss",
-    "new": "node lib/db"
+    "export": "next export"
   },
   "pre-commit": "lint",
   "license": "MIT",
