@@ -72,6 +72,11 @@ export const MenuList: MenuListProps = {
   ],
   lastActivity: [
     {
+      route: '/blog/react-native-ile-single-sign-on-kimlik-dogrulama',
+      icon: <Edit />,
+      title: 'React Native ile Single Sign On Kimlik Doğrulama'
+    },
+    {
       route: '/blog/next-js-ile-onemli-jamstack-kavramlari',
       icon: <Edit />,
       title: 'Next.js ile Jamstack Kavramları'
@@ -86,11 +91,6 @@ export const MenuList: MenuListProps = {
       route: '/blog/ikibin-yirmibir',
       icon: <Edit />,
       title: '2021'
-    },
-    {
-      route: '/blog/react-native-ile-60-fps-animasyonlar',
-      icon: <Edit />,
-      title: 'React Native ile 60 FPS Animasyonlar'
     }
   ]
 }
